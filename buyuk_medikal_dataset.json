@@ -1,0 +1,1624 @@
+[
+  {
+    "test_adi": "WBC (Lökosit - Beyaz Kan Hücresi)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Lökositler (beyaz kan hücreleri), vücudun bağışıklık sisteminin önemli bir parçasıdır. Enfeksiyonlar, iltihaplanma ve diğer hastalıklarla mücadelede kritik rol oynarlar. Kemik iliğinde üretilirler ve farklı tipleri (nötrofil, lenfosit, monosit, eozinofil, bazofil) bulunur, her birinin kendine özgü bir işlevi vardır.",
+    "yukseklik_anlami": "Enfeksiyonlar (bakteriyel, viral, fungal), vücutta iltihaplanma (romatoid artrit gibi), lösemi veya diğer kan kanserleri, şiddetli stres ve kortikosteroid kullanımı gibi durumlar WBC yüksekliğine (lökositoz) neden olabilir.",
+    "dusukluk_anlami": "Kemoterapi veya radyasyon tedavisi, kemik iliği yetmezliği veya hasarı (aplastik anemi), otoimmün hastalıklar (lupus), bazı şiddetli viral enfeksiyonlar (grip, HIV/AIDS) ve bazı ilaçların yan etkileri WBC düşüklüğüne (lökopeni) yol açabilir.",
+    "normal_deger_notu": "Yetişkinlerde normal lökosit değerleri genellikle mikrolitre başına 4.000 ila 11.000 hücre (4.0-11.0 x 10^9/L) arasında değişir. Ancak, referans aralıkları laboratuvardan laboratuvara ve yaşa göre farklılık gösterebilir; bu nedenle sonuçlar her zaman bir doktor tarafından değerlendirilmelidir.",
+    "id": "wbc_lokosit_beyaz_kan_hucresi"
+  },
+  {
+    "test_adi": "RBC (Eritrosit - Kırmızı Kan Hücresi)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Eritrositler, akciğerlerden vücudun diğer dokularına oksijen taşıyan ve karbondioksiti akciğerlere geri getiren kırmızı kan hücreleridir. Bu test, kanınızdaki eritrosit sayısını ölçer ve çeşitli sağlık durumlarının teşhisinde önemli bir rol oynar.",
+    "yukseklik_anlami": [
+      "Dehidrasyon (vücudun susuz kalması)",
+      "Polisitemi vera (kemik iliğinin aşırı kırmızı kan hücresi üretmesi)",
+      "Sigara içmek veya yüksek rakımda yaşamak (vücudun daha fazla oksijene ihtiyaç duyması nedeniyle)",
+      "Akciğer hastalıkları (KOAH gibi)",
+      "Böbrek hastalıkları (eritropoietin hormonunun aşırı üretimi)"
+    ],
+    "dusukluk_anlami": [
+      "Anemi (kansızlık) - Demir eksikliği, B12 eksikliği, folat eksikliği vb.",
+      "Kan kaybı (akut veya kronik kanamalar)",
+      "Kemik iliği yetmezliği",
+      "Kronik böbrek hastalıkları",
+      "Hemoliz (kırmızı kan hücrelerinin yıkımı)"
+    ],
+    "normal_deger_notu": "Normal değerler yaşa, cinsiyete ve laboratuvara göre değişiklik gösterebilir. Genellikle yetişkin erkeklerde 4.5 - 5.9 milyon/µL, yetişkin kadınlarda ise 4.0 - 5.2 milyon/µL aralığında beklenir. Sonuçlarınızı her zaman doktorunuzla değerlendirmelisiniz.",
+    "id": "rbc_eritrosit_kirmizi_kan_hucresi"
+  },
+  {
+    "test_adi": "HGB (Hemoglobin)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Hemoglobin (HGB), kırmızı kan hücrelerinde bulunan ve oksijeni akciğerlerden vücudun diğer dokularına taşıyan demir içeren bir proteindir. Aynı zamanda karbondioksiti dokulardan akciğerlere geri taşımada da rol oynar. HGB seviyeleri genel sağlık durumunun önemli bir göstergesidir ve anemi veya polisitemi gibi durumların teşhisinde kullanılır.",
+    "yukseklik_anlami": "Yüksek hemoglobin seviyeleri şunları gösterebilir:\n1.  Vücudun daha fazla oksijen taşıması gerektiği durumlar (örneğin, yüksek irtifada yaşama, kronik obstrüktif akciğer hastalığı).\n2.  Dehidrasyon (vücut sıvı kaybı), kanın daha konsantre görünmesine neden olabilir.\n3.  Polisitemi vera gibi nadir kemik iliği hastalıkları, aşırı kırmızı kan hücresi üretimine yol açabilir.\n4.  Sigara içmek, bazı böbrek hastalıkları veya tümörler de yüksek HGB'ye neden olabilir.",
+    "dusukluk_anlami": "Düşük hemoglobin seviyeleri şunları gösterebilir:\n1.  Anemi (kansızlık); en yaygın nedenidir ve demir eksikliği, B12 eksikliği veya folat eksikliğinden kaynaklanabilir.\n2.  Kan kaybı (akut veya kronik kanamalar, ameliyat veya travma sonrası).\n3.  Kemik iliği hastalıkları (lösemi, aplastik anemi gibi), kırmızı kan hücresi üretimini bozabilir.\n4.  Böbrek yetmezliği, karaciğer hastalığı, hipotiroidizm veya kronik inflamatuar hastalıklar da düşük HGB'ye yol açabilir.\n5.  Beslenme yetersizlikleri ve vitamin eksiklikleri.",
+    "normal_deger_notu": "Hemoglobin referans aralıkları yaşa, cinsiyete, hamilelik durumuna ve kullanılan laboratuvarın standartlarına göre değişiklik gösterebilir. Genellikle yetişkin erkeklerde 13.5-17.5 g/dL, yetişkin kadınlarda ise 12.0-15.5 g/dL arası normal kabul edilir. Sonuçlarınızı her zaman bir sağlık profesyoneli ile değerlendirmeniz önemlidir.",
+    "id": "hgb_hemoglobin"
+  },
+  {
+    "test_adi": "HCT (Hematokrit)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Hematokrit (HCT), kanınızdaki kırmızı kan hücrelerinin toplam kan hacmine oranını (yüzdesini) ölçen bir kan testidir. Kırmızı kan hücreleri oksijeni akciğerlerden vücudun diğer bölgelerine taşır. HCT testi, anemi (kansızlık) veya polisitemi gibi kanla ilgili durumların teşhis ve takibinde kullanılır.",
+    "yukseklik_anlami": [
+      "Dehidrasyon (vücudun susuz kalması)",
+      "Polisitemi vera (kemik iliğinde aşırı kırmızı kan hücresi üretimi)",
+      "Kronik obstrüktif akciğer hastalığı (KOAH) gibi akciğer hastalıkları",
+      "Yüksek rakımda yaşama (vücut oksijen alımını artırmak için daha fazla kırmızı kan hücresi üretir)",
+      "Böbrek tümörleri veya böbrek hastalıkları (eritropoietin hormonunun aşırı üretimi)"
+    ],
+    "dusukluk_anlami": [
+      "Anemi (kansızlık): Demir eksikliği, B12 eksikliği, folat eksikliği veya kronik hastalıklar nedeniyle",
+      "Akut veya kronik kan kaybı (yaralanma, ameliyat, mide ülseri, ağır adet kanaması)",
+      "Kemik iliği sorunları (lösemi, aplastik anemi gibi kan hücresi üretimini etkileyen hastalıklar)",
+      "Böbrek yetmezliği (eritropoietin üretiminde azalma)",
+      "Gebelik (kan plazması hacmindeki artış nedeniyle nispeten düşüş)"
+    ],
+    "normal_deger_notu": "Normal hematokrit değerleri yaşa, cinsiyete ve kullanılan laboratuvarın referans aralıklarına göre değişiklik gösterebilir. Genel kabul gören ortalama değerler: Erkekler için %40-54, kadınlar için %36-48 aralığındadır. Bu değerler, sağlıklı bireylerde genellikle kabul edilebilir aralıkları temsil eder.",
+    "id": "hct_hematokrit"
+  },
+  {
+    "test_adi": "MCV (Ortalama Eritrosit Hacmi)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "MCV (Ortalama Eritrosit Hacmi), bir kırmızı kan hücresinin (eritrosit) ortalama boyutunu ölçen bir değerdir. Tam kan sayımının bir parçasıdır ve anemi türlerinin teşhisinde önemli bir göstergedir. Kan hücresi boyutundaki değişiklikler, çeşitli sağlık sorunlarına işaret edebilir.",
+    "yukseklik_anlami": [
+      "Makrositik anemi (B12 vitamini veya folat eksikliği)",
+      "Karaciğer hastalıkları (alkolik karaciğer hastalığı dahil)",
+      "Hipotiroidizm (tiroid bezinin az çalışması)",
+      "Miyelodisplastik sendromlar",
+      "Bazı ilaçların yan etkileri"
+    ],
+    "dusukluk_anlami": [
+      "Mikrositik anemi (demir eksikliği anemisi en yaygın nedenidir)",
+      "Talasemi (kalıtsal bir kan hastalığı)",
+      "Kronik hastalık anemisi (bazı durumlarda)",
+      "Kurşun zehirlenmesi"
+    ],
+    "normal_deger_notu": "Normal referans aralığı genellikle yetişkinlerde 80 ila 100 femtolitre (fL) arasındadır. Ancak laboratuvardan laboratuvara küçük farklılıklar gösterebilir.",
+    "id": "mcv_ortalama_eritrosit_hacmi"
+  },
+  {
+    "test_adi": "MCH (Ortalama Eritrosit Hemoglobini)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "MCH (Ortalama Eritrosit Hemoglobini), bir kırmızı kan hücresinde bulunan ortalama hemoglobin miktarını ölçen bir kan testidir. Genellikle tam kan sayımı (CBC) testinin bir parçası olarak yapılır ve anemi türlerini teşhis etmede önemli bir göstergedir.",
+    "yukseklik_anlami": [
+      "Makrositik anemi (B12 vitamini veya folat eksikliği anemisi gibi) göstergesi olabilir.",
+      "Karaciğer hastalığı veya aşırı alkol tüketimi ile ilişkili olabilir.",
+      "Hipotiroidizm (tiroid bezinin az çalışması) durumlarında görülebilir."
+    ],
+    "dusukluk_anlami": [
+      "Demir eksikliği anemisi (en yaygın neden) durumunda düşüş gösterir.",
+      "Talasemi (kalıtsal bir kan hastalığı) varlığına işaret edebilir.",
+      "Kronik hastalık anemisi veya kurşun zehirlenmesi gibi durumlarla ilişkili olabilir."
+    ],
+    "normal_deger_notu": "MCH'nin normal referans aralığı, kullanılan laboratuvar tekniklerine ve bireysel faktörlere bağlı olarak değişiklik gösterebilir. Genellikle yetişkinler için 27-33 pikogram (pg) arasındadır. Sonuçların her zaman bir doktor tarafından değerlendirilmesi gerekmektedir.",
+    "id": "mch_ortalama_eritrosit_hemoglobini"
+  },
+  {
+    "test_adi": "MCHC (Ortalama Eritrosit Hemoglobin Konsantrasyonu)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "MCHC, kırmızı kan hücrelerinin (eritrositlerin) içindeki hemoglobinin ortalama konsantrasyonunu gösteren bir kan tahlili parametresidir. Alyuvarların ne kadar yoğun hemoglobin içerdiğini değerlendirerek kansızlık (anemi) türlerinin ayırt edilmesinde önemli bir rol oynar. Bu test, özellikle mikrositik ve hipokromik anemilerin tanısında faydalıdır.",
+    "yukseklik_anlami": [
+      "Herediter sferositoz (kalıtsal küresel hücre anemisi) gibi genetik kan hastalıkları.",
+      "Otoimmün hemolitik anemi gibi alyuvarların yıkımıyla seyreden durumlar.",
+      "Şiddetli yanıklar veya dehidrasyon gibi durumlar, hücrelerin büzüşmesine neden olabilir.",
+      "Yanlış numune alımı veya analitik hatalar (örn. soğuk aglütininler)."
+    ],
+    "dusukluk_anlami": [
+      "Demir eksikliği anemisi, vücudun yeterli demir üretememesi nedeniyle hemoglobin sentezinin bozulması.",
+      "Talasemi, hemoglobin üretimini etkileyen genetik bir bozukluk.",
+      "Kronik hastalık anemisi, uzun süreli iltihaplı veya enfeksiyöz durumlara bağlı olarak gelişen anemi.",
+      "Sideroblastik anemi ve kurşun zehirlenmesi gibi hemoglobin sentezini bozan diğer durumlar."
+    ],
+    "normal_deger_notu": "Normal MCHC değerleri genellikle 32 ila 36 g/dL (veya 320 ila 360 g/L) arasında değişir. Ancak, bu referans aralıkları laboratuvarlara, kullanılan test yöntemlerine ve yaşa/cinsiyete göre farklılık gösterebilir. Sonuçların her zaman testi yapan laboratuvarın referans aralıkları ile birlikte değerlendirilmesi önerilir.",
+    "id": "mchc_ortalama_eritrosit_hemoglobin_konsantrasyonu"
+  },
+  {
+    "test_adi": "PLT (Trombosit)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Trombositler (PLT), kanın pıhtılaşma sürecinde kritik rol oynayan küçük hücre parçacıklarıdır. Yaralanma durumunda kanamayı durdurmak için bir tıkaç oluşturarak yara iyileşmesine yardımcı olurlar. Kandaki sayıları, vücudun pıhtılaşma kapasitesi hakkında önemli bilgi verir.",
+    "yukseklik_anlami": [
+      "Vücutta aktif bir enfeksiyon veya iltihabi durumun varlığı (reaktif trombositoz).",
+      "Demir eksikliği anemisi gibi bazı anemi türleri.",
+      "Miyeloproliferatif hastalıklar gibi kemik iliği bozuklukları veya bazı kanser türleri.",
+      "Son zamanlarda geçirilmiş cerrahi operasyonlar veya travmalar.",
+      "Dalağın çıkarılması (splenektomi) sonrası."
+    ],
+    "dusukluk_anlami": [
+      "Kemik iliğinin yeterince trombosit üretmemesi (aplastik anemi, lösemi gibi hastalıklar).",
+      "Otoimmün hastalıklar (örneğin İmmün Trombositopenik Purpura - ITP) nedeniyle trombositlerin yıkımının artması.",
+      "Bazı ilaçların yan etkileri (kemoterapi ilaçları, heparin gibi).",
+      "Ciddi kanamalar veya masif transfüzyonlar.",
+      "Viral enfeksiyonlar (HIV, hepatit C, kızamıkçık) veya sepsis gibi durumlar."
+    ],
+    "normal_deger_notu": "Yetişkinlerde normal trombosit (PLT) değeri genellikle 150.000 ila 450.000 /µL (mikrolitre) arasındadır. Bu aralık, laboratuvardan laboratuvara küçük farklılıklar gösterebilir ve kişisel faktörlere göre de değerlendirilmelidir.",
+    "id": "plt_trombosit"
+  },
+  {
+    "test_adi": "RDW (Eritrosit Dağılım Genişliği)",
+    "kategori": "Kan",
+    "genel_aciklama": "RDW (Red Cell Distribution Width), kırmızı kan hücrelerinin (eritrositlerin) boyutlarındaki farklılık derecesini ölçen bir kan testidir. Genellikle tam kan sayımı (CBC) testinin bir parçası olarak değerlendirilir ve anemi türlerinin teşhisinde yardımcı bir parametredir. Yüksek RDW, kırmızı kan hücrelerinin boyutlarının düzensiz olduğunu (anizositoz) gösterir.",
+    "yukseklik_anlami": [
+      "Demir eksikliği anemisi: En sık görülen nedenlerden biridir; vücutta yeterli demir olmadığında farklı boyutlarda eritrositler üretilir.",
+      "B12 vitamini veya folat eksikliği anemisi (megaloblastik anemi): Bu vitaminlerin eksikliği, kemik iliğinde anormal büyük ve farklı boyutlarda eritrositlerin üretilmesine yol açabilir.",
+      "Hemolitik anemiler: Kırmızı kan hücrelerinin anormal derecede hızlı bir şekilde yıkıldığı durumlarda, yeni ve eski hücreler arasındaki boyut farklılıkları RDW'yi yükseltebilir.",
+      "Miyelodisplastik sendromlar: Kemik iliğinin sağlıklı kan hücreleri üretmekte zorlandığı nadir durumlar da RDW yüksekliğine neden olabilir.",
+      "Kronik karaciğer hastalığı veya böbrek hastalığı gibi bazı kronik durumlar da RDW değerini etkileyebilir."
+    ],
+    "dusukluk_anlami": [
+      "Düşük RDW değerleri genellikle klinik olarak önemli bir durum değildir ve tek başına ciddi bir sağlık sorununa işaret etmez.",
+      "Homojen eritrosit popülasyonu: Tüm kırmızı kan hücrelerinin boyutlarının birbirine benzer olduğunu gösterir; bu, sağlıklı bir durumu işaret edebilir.",
+      "Bazı talasemi türleri: Özellikle alfa veya beta talasemi taşıyıcılığı gibi durumlarda, kırmızı kan hücreleri normalden küçük (mikrositik) ancak boyutları birbirine çok benzer olduğundan RDW normal veya düşük seyredebilir.",
+      "Düşük RDW değerleri genellikle ek testler veya tedaviler gerektirmeyen bir bulgudur, ancak daima genel kan tablosu ve diğer klinik bulgularla birlikte değerlendirilmelidir."
+    ],
+    "normal_deger_notu": "Yetişkinler için RDW normal referans aralığı genellikle %11.5 ile %14.5 arasındadır. Ancak bu değerler laboratuvardan laboratuvara küçük farklılıklar gösterebilir. Sonuçların mutlaka doktor tarafından, hastanın genel sağlık durumu ve diğer kan testleri ışığında yorumlanması gereklidir.",
+    "id": "rdw_eritrosit_dagilim_genisligi"
+  },
+  {
+    "test_adi": "MPV (Ortalama Trombosit Hacmi)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "MPV (Ortalama Trombosit Hacmi), kandaki trombositlerin (kan pulcukları) ortalama büyüklüğünü ölçen bir parametredir. Trombositler kanın pıhtılaşma sürecinde önemli rol oynar. Bu test, trombosit üretimini ve fonksiyonunu etkileyen çeşitli durumların değerlendirilmesinde kullanılır.",
+    "yukseklik_anlami": [
+      "Vücudun daha büyük, daha genç ve potansiyel olarak daha reaktif trombositler ürettiğini gösterebilir.",
+      "Trombositlerin kemik iliğinde hızla üretilip kana salındığı durumlarla (örneğin, trombosit yıkımının arttığı immün trombositopeni) ilişkilendirilebilir.",
+      "Kardiyovasküler hastalıklar, diyabet ve tiroid disfonksiyonu gibi bazı sistemik hastalıklarla ilişkilendirilmiştir."
+    ],
+    "dusukluk_anlami": [
+      "Kemik iliğinin yeterince yeni trombosit üretmediği veya üretilen trombositlerin normalden küçük olduğu durumları işaret edebilir.",
+      "Aplastik anemi, kemoterapi gibi kemik iliği baskılanmasına neden olan durumlarla ilişkilendirilebilir.",
+      "Bazı kronik hastalıklar veya enfeksiyonlar nedeniyle trombosit yaşam süresinin uzaması sonucu küçük ve yaşlı trombositlerin birikimiyle görülebilir."
+    ],
+    "normal_deger_notu": "Normal referans aralığı laboratuvardan laboratuvara farklılık gösterebilmekle birlikte, genellikle 7.5 ila 11.5 femtolitre (fL) arasındadır. Sonuçların değerlendirilmesi için laboratuvarın kendi referans aralığı dikkate alınmalıdır.",
+    "id": "mpv_ortalama_trombosit_hacmi"
+  },
+  {
+    "test_adi": "PCT (Trombositokrit)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "PCT (Trombositokrit), kanınızdaki trombositlerin (plateletlerin) toplam kan hacmine oranını gösteren bir laboratuvar parametresidir. Trombosit hacmi ile trombosit sayısının bir kombinasyonunu temsil eder ve pıhtılaşma yeteneğiniz hakkında bilgi verebilir. Genellikle tam kan sayımı (CBC) testinin bir parçası olarak ölçülür ve kan pıhtılaşma bozukluklarının veya kemik iliği hastalıklarının değerlendirilmesine yardımcı olabilir.",
+    "yukseklik_anlami": [
+      "Kemik iliği hastalıkları: Miyeloproliferatif bozukluklar gibi durumlarda trombosit üretimi artabilir ve bu da PCT değerini yükseltebilir.",
+      "Kronik enflamatuar durumlar: Romatoid artrit, inflamatuar bağırsak hastalığı gibi kronik iltihaplanmalar vücutta trombosit üretimini tetikleyerek PCT'yi artırabilir.",
+      "Akut kan kaybı veya demir eksikliği anemisi sonrası reaktif artışlar görülebilir.",
+      "Bazı maligniteler (kanser türleri) ile ilişkili olarak trombosit sayısında artış yaşanabilir."
+    ],
+    "dusukluk_anlami": [
+      "Trombosit üretiminde azalma: Kemik iliği yetmezliği, aplastik anemi veya bazı ilaçların yan etkileri gibi durumlarda kemik iliği yeterince trombosit üretemeyebilir.",
+      "Trombosit yıkımında artış: İdiyopatik trombositopenik purpura (ITP), trombotik trombositopenik purpura (TTP) gibi otoimmün hastalıklar veya ciddi enfeksiyonlar trombositlerin hızlı bir şekilde yok olmasına neden olabilir.",
+      "Splenomegali (dalak büyümesi): Büyümüş dalak, normalden daha fazla trombosit depolayarak dolaşımdaki trombosit seviyelerinin ve dolayısıyla PCT'nin düşmesine yol açabilir.",
+      "Sepsis veya dissemine intravasküler koagülasyon (DIC) gibi ağır enfeksiyon ve pıhtılaşma bozuklukları."
+    ],
+    "normal_deger_notu": "PCT'nin normal referans aralığı, kullanılan laboratuvara ve cihaza göre küçük farklılıklar gösterebilir. Genel olarak, yetişkinler için normal değerler %0.15 ile %0.40 arasında kabul edilir. Ancak bu aralık, yaşa, cinsiyete ve diğer bireysel faktörlere göre değişebilir. Test sonuçlarınızın doğru bir şekilde yorumlanması ve sağlık durumunuzla ilişkilendirilmesi için her zaman doktorunuza danışmanız önemlidir.",
+    "id": "pct_trombositokrit"
+  },
+  {
+    "test_adi": "NEU% (Nötrofil Yüzdesi)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Nötrofil yüzdesi, beyaz kan hücrelerinin bir türü olan nötrofillerin toplam beyaz kan hücreleri içindeki oranını gösterir. Nötrofiller, bağışıklık sistemimizin enfeksiyonlara, özellikle bakteriyel enfeksiyonlara karşı ilk savunma hattıdır.",
+    "yukseklik_anlami": [
+      "Vücutta bakteriyel enfeksiyon veya iltihap varlığına işaret edebilir.",
+      "Stres, travma veya yakın zamanda geçirilmiş cerrahi müdahale durumlarında yükselebilir.",
+      "Kortikosteroid kullanımı gibi bazı ilaçlar nötrofil yüzdesini artırabilir.",
+      "Bazı miyeloproliferatif bozukluklar gibi kan hastalıklarında görülebilir."
+    ],
+    "dusukluk_anlami": [
+      "Kemik iliği baskılanması (ilaçlar, radyasyon tedavisi veya kemoterapi nedeniyle) sonucunda görülebilir.",
+      "Bazı viral enfeksiyonlar (grip, kızamık gibi) veya otoimmün hastalıklar nötrofil sayısını düşürebilir.",
+      "Ağır bakteriyel enfeksiyonlar (sepsis gibi) veya beslenme yetersizlikleri nötrofil yüzdesinin düşmesine neden olabilir."
+    ],
+    "normal_deger_notu": "Normal değer aralığı, laboratuvardan laboratuvara ve kullanılan cihaza göre farklılık gösterebilir. Genellikle yetişkinlerde toplam beyaz kan hücrelerinin %40-%75'i arasında olması beklenir. Sonuçlarınızı doktorunuzla birlikte değerlendirmeniz önemlidir.",
+    "id": "neu_notrofil_yuzdesi"
+  },
+  {
+    "test_adi": "NEU# (Nötrofil Sayısı)",
+    "kategori": "Kan Testleri",
+    "genel_aciklama": "Nötrofiller, bağışıklık sisteminin önemli bir parçası olan ve vücudu bakteri ve mantar enfeksiyonlarına karşı koruyan bir tür beyaz kan hücresidir. Nötrofil sayısı, enfeksiyon veya iltihaplanma gibi durumların değerlendirilmesinde kullanılır ve genel sağlığın bir göstergesi olabilir.",
+    "yukseklik_anlami": [
+      "Akut bakteriyel enfeksiyonlar (örn. apandisit, zatürre)",
+      "Vücutta iltihaplanma ve inflamasyon (örn. romatoid artrit, travma, yanıklar)",
+      "Fiziksel veya duygusal stres, yoğun egzersiz",
+      "Bazı ilaçların kullanımı (örn. kortikosteroidler)",
+      "Miyeloproliferatif hastalıklar (örn. kronik miyeloid lösemi)"
+    ],
+    "dusukluk_anlami": [
+      "Viral enfeksiyonlar (örn. grip, kızamık, HIV)",
+      "Kemoterapi veya radyasyon tedavisi",
+      "Kemik iliği sorunları (örn. aplastik anemi, miyelodisplastik sendromlar)",
+      "Otoimmün hastalıklar (örn. lupus, romatoid artrit)",
+      "Bazı ilaçların yan etkileri (örn. antipsikotikler, tiroid ilaçları)",
+      "Şiddetli enfeksiyonlar (örn. sepsis)"
+    ],
+    "normal_deger_notu": "Normal nötrofil sayısı yetişkinlerde genellikle mikrolitre başına 1.800 ila 7.000 hücre (1.8 - 7.0 x 10^9/L) arasında değişir. Ancak bu referans aralığı, testin yapıldığı laboratuvara, yaşa ve diğer faktörlere göre farklılık gösterebilir. Sonuçlarınızı her zaman doktorunuzla değerlendirmelisiniz.",
+    "id": "neu#_notrofil_sayisi"
+  },
+  {
+    "test_adi": "LYM% (Lenfosit Yüzdesi)",
+    "kategori": "Kan",
+    "genel_aciklama": "Lenfositler, vücudun bağışıklık sisteminin önemli hücrelerinden biridir ve enfeksiyonlarla savaşmada kilit rol oynarlar. LYM% testi, toplam beyaz kan hücreleri (lökositler) içindeki lenfositlerin yüzdesini ölçer. Bu test, birçok hastalığın teşhisinde ve takibinde kullanılır.",
+    "yukseklik_anlami": [
+      "Viral enfeksiyonlar (grip, kabakulak, kızamıkçık, HIV'in erken evreleri)",
+      "Kronik bakteriyel enfeksiyonlar (tüberküloz gibi)",
+      "Bazı kan kanserleri (kronik lenfositik lösemi)",
+      "Bazı otoimmün hastalıklar"
+    ],
+    "dusukluk_anlami": [
+      "Akut enfeksiyonlar (bakteriyel enfeksiyonlar, sepsiz)",
+      "Stres, fiziksel travma veya kortikosteroid kullanımı",
+      "Kemoterapi veya radyoterapi gibi bağışıklık sistemini baskılayıcı tedaviler",
+      "Kemik iliği yetmezliği veya aplastik anemi",
+      "Bazı otoimmün hastalıklar veya bağışıklık yetmezlikleri"
+    ],
+    "normal_deger_notu": "Normal lenfosit yüzdesi, genellikle %20 ile %40 arasında değişir, ancak bu aralık laboratuvardan laboratuvara ve kişinin yaşına göre farklılık gösterebilir. Sonuçlarınızı her zaman doktorunuzla değerlendirmelisiniz.",
+    "id": "lym_lenfosit_yuzdesi"
+  },
+  {
+    "test_adi": "LYM# (Lenfosit Sayısı)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Lenfositler, vücudun bağışıklık sisteminin önemli bir parçası olan bir tür beyaz kan hücresidir. Bu test, bağışıklık sistemi sağlığını değerlendirmek, enfeksiyonları, inflamatuar hastalıkları ve bazı kanser türlerini teşhis etmeye yardımcı olmak için yapılır.",
+    "yukseklik_anlami": [
+      "Viral enfeksiyonlar (örn. grip, kızamık, kabakulak)",
+      "Bazı bakteriyel enfeksiyonlar (örn. tüberküloz)",
+      "Kronik inflamatuar hastalıklar (örn. Crohn hastalığı)",
+      "Lösemi ve lenfoma gibi bazı kan kanserleri"
+    ],
+    "dusukluk_anlami": [
+      "AIDS veya diğer bağışıklık yetmezliği sendromları",
+      "Kemoterapi veya radyasyon tedavisi",
+      "Kortikosteroid kullanımı veya Cushing sendromu",
+      "Şiddetli enfeksiyonlar (örn. sepsis)",
+      "Otoimmün hastalıklar (örn. lupus)"
+    ],
+    "normal_deger_notu": "Normal değerler, laboratuvardan laboratuvara ve kişinin yaşına, cinsiyetine göre değişiklik gösterebilir. Sonuçlar, laboratuvarın kendi belirlediği referans aralığına göre değerlendirilmelidir.",
+    "id": "lym#_lenfosit_sayisi"
+  },
+  {
+    "test_adi": "MONO% (Monosit Yüzdesi)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Monositler, beyaz kan hücrelerinin bir türüdür ve bağışıklık sisteminin önemli bir parçasıdır. Fagositoz yetenekleri sayesinde vücudu enfeksiyonlara, iltihaplanmalara ve yabancı maddelere karşı savunmaya yardımcı olurlar. Dokularda makrofajlara dönüşerek görev yapmaya devam ederler.",
+    "yukseklik_anlami": [
+      "Akut veya kronik enfeksiyonlar (bakteriyel, viral, fungal, paraziter)",
+      "Kronik enflamatuar hastalıklar (örn. Crohn hastalığı, ülseratif kolit, romatoid artrit)",
+      "Bazı hematolojik maligniteler (örn. miyelomonositik lösemi, lenfoma)",
+      "Otoimmün hastalıklar"
+    ],
+    "dusukluk_anlami": [
+      "Kemik iliği baskılanması (kemoterapi, radyasyon tedavisi, aplastik anemi)",
+      "Bazı akut enfeksiyonlar veya şiddetli enfeksiyonlara bağlı sepsiste geçici düşüşler",
+      "Steroid tedavisi veya aşırı stres",
+      "Bazı bağışıklık sistemi bozuklukları"
+    ],
+    "normal_deger_notu": "Normal referans aralığı genellikle toplam beyaz kan hücresi sayısının %2 ila %10'u arasındadır. Ancak laboratuvarlar ve yaşa bağlı olarak bu aralık değişebilir. Sonuçlar her zaman doktor tarafından değerlendirilmelidir.",
+    "id": "mono_monosit_yuzdesi"
+  },
+  {
+    "test_adi": "MONO# (Monosit Sayısı)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Monositler, vücudun bağışıklık sisteminde önemli rol oynayan bir tür beyaz kan hücresidir. Bakteri, virüs ve mantar gibi enfeksiyonlarla savaşır, ayrıca ölü hücreleri ve doku kalıntılarını temizlerler. Kemik iliğinde üretilirler ve kan dolaşımında dolaşarak iltihaplı veya enfekte bölgelere göç ederler.",
+    "yukseklik_anlami": [
+      "Vücutta süregelen kronik enfeksiyonlar (örn. tüberküloz, mantar enfeksiyonları, bazı viral enfeksiyonlar).",
+      "Romatoid artrit veya lupus gibi otoimmün hastalıklar.",
+      "Kronik inflamatuar bağırsak hastalıkları (örn. Crohn hastalığı, ülseratif kolit).",
+      "Bazı kanser türleri (özellikle lösemi ve lenfoma)."
+    ],
+    "dusukluk_anlami": [
+      "Kemoterapi veya radyasyon tedavisi gibi kemik iliği baskılayıcı tedaviler.",
+      "Şiddetli akut bakteriyel enfeksiyonlar veya sepsis.",
+      "Aplastik anemi veya bazı bağışıklık sistemi yetmezlikleri (örn. HIV/AIDS)."
+    ],
+    "normal_deger_notu": "Normal değerler laboratuvarın kullandığı referans aralıklarına göre değişiklik gösterir. Genellikle toplam beyaz kan hücrelerinin %2-%10'u veya mutlak monosit sayısı 0.2-1.0 x 10^9/L (200-1000/µL) aralığı normal kabul edilir.",
+    "id": "mono#_monosit_sayisi"
+  },
+  {
+    "test_adi": "EOS% (Eozinofil Yüzdesi)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Eozinofiller, vücudu alerjik reaksiyonlara ve paraziter enfeksiyonlara karşı koruyan bir tür beyaz kan hücresidir. EOS yüzdesi testi, kandaki toplam beyaz kan hücreleri içindeki eozinofil oranını ölçer. Bu test, alerjilerin, astımın, parazit enfeksiyonlarının ve bazı otoimmün hastalıkların teşhisinde veya takibinde yardımcı olabilir.",
+    "yukseklik_anlami": [
+      "Alerjik reaksiyonlar (astım, saman nezlesi, egzama gibi)",
+      "Paraziter enfeksiyonlar (bağırsak kurtları gibi)",
+      "Bazı ilaç reaksiyonları veya aşırı duyarlılık",
+      "Bazı otoimmün hastalıklar (eozinofilik özofajit gibi)",
+      "Bazı kanser türleri (Hodgkin lenfoma, lösemi)"
+    ],
+    "dusukluk_anlami": [
+      "Akut enfeksiyonlar veya şiddetli stres durumları",
+      "Kortikosteroid ilaçların kullanımı",
+      "Cushing sendromu",
+      "Sepsis (kan zehirlenmesi)",
+      "Kemik iliği yetmezliği veya aplastik anemi"
+    ],
+    "normal_deger_notu": "Referans aralığı laboratuvardan laboratuvara farklılık gösterebilir, ancak genellikle toplam beyaz kan hücrelerinin %0 ile %6'sı arasındadır. Sonuçlarınızı her zaman doktorunuzla birlikte değerlendirmelisiniz.",
+    "id": "eos_eozinofil_yuzdesi"
+  },
+  {
+    "test_adi": "EOS# (Eozinofil Sayısı)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Eozinofil sayısı, beyaz kan hücrelerinden (lökositler) biri olan eozinofillerin kandaki miktarını ölçen bir testtir. Eozinofiller, vücudun bağışıklık sisteminin önemli bir parçasıdır ve özellikle alerjik reaksiyonlarda, astım gibi durumlarda ve paraziter enfeksiyonlarla mücadelede rol oynarlar.",
+    "yukseklik_anlami": [
+      "Alerjik reaksiyonlar (astım, saman nezlesi, egzama, ilaç alerjileri gibi)",
+      "Paraziter enfeksiyonlar (kurt enfeksiyonları gibi)",
+      "Bazı otoimmün hastalıklar",
+      "Bazı deri hastalıkları",
+      "Adrenal bez yetmezliği (Addison hastalığı)",
+      "Bazı kan ve kemik iliği bozuklukları (eozinofilik lösemi, hipereozinofilik sendrom)"
+    ],
+    "dusukluk_anlami": [
+      "Akut bakteriyel enfeksiyonlar",
+      "Stres veya şok durumları",
+      "Kortikosteroid kullanımı veya Cushing sendromu gibi hormonal bozukluklar",
+      "Kemik iliği yetmezliği veya bazı kan hastalıkları"
+    ],
+    "normal_deger_notu": "Normal eozinofil değeri genellikle laboratuvardan laboratuvara değişmekle birlikte, mikrolitre başına 0-500 hücre veya toplam beyaz kan hücrelerinin %0.5-5'i aralığında kabul edilir. Sonuçların değerlendirilmesi için lütfen testi yapan laboratuvarın referans aralıklarını dikkate alınız.",
+    "id": "eos#_eozinofil_sayisi"
+  },
+  {
+    "test_adi": "BASO% (Bazofil Yüzdesi)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Bazofil yüzdesi, kandaki bazofil adı verilen beyaz kan hücrelerinin toplam beyaz kan hücrelerine oranını gösteren bir testtir. Bazofiller, bağışıklık sisteminin bir parçasıdır ve özellikle alerjik reaksiyonlar, astım ve bazı iltihabi durumlarda rol oynarlar. Bu test, vücuttaki çeşitli durumların teşhisine yardımcı olabilir.",
+    "yukseklik_anlami": [
+      "Alerjik reaksiyonlar (astım, saman nezlesi, besin alerjileri gibi)",
+      "Kronik iltihabi durumlar (romatoid artrit, ülseratif kolit gibi)",
+      "Hipotiroidizm (tiroid bezinin az çalışması)",
+      "Bazı lösemi türleri (özellikle kronik miyeloid lösemi) veya miyeloproliferatif hastalıklar"
+    ],
+    "dusukluk_anlami": [
+      "Akut enfeksiyonlar veya akut iltihabi durumlar",
+      "Stres veya akut alerjik reaksiyonların erken evreleri (bazen ani düşüşler görülebilir)",
+      "Hipertiroidizm (tiroid bezinin aşırı çalışması)",
+      "Uzun süreli kortikosteroid tedavisi"
+    ],
+    "normal_deger_notu": "Normal değerler laboratuvardan laboratuvara ve kullanılan test yöntemine göre değişiklik gösterebilir. Genellikle toplam beyaz kan hücrelerinin %0,5 ila %1'i arasında olması beklenir. Lütfen laboratuvar raporunuzdaki referans aralığını dikkate alınız.",
+    "id": "baso_bazofil_yuzdesi"
+  },
+  {
+    "test_adi": "BASO# (Bazofil Sayısı)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Bazofiller, beyaz kan hücrelerinin (lökositler) bir alt türüdür ve bağışıklık sisteminin önemli bir parçasıdır. Özellikle alerjik reaksiyonlarda, astım ve paraziter enfeksiyonlarda rol oynarlar. Vücutta histamin ve heparin gibi maddeleri salgılayarak iltihaplanma ve kanın pıhtılaşmasını önleme süreçlerine katkıda bulunurlar.",
+    "yukseklik_anlami": [
+      "Alerjik reaksiyonlar (astım, egzama, saman nezlesi gibi kronik alerjiler)",
+      "Kronik miyeloid lösemi (KML) gibi miyeloproliferatif hastalıklar",
+      "Hipotiroidizm (tiroid bezinin az çalışması)",
+      "Ülseratif kolit veya Crohn hastalığı gibi inflamatuar bağırsak hastalıkları",
+      "Hemolitik anemi veya miyelofibrozis gibi bazı kan hastalıkları"
+    ],
+    "dusukluk_anlami": [
+      "Akut alerjik reaksiyonlar (anafilaksi) veya ilaç reaksiyonları sonrası (genellikle geçici düşüş görülür)",
+      "Hipertiroidizm (tiroid bezinin aşırı çalışması)",
+      "Akut enfeksiyonlar veya şiddetli inflamasyon (iltihaplanma)",
+      "Stres durumları veya glukokortikoid (kortizon) tedavisi",
+      "Kemik iliği baskılanması (ilaçlar veya radyasyon nedeniyle)"
+    ],
+    "normal_deger_notu": "Yetişkinlerde normal bazofil oranı genellikle toplam lökosit sayısının %0.5 - %1'i veya mutlak değer olarak 20-100 hücre/µL (mikrolitre) civarındadır. Ancak, laboratuvarın kullandığı cihaza, referans popülasyona ve coğrafi bölgeye göre referans aralıkları değişiklik gösterebilir. Sonuçlar mutlaka doktor tarafından yorumlanmalıdır.",
+    "id": "baso#_bazofil_sayisi"
+  },
+  {
+    "test_adi": "Glukoz (Açlık Kan Şekeri)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Açlık kan şekeri testi, vücudun glukozu (şekeri) ne kadar iyi işlediğini değerlendiren yaygın bir kan testidir. Genellikle diyabet veya prediyabet taraması ve teşhisi için kullanılır. Testten önce 8-12 saat aç kalınması gerekir.",
+    "yukseklik_anlami": [
+      "Diyabet veya prediyabetin bir göstergesi olabilir.",
+      "Pankreasın yeterince insülin üretmediğini veya vücut hücrelerinin insüline dirençli olduğunu gösterebilir.",
+      "Stres, enfeksiyonlar, bazı ilaçlar (kortikosteroidler gibi) ve Cushing sendromu gibi diğer tıbbi durumlar yüksek kan şekerine yol açabilir."
+    ],
+    "dusukluk_anlami": [
+      "Hipoglisemi olarak adlandırılır ve genellikle yetersiz beslenme, aşırı insülin kullanımı veya bazı oral antidiyabetik ilaçlarla ilişkilidir.",
+      "Pankreastaki insülin üreten bir tümör (insülinoma) veya karaciğer hastalığı gibi ciddi tıbbi durumlara işaret edebilir.",
+      "Alkol tüketimi, egzersiz sonrası veya bazı endokrin bozukluklar da düşük kan şekerine neden olabilir."
+    ],
+    "normal_deger_notu": "Açlık kan şekeri referans aralığı genellikle 70-99 mg/dL arasındadır. Bu değerler laboratuvara göre küçük farklılıklar gösterebilir.",
+    "id": "glukoz_aclik_kan_sekeri"
+  },
+  {
+    "test_adi": "Tokluk Kan Şekeri",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Tokluk kan şekeri testi, bir yemek yedikten belirli bir süre sonra (genellikle 2 saat) kan şekeri seviyesinin ölçülmesidir. Bu test, vücudun glikozu nasıl işlediğini ve insülinin etkinliğini değerlendirerek diyabet tanısı ve yönetiminde kritik bir rol oynar. Özellikle prediyabet (gizli şeker) ve diyabet teşhisinde açlık kan şekeri ile birlikte değerlendirilir.",
+    "yukseklik_anlami": [
+      "Diyabet (şeker hastalığı) veya prediyabet (diyabet öncesi durum) belirtisi olabilir.",
+      "İnsülin direncinin varlığına işaret edebilir, bu da hücrelerin insüline yeterince yanıt vermediği anlamına gelir.",
+      "Metabolik sendrom riskini artırabilir, bu da kalp hastalığı, inme ve tip 2 diyabet riskini yükselten bir durumdur.",
+      "Uzun vadede sinir hasarı (nöropati), böbrek sorunları (nefropati) ve göz rahatsızlıkları (retinopati) gibi diyabet komplikasyonlarına yol açabilir."
+    ],
+    "dusukluk_anlami": [
+      "Hipoglisemi (kan şekerinin normalin altına düşmesi) durumunu gösterir ve titreme, terleme, baş dönmesi, zayıflık gibi belirtilere neden olabilir.",
+      "Aşırı insülin üretimi veya insülin enjeksiyonlarının fazlalığı, bazı diyabet ilaçlarının yan etkisi veya uzun süreli açlık sonucu oluşabilir.",
+      "Nadiren, insülin üreten pankreas tümörleri (insülinoma) veya diğer hormonal dengesizliklerle ilişkili olabilir.",
+      "Karaciğer hastalıkları veya böbrek üstü bezi yetmezliği gibi bazı tıbbi durumların bir göstergesi olabilir."
+    ],
+    "normal_deger_notu": "Yemekten 2 saat sonra tokluk kan şekeri genellikle 140 mg/dL (7.8 mmol/L) altında olmalıdır. 140-199 mg/dL (7.8-11.0 mmol/L) arası değerler prediyabet (bozulmuş glikoz toleransı) olarak kabul edilirken, 200 mg/dL (11.1 mmol/L) ve üzeri değerler diyabet tanısı için önemli bir göstergedir. Referans aralıkları laboratuvarlara ve kullanılan ölçüm yöntemlerine göre küçük farklılıklar gösterebilir, bu nedenle her zaman doktorunuzla kendi sonuçlarınızı değerlendirmeniz önemlidir.",
+    "id": "tokluk_kan_sekeri"
+  },
+  {
+    "test_adi": "HbA1c (3 Aylık Şeker)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "HbA1c testi, son 2-3 aylık ortalama kan şekeri seviyesini gösteren önemli bir kan testidir. Alyuvarlardaki hemoglobine şeker moleküllerinin ne kadar bağlandığını ölçerek, diyabetin teşhisi, takibi ve tedavi etkinliğinin değerlendirilmesi için kullanılır. Özellikle diyabet hastalarında uzun süreli kan şekeri kontrolünü yansıtır.",
+    "yukseklik_anlami": "Yüksek HbA1c seviyeleri genellikle şunları ifade eder:\n1.  **Kontrolsüz Diyabet:** Son aylarda kan şekeri seviyelerinin iyi yönetilemediğini ve yüksek seyrettiğini gösterir.\n2.  **Diyabet Komplikasyon Riski:** Yüksek değerler, kalp-damar hastalıkları, böbrek yetmezliği, sinir hasarı ve göz sorunları gibi diyabetik komplikasyonların gelişme riskinin arttığını işaret eder.\n3.  **Tedavi Değişikliği İhtiyacı:** Diyabet tedavisinde (ilaç dozu, diyet veya egzersiz programı) ayarlamalar yapılması gerektiğine dair önemli bir göstergedir.\n4.  **Prediyabet veya Yeni Diyabet Tanısı:** Henüz teşhis edilmemiş prediyabet veya tip 2 diyabetin göstergesi olabilir.",
+    "dusukluk_anlami": "Düşük HbA1c seviyeleri bazı durumlarda ortaya çıkabilir ve şunları ifade edebilir:\n1.  **Hipoglisemi Riski:** Özellikle diyabet tedavisinde, çok düşük değerler sık veya şiddetli hipoglisemi (kan şekerinin tehlikeli derecede düşmesi) ataklarının yaşandığını gösterebilir.\n2.  **Yanlış Düşük Sonuçlar:** Anemi (kansızlık), orak hücre anemisi gibi bazı kan hastalıkları veya yakın zamanda yapılan kan transfüzyonları, alyuvarların ömrünü kısalttığı için HbA1c değerini yapay olarak düşük gösterebilir.\n3.  **Aşırı Tedavi:** Diyabet ilaçlarının dozajının yüksek olması veya tedavinin çok agresif olması nedeniyle kan şekerinin aşırı düşürülmesi durumunda görülebilir.\n4.  **Gebelik:** Gebelikte kan hacminin artması ve alyuvar ömrünün kısalması nedeniyle doğal olarak biraz daha düşük çıkabilir.",
+    "normal_deger_notu": "Normal HbA1c değerleri genellikle %5.7'nin altındadır. %5.7 ile %6.4 arasındaki değerler prediyabet (diyabet öncesi durum) olarak kabul edilirken, %6.5 ve üzeri değerler diyabet tanısı için kullanılır. Ancak, bu referans aralıkları laboratuvarlara göre hafif farklılık gösterebilir ve sonuçların bir doktor tarafından yorumlanması büyük önem taşır.",
+    "id": "hba1c_3_aylik_seker"
+  },
+  {
+    "test_adi": "İnsülin (Hormon)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "İnsülin, pankreas tarafından üretilen ve vücudun kan şekerini (glikoz) enerjiye dönüştürmesine yardımcı olan hayati bir hormondur. Glikozun hücrelere taşınmasını sağlayarak kan şekerini düzenler.",
+    "yukseklik_anlami": [
+      "İnsülin direnci: Hücrelerin insüline yeterince tepki vermemesi durumu.",
+      "Tip 2 diyabetin erken evreleri: Pankreasın kan şekerini dengelemek için daha fazla insülin üretmeye çalışması.",
+      "Polikistik Over Sendromu (PCOS): Kadınlarda hormon dengesizliğine bağlı insülin direnci görülebilir.",
+      "İnsülinoma: Pankreasta insülin üreten bir tümör."
+    ],
+    "dusukluk_anlami": [
+      "Tip 1 diyabet: Pankreasın insülin üretme yeteneğinin tamamen veya büyük ölçüde kaybolması.",
+      "Pankreas hasarı veya iltihabı: Pankreasın yeterli insülin üretememesi.",
+      "Yetersiz beslenme veya aşırı egzersiz: Bazı durumlarda geçici düşüklüklere yol açabilir.",
+      "Bazı genetik bozukluklar: İnsülin üretimini etkileyen nadir genetik durumlar."
+    ],
+    "normal_deger_notu": "Normal insülin değerleri laboratuvardan laboratuvara ve testin yapıldığı duruma (açlık/tokluk) göre değişiklik gösterebilir. Genellikle açlık insülin düzeyi için 2.6 - 24.9 µIU/mL (veya 18-173 pmol/L) aralığı kabul edilir. Ancak sonuçlarınızın doğru yorumlanması için her zaman doktorunuza danışınız.",
+    "id": "i̇nsulin_hormon"
+  },
+  {
+    "test_adi": "HOMA-IR (İnsülin Direnci)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "HOMA-IR (Homeostasis Model Assessment - Insulin Resistance), vücudun insüline ne kadar dirençli olduğunu veya pankreasın ne kadar iyi çalıştığını değerlendirmek için kullanılan bir indekstir. Açlık glukoz ve insülin seviyeleri kullanılarak hesaplanır ve tip 2 diyabet, metabolik sendrom ve kardiyovasküler hastalık riski değerlendirmesinde yardımcı olabilir.",
+    "yukseklik_anlami": "Yüksek HOMA-IR değeri, insülin direncinin varlığına işaret eder. Bu durum, tip 2 diyabet riskinin arttığını gösterir ve metabolik sendrom, obezite, polikistik over sendromu (PKOS) gibi sağlık sorunlarıyla ilişkilendirilir. Ayrıca kardiyovasküler hastalıklar için bir risk faktörü olabilir.",
+    "dusukluk_anlami": "Düşük HOMA-IR değeri, iyi insülin duyarlılığına ve düşük insülin direnci seviyesine işaret eder. Genellikle sağlıklı bir metabolik durumla ilişkilidir ve tip 2 diyabet ile metabolik sendrom riskinin düşük olduğunu düşündürür. Aşırı düşük değerler nadiren farklı tıbbi durumlarla ilişkilendirilebilir, ancak genellikle olumlu bir bulgudur.",
+    "normal_deger_notu": "Normal referans aralığı laboratuvardan laboratuvara değişebilir, ancak genellikle 2.0'ın altındaki değerler normal veya ideal kabul edilir. Yorumlama için daima testin yapıldığı laboratuvarın belirlediği referans aralığı dikkate alınmalı ve bir doktor tarafından değerlendirilmelidir.",
+    "id": "homa_ir_i̇nsulin_direnci"
+  },
+  {
+    "test_adi": "Üre (BUN)",
+    "kategori": "Kan Testi",
+    "genel_aciklama": "Üre Azotu (BUN) testi, böbrek fonksiyonlarını değerlendirmek için kanda bulunan üre miktarını ölçen bir testtir. Üre, proteinlerin sindirimi sonucu oluşan bir atık üründür ve normalde böbrekler tarafından filtrelenerek idrarla atılır. Kan üre seviyesi, böbreklerin atık ürünleri ne kadar iyi temizlediğini gösterir.",
+    "yukseklik_anlami": [
+      "Böbrek yetmezliği veya böbrek hastalığı gibi böbrek fonksiyonlarında bozulma.",
+      "Dehidrasyon (vücudun susuz kalması) veya yetersiz sıvı alımı.",
+      "Kalp yetmezliği veya şok gibi kan akımının böbreklere azalması durumları.",
+      "Yüksek proteinli diyetler veya gastrointestinal kanama gibi durumlar üre üretimini artırabilir.",
+      "Bazı ilaçlar (örn: bazı antibiyotikler, steroidler) üre seviyesini yükseltebilir."
+    ],
+    "dusukluk_anlami": [
+      "Şiddetli karaciğer hastalığı, karaciğerin üre üretim kapasitesini düşürebilir.",
+      "Yetersiz beslenme veya düşük proteinli diyetler.",
+      "Aşırı hidrasyon (vücutta çok fazla sıvı birikimi).",
+      "Gebelik gibi fizyolojik durumlar."
+    ],
+    "normal_deger_notu": "Normal değerler yaşa, cinsiyete, laboratuvar yöntemine ve bireysel faktörlere göre değişiklik gösterebilir. Genellikle yetişkinler için referans aralığı 7 ila 20 mg/dL (2.5 ila 7.1 mmol/L) arasındadır. Sonuçlarınızı her zaman doktorunuzla birlikte değerlendirmelisiniz.",
+    "id": "ure_bun"
+  },
+  {
+    "test_adi": "Kreatinin",
+    "kategori": "Böbrek Fonksiyon Testi",
+    "genel_aciklama": "Kreatinin, kas metabolizmasının bir yan ürünüdür ve böbrekler tarafından vücuttan atılır. Kandaki seviyesi, böbreklerin ne kadar iyi çalıştığını gösteren önemli bir belirteçtir.",
+    "yukseklik_anlami": [
+      "Böbrek yetmezliği veya böbrek hasarı.",
+      "Şiddetli dehidrasyon (vücut susuzluğu).",
+      "Yoğun kas aktivitesi veya yüksek kas kütlesi (özellikle sporcularda).",
+      "Bazı ilaçların kullanımı (örneğin, nonsteroid anti-inflamatuar ilaçlar)."
+    ],
+    "dusukluk_anlami": [
+      "Düşük kas kütlesi (yaşlılar veya kas kaybı yaşayan bireyler).",
+      "Şiddetli karaciğer hastalığı (kreatinin üretimi etkilenebilir).",
+      "Gebelik (kan hacminde artış nedeniyle seyreltme etkisi)."
+    ],
+    "normal_deger_notu": "Normal referans aralıkları laboratuvardan laboratuvara farklılık gösterebilir ve yaşa, cinsiyete ve diğer faktörlere bağlıdır. Sonuçlar daima bir sağlık uzmanı tarafından yorumlanmalıdır.",
+    "id": "kreatinin"
+  },
+  {
+    "test_adi": "Ürik Asit",
+    "kategori": "Kan / İdrar",
+    "genel_aciklama": "Ürik asit, vücutta pürin adı verilen maddelerin parçalanması sonucu oluşan bir atık üründür. Kan dolaşımında taşınır ve çoğunlukla böbrekler tarafından idrar yoluyla vücuttan atılır. Yüksek düzeyleri sağlık sorunlarına yol açabilirken, düşük düzeyleri daha nadir görülür.",
+    "yukseklik_anlami": [
+      "Gut hastalığı: Eklemlerde ürik asit kristallerinin birikmesiyle karakterize iltihaplı bir artrit türü.",
+      "Böbrek sorunları: Böbreklerin ürik asidi etkili bir şekilde vücuttan atamaması.",
+      "Dehidrasyon (sıvı kaybı) veya pürin açısından zengin diyet: Kırmızı et, deniz ürünleri gibi gıdaların aşırı tüketimi.",
+      "Kanser tedavileri (tümör lizis sendromu): Hızlı hücre yıkımı sonucu ürik asit salınımı.",
+      "Metabolik sendrom, diyabet veya kalp hastalıkları."
+    ],
+    "dusukluk_anlami": [
+      "Fanconi sendromu gibi nadir böbrek tübüler bozuklukları.",
+      "Wilson hastalığı: Vücutta bakır birikimi ile karakterize genetik bir hastalık.",
+      "Allopurinol gibi bazı ilaçların (özellikle gut tedavisinde kullanılanlar) yan etkisi.",
+      "Gebelik: Kan hacminin artması ve böbrek filtrasyonunun değişmesi nedeniyle düşüş görülebilir.",
+      "Nadiren, aşırı sıvı alımı veya bazı beslenme eksiklikleri."
+    ],
+    "normal_deger_notu": "Referans aralığı laboratuvardan laboratuvara ve kullanılan ölçüm yöntemlerine göre değişiklik gösterebilir. Genellikle yetişkin erkeklerde 3.4-7.0 mg/dL, yetişkin kadınlarda ise 2.4-6.0 mg/dL civarında kabul edilir. Test sonuçlarınızı her zaman doktorunuzla birlikte değerlendirmelisiniz.",
+    "id": "urik_asit"
+  },
+  {
+    "test_adi": "Total Protein",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Total protein testi, kanınızdaki toplam protein miktarını ölçer. Bu proteinler, albumin ve globulinler olmak üzere iki ana gruba ayrılır. Test, karaciğer ve böbrek hastalıkları, beslenme durumu ve diğer bazı sağlık sorunları hakkında önemli bilgiler sağlayabilir.",
+    "yukseklik_anlami": "Dehidrasyon (vücudun susuz kalması); Kronik inflamasyon veya enfeksiyonlar; Multipl miyelom gibi bazı kan kanseri türleri; Otoimmün hastalıklar.",
+    "dusukluk_anlami": "Karaciğer hastalıkları (protein üretiminde azalma); Böbrek hastalıkları (protein kaybı); Malnütrisyon veya malabsorpsiyon (yetersiz beslenme veya emilim bozukluğu); Ciddi kanamalar veya yanıklar.",
+    "normal_deger_notu": "Yetişkinler için genellikle 6.0 - 8.3 g/dL (gram/desilitre) aralığındadır. Referans aralıkları laboratuvardan laboratuvara ve hastanın yaşına göre değişiklik gösterebilir.",
+    "id": "total_protein"
+  },
+  {
+    "test_adi": "Albumin",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Albümin, karaciğer tarafından üretilen ve kan plazmasında en bol bulunan proteindir. Kanın ozmotik basıncını düzenleyerek sıvı dengesinin korunmasına yardımcı olur, besin maddelerinin taşınmasında rol oynar ve ilaçlar gibi çeşitli maddelere bağlanır. Genel sağlık durumunun ve karaciğer fonksiyonunun önemli bir göstergesidir.",
+    "yukseklik_anlami": "1. Şiddetli dehidrasyon (vücudun susuz kalması).\n2. Şok durumu (nadiren).\n3. Bazı spesifik ilaçların kullanımı (örneğin, bazı steroidler).",
+    "dusukluk_anlami": "1. Karaciğer hastalıkları (siroz, hepatit gibi).\n2. Böbrek hastalıkları (nefrotik sendrom gibi).\n3. Yetersiz beslenme veya malabsorpsiyon.\n4. Kronik enflamatuar hastalıklar veya enfeksiyonlar.",
+    "normal_deger_notu": "Normal referans aralığı laboratuvarlara, kullanılan test yöntemine ve hastanın yaşına/cinsiyetine göre değişiklik gösterebilir. Genellikle yetişkinler için 3.5 ila 5.5 g/dL (35-55 g/L) arasındadır. Sonuçların bir doktor tarafından değerlendirilmesi önemlidir.",
+    "id": "albumin"
+  },
+  {
+    "test_adi": "Globulin",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Globulinler, karaciğer tarafından üretilen veya bağışıklık sistemi tarafından sentezlenen bir grup proteindir. Vücutta bağışıklık, pıhtılaşma ve besin taşınması gibi birçok önemli işlevi vardır.",
+    "yukseklik_anlami": [
+      "Kronik enfeksiyonlar veya iltihaplanma (örneğin hepatit, tüberküloz)",
+      "Otoimmün hastalıklar (örneğin lupus, romatoid artrit)",
+      "Karaciğer hastalıkları (örneğin siroz) veya multipl miyelom gibi bazı kanserler"
+    ],
+    "dusukluk_anlami": [
+      "Karaciğer yetmezliği veya ciddi karaciğer hastalıkları",
+      "Böbrek hastalıkları (protein kaybı)",
+      "Malnütrisyon veya emilim bozuklukları",
+      "Bazı genetik immün yetmezlikler"
+    ],
+    "normal_deger_notu": "Normal referans aralığı laboratuvardan laboratuvara, kullanılan yönteme ve kişinin yaşına/cinsiyetine göre değişiklik gösterir. Test sonuçlarınız için doktorunuza danışmalısınız.",
+    "id": "globulin"
+  },
+  {
+    "test_adi": "AST (Aspartat Transaminaz)",
+    "kategori": "Karaciğer Enzimleri / Kalp Markerları",
+    "genel_aciklama": "AST (Aspartat Transaminaz), başta karaciğer ve kalp olmak üzere çeşitli organlarda bulunan bir enzimdir. Hücre hasarı durumunda kan dolaşımına salınır ve bu nedenle doku hasarının bir göstergesi olarak kullanılır.",
+    "yukseklik_anlami": "AST yüksekliği genellikle aşağıdaki durumlarla ilişkilidir:\n- Karaciğer hastalıkları (hepatit, siroz, yağlı karaciğer, ilaç toksisitesi)\n- Kalp krizi veya kalp kası hasarı\n- İskelet kası hasarı (travma, şiddetli egzersiz, miyopati)\n- Pankreatit\n- Hemolitik anemi",
+    "dusukluk_anlami": "AST düşüklüğü daha az yaygındır ve genellikle şu durumlarla ilişkilendirilebilir:\n- Gebelik (özellikle son trimester)\n- B6 vitamini (piridoksin) eksikliği\n- Kronik böbrek yetmezliği (bazı durumlarda)\n- Diyabetik ketoasidoz (bazı durumlarda)",
+    "normal_deger_notu": "Normal değerler laboratuvarlara ve kullanılan yönteme göre değişiklik gösterebilir, ancak genellikle 10-40 U/L (ünite/litre) aralığındadır. Sonuçlarınızı her zaman doktorunuzla değerlendirmelisiniz.",
+    "id": "ast_aspartat_transaminaz"
+  },
+  {
+    "test_adi": "ALT (Alanin Aminotransferaz)",
+    "kategori": "Kan Testi",
+    "genel_aciklama": "ALT (Alanin Aminotransferaz), karaciğer hücrelerinde yüksek konsantrasyonda bulunan bir enzimdir. Karaciğer hasarı veya hastalığı durumunda kan dolaşımına salınır ve bu nedenle karaciğer fonksiyonlarını değerlendirmede önemli bir göstergedir.",
+    "yukseklik_anlami": [
+      "Karaciğer iltihabı (Hepatit: viral, alkolik, otoimmün)",
+      "Yağlı karaciğer hastalığı (Non-alkolik yağlı karaciğer hastalığı - NAFLD)",
+      "İlaçlara bağlı karaciğer toksisitesi veya aşırı alkol tüketimi",
+      "Siroz, karaciğer tümörleri veya safra yolu tıkanıklığı"
+    ],
+    "dusukluk_anlami": [
+      "Genellikle klinik olarak anlamlı kabul edilmez ve çoğu zaman sağlıklı bir durumu yansıtır.",
+      "Çok düşük seviyeler, nadiren ileri böbrek hastalığı veya şiddetli malnütrisyon gibi durumlarla ilişkilendirilebilir, ancak bu durumlar için birincil tanı göstergesi değildir.",
+      "Gebelik sırasında veya bazı çok özel durumlarda hafif düşüşler gözlemlenebilir."
+    ],
+    "normal_deger_notu": "Normal referans aralığı laboratuvardan laboratuvara ve kişiye (yaş, cinsiyet) göre değişmekle birlikte, genellikle yetişkinler için 7-56 U/L (ünite/litre) arasındadır. Sonuçlarınızı değerlendirirken laboratuvarınızın belirttiği referans aralıklarını ve doktorunuzun yorumunu dikkate almanız önemlidir.",
+    "id": "alt_alanin_aminotransferaz"
+  },
+  {
+    "test_adi": "GGT (Gama Glutamil Transferaz)",
+    "kategori": "Kan Testi",
+    "genel_aciklama": "GGT (Gama Glutamil Transferaz), başta karaciğer ve safra yolları olmak üzere vücutta birçok organda bulunan bir enzimdir. Karaciğer hasarı, safra yolu tıkanıklığı ve alkol kullanımı gibi durumları değerlendirmede hassas bir gösterge olarak kullanılır.",
+    "yukseklik_anlami": [
+      "Yüksek GGT seviyeleri genellikle karaciğer veya safra yolu sorunlarının bir göstergesidir.",
+      "Karaciğer yağlanması, hepatit, siroz gibi karaciğer hastalıkları.",
+      "Safra kesesi veya safra yollarında tıkanıklık (taş, tümör vb.).",
+      "Aşırı alkol tüketimi veya alkolik karaciğer hastalığı."
+    ],
+    "dusukluk_anlami": [
+      "GGT düşüklüğü genellikle klinik olarak önemli bir durum değildir ve nadiren bir sağlık sorununa işaret eder.",
+      "Sağlıklı bir karaciğer fonksiyonuna ve düzenli alkol tüketiminden kaçınılmaya işaret edebilir.",
+      "Çoğu durumda, düşük GGT seviyeleri endişe nedeni değildir ve iyi bir sağlık göstergesidir."
+    ],
+    "normal_deger_notu": "Normal GGT değerleri laboratuvardan laboratuvara ve bireyin yaşına, cinsiyetine göre değişiklik gösterebilir. Genellikle referans aralıkları yetişkin erkekler ve kadınlar için ayrı ayrı belirtilir. Doktorunuz, test sonuçlarınızı tıbbi geçmişinizle birlikte değerlendirecektir.",
+    "id": "ggt_gama_glutamil_transferaz"
+  },
+  {
+    "test_adi": "ALP (Alkalen Fosfataz)",
+    "kategori": "Kan Testi",
+    "genel_aciklama": "Alkalen fosfataz (ALP), vücutta başta karaciğer, kemikler, böbrekler ve bağırsaklar olmak üzere birçok dokuda bulunan bir enzimdir. Özellikle karaciğer ve kemik hastalıklarının teşhisinde önemli bir göstergedir. Kan örneği alınarak seviyesi ölçülür.",
+    "yukseklik_anlami": [
+      "Karaciğer ve safra yolu hastalıkları (safra kesesi taşları, kolestaz, hepatit, siroz)",
+      "Kemik hastalıkları (Paget hastalığı, raşitizm, osteomalazi, kemik kırıkları, kemik tümörleri)",
+      "Gebelik (özellikle üçüncü trimesterda fizyolojik bir yükselme)",
+      "Çocuklarda büyüme ve gelişme dönemleri (fizyolojik yükselme)"
+    ],
+    "dusukluk_anlami": [
+      "Çinko eksikliği veya şiddetli beslenme yetersizliği",
+      "Hipofosfatazya (nadir görülen genetik bir hastalık)",
+      "Hipotiroidi (tiroid bezinin az çalışması)",
+      "Pernisiyöz anemi"
+    ],
+    "normal_deger_notu": "Normal referans aralıkları laboratuvardan laboratuvara, yaşa ve cinsiyete göre değişiklik gösterebilir. Genellikle yetişkinler için 30-120 U/L (ünite/litre) civarındadır. Çocuklarda ve gebelikte bu değerler daha yüksek olabilir.",
+    "id": "alp_alkalen_fosfataz"
+  },
+  {
+    "test_adi": "LDH (Laktat Dehidrogenaz)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Laktat dehidrogenaz (LDH), vücudun birçok dokusunda (kalp, karaciğer, böbrek, kas, beyin, kan hücreleri) bulunan önemli bir enzimdir. Hücre hasarı veya yıkımı meydana geldiğinde, bu enzim kandan ölçülebilir seviyelere yükselir. Bu test, çeşitli hastalıkların teşhis ve takibinde, özellikle doku hasarının belirlenmesinde kullanılır.",
+    "yukseklik_anlami": [
+      "Kalp krizi ve diğer kalp rahatsızlıkları",
+      "Akut karaciğer hastalıkları (hepatit, siroz gibi)",
+      "Akciğer hastalıkları (pulmoner emboli, pnömoni)",
+      "Kas zedelenmeleri, travmalar veya kas hastalıkları (örn: rabdomiyoliz)",
+      "Hemolitik anemi (kırmızı kan hücrelerinin yıkımı)",
+      "Böbrek hastalıkları",
+      "Bazı kanser türleri (lösemi, lenfoma, testis tümörleri gibi) ve metastatik hastalıklar"
+    ],
+    "dusukluk_anlami": [
+      "Düşük LDH seviyeleri genellikle klinik olarak anlamlı kabul edilmez ve nadiren bir sorun teşkil eder.",
+      "Aşırı C vitamini alımı gibi nadir durumlar",
+      "Bazı ilaçların kullanımı (örn: kalsiyum oksalat içerenler)",
+      "Laboratuvar örneğinin yanlış saklanması veya işlenmesi (teknik hata)",
+      "Konjenital LDH eksikliği (çok nadir genetik bir durum)"
+    ],
+    "normal_deger_notu": "Normal LDH değerleri, laboratuvardan laboratuvara ve kullanılan ölçüm yöntemine göre değişiklik gösterebilir. Genellikle yetişkinler için referans aralığı 140-280 U/L veya 100-250 U/L civarında olabilir. Kendi laboratuvar sonuçlarınızdaki referans aralığını dikkate almanız önemlidir.",
+    "id": "ldh_laktat_dehidrogenaz"
+  },
+  {
+    "test_adi": "Total Bilirubin",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Total bilirubin, karaciğer fonksiyonlarını ve kırmızı kan hücrelerinin yıkım oranını değerlendirmek için kullanılan bir kan testidir. Kırmızı kan hücrelerinin yıkımı sonucu oluşan bilirubin, karaciğerde işlenir ve safra yoluyla vücuttan atılır. Bu test, sarılık, karaciğer hastalığı veya safra yolu tıkanıklığı gibi durumların teşhisinde önemli bir rol oynar.",
+    "yukseklik_anlami": "Total bilirubin seviyesinin yüksek olması şunlara işaret edebilir:\n- Karaciğer hastalıkları (hepatit, siroz, karaciğer yetmezliği gibi).\n- Safra yollarının tıkanıklığı (safra taşları, tümörler veya iltihaplanma nedeniyle).\n- Kırmızı kan hücrelerinin aşırı yıkımı (hemolitik anemi gibi durumlarda).\n- Gilbert sendromu, Crigler-Najjar sendromu gibi genetik durumlar.\n- Bazı ilaçların kullanımı veya enfeksiyonlar.",
+    "dusukluk_anlami": "Total bilirubin seviyesinin düşük olması genellikle klinik olarak anlamlı kabul edilmez ve çoğu durumda endişe verici bir durumun göstergesi değildir. Nadiren şunlarla ilişkilendirilebilir:\n- Kafein veya bazı ilaçlar (örneğin barbitüratlar) gibi maddelerin etkisiyle geçici düşüşler.\n- Ciddi karaciğer hasarının ileri evreleri (ancak bu durumda çok daha belirgin başka klinik belirtiler mevcuttur).\n- Genellikle özel bir tedavi gerektirmez ve bir sağlık sorununa işaret etmez.",
+    "normal_deger_notu": "Normal değerler laboratuvardan laboratuvara ve kullanılan ölçüm yöntemlerine göre küçük farklılıklar gösterebilir. Yetişkinler için referans aralığı genellikle 0.2 - 1.2 mg/dL (miligram/desilitre) arasındadır. Yenidoğanlarda ve çocuklarda yaşa bağlı olarak farklı referans aralıkları bulunur ve fizyolojik sarılık nedeniyle ilk günlerde daha yüksek değerler normal kabul edilebilir. Test sonuçları her zaman bir doktor tarafından değerlendirilmelidir.",
+    "id": "total_bilirubin"
+  },
+  {
+    "test_adi": "Direkt Bilirubin",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Direkt (konjuge) bilirubin, karaciğerde işlenmiş bilirubin formudur. Kandaki direkt bilirubin seviyesi, karaciğerin safrayı işleme ve atma yeteneği hakkında bilgi verir. Genellikle safra yolları tıkanıklıkları veya karaciğer hasarı durumlarında yükselir.",
+    "yukseklik_anlami": [
+      "Safra yollarında tıkanıklık (safra taşı, tümör, iltihap vb.)",
+      "Akut veya kronik karaciğer hastalıkları (hepatit, siroz gibi)",
+      "Pankreas başı tümörleri veya safra kanalına bası yapan diğer lezyonlar",
+      "Bazı ilaçlara bağlı karaciğer toksisitesi"
+    ],
+    "dusukluk_anlami": [
+      "Düşük direkt bilirubin seviyeleri genellikle klinik olarak anlamlı bir sağlık sorununa işaret etmez.",
+      "Karaciğerin bilirubini etkili bir şekilde işleyip safra yollarına atabildiğinin bir göstergesi olabilir.",
+      "Nadiren, bazı konjenital veya genetik metabolizma bozukluklarında indirekt bilirubin yüksek kalırken direkt bilirubin seviyeleri normal veya düşük seyredebilir, ancak bu durumlar daha çok indirekt bilirubinin yüksekliği ile ilişkilidir."
+    ],
+    "normal_deger_notu": "Referans aralığı laboratuvara göre değişebilir; genellikle 0.0 - 0.3 mg/dL (veya 0.0 - 5.1 µmol/L) arasındadır. Sonuçlarınızı doktorunuzla birlikte değerlendirmeniz önemlidir.",
+    "id": "direkt_bilirubin"
+  },
+  {
+    "test_adi": "İndirekt Bilirubin",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "İndirekt (konjuge olmayan) bilirubin, kırmızı kan hücrelerinin parçalanması sonucu ortaya çıkan bir atık ürünüdür. Kan dolaşımında karaciğere taşınır ve burada doğrudan (konjuge) bilirubine dönüştürülerek vücuttan atılır. Kandaki seviyeleri karaciğer fonksiyonu, kan hücrelerinin ömrü ve safra yolları sağlığı hakkında önemli bilgiler verebilir.",
+    "yukseklik_anlami": [
+      "Kırmızı kan hücrelerinin aşırı yıkımı (hemoliz): Orak hücre anemisi, talasemi gibi kan hastalıklarında görülebilir.",
+      "Gilbert sendromu: Karaciğerin bilirubini işleme kapasitesinde genetik bir azalma nedeniyle sık görülen, genellikle zararsız bir durumdur.",
+      "Yeni doğan sarılığı: Özellikle karaciğerin henüz tam gelişmediği bebeklerde bilirubin işleme yeteneği sınırlı olduğundan yükselir.",
+      "Karaciğer hastalıkları: Siroz, hepatit gibi karaciğerin bilirubin işleme yeteneğini bozan durumlarda artış görülebilir."
+    ],
+    "dusukluk_anlami": [
+      "İndirekt bilirubin seviyelerinin düşük olması genellikle klinik bir anlam taşımaz ve endişe verici değildir.",
+      "Bazı ilaçlar, örneğin barbitüratlar veya kafein, bilirubin seviyelerini düşürebilir.",
+      "Düşük seviyeler nadiren bir sağlık sorununa işaret eder ve çoğu durumda ileri araştırma gerektirmez."
+    ],
+    "normal_deger_notu": "Normal referans aralığı laboratuvardan laboratuvara farklılık gösterebilir, ancak genellikle yetişkinlerde 0.2 - 0.8 mg/dL (miligram/desilitre) arasında olması beklenir. Sonuçlar her zaman bir sağlık uzmanı tarafından değerlendirilmelidir.",
+    "id": "i̇ndirekt_bilirubin"
+  },
+  {
+    "test_adi": "Sodyum (Na)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Sodyum, vücuttaki su ve elektrolit dengesinin korunmasında kritik rol oynayan önemli bir mineraldir. Sinir ve kas fonksiyonları ile kan basıncının düzenlenmesinde etkilidir. Kan ve idrardaki seviyeleri, böbrek fonksiyonu, hidrasyon durumu ve bazı hormonal dengesizlikler hakkında bilgi verir.",
+    "yukseklik_anlami": [
+      "Dehidrasyon (vücut sıvı kaybı)",
+      "Yetersiz su alımı",
+      "Diyabetes insipidus gibi hormonal dengesizlikler",
+      "Bazı böbrek hastalıkları"
+    ],
+    "dusukluk_anlami": [
+      "Aşırı su tüketimi veya su zehirlenmesi",
+      "Kalp yetmezliği veya böbrek yetmezliği",
+      "Bazı diüretik ilaçların kullanımı",
+      "Karaciğer hastalıkları veya hipotiroidizm"
+    ],
+    "normal_deger_notu": "Yetişkinler için kan sodyum referans aralığı genellikle 135-145 mEq/L'dir. Laboratuvarlar ve test yöntemlerine göre küçük farklılıklar gösterebilir.",
+    "id": "sodyum_na"
+  },
+  {
+    "test_adi": "Potasyum (K)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Potasyum, vücudumuz için hayati öneme sahip bir elektrolittir. Kalp fonksiyonu, kas kasılması ve sinir sistemi işlevleri gibi birçok temel vücut sürecinde rol oynar. Kan veya idrar testiyle seviyeleri ölçülür ve dengesi vücudun sağlıklı çalışması için kritiktir.",
+    "yukseklik_anlami": "Yüksek potasyum seviyeleri (hiperkalemi) böbrek yetmezliği, adrenal yetmezlik (Addison hastalığı), bazı ilaçların (ACE inhibitörleri, potasyum tutucu diüretikler) kullanımı veya aşırı potasyum takviyesi gibi nedenlerle ortaya çıkabilir. Bu durum, kalpte ciddi ritim bozukluklarına (aritmi) yol açabilir ve acil tıbbi müdahale gerektirebilir.",
+    "dusukluk_anlami": "Düşük potasyum seviyeleri (hipokalemi) genellikle aşırı kusma, ishal, bazı idrar söktürücü ilaçların (diüretikler) kullanımı veya yetersiz beslenme gibi durumlarla ilişkilidir. Belirtileri arasında kas zayıflığı, kramp, yorgunluk ve hatta kalp ritim bozuklukları (aritmi) bulunabilir. Uzun süreli veya şiddetli düşüklükler, ciddi sağlık sorunlarına yol açabilir.",
+    "normal_deger_notu": "Referans aralığı laboratuvardan laboratuvara değişebilir; genellikle 3.5 - 5.0 mEq/L (milieşdeğer/litre) arası kabul edilir. Test sonuçlarınızın doğru yorumlanması ve tedavi planı için mutlaka doktorunuza danışınız.",
+    "id": "potasyum_k"
+  },
+  {
+    "test_adi": "Klor (Cl)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Klor, vücudun sıvı dengesini, kan basıncını ve pH seviyesini düzenleyen önemli bir elektrolittir. Genellikle sodyum ile birlikte bulunur ve suyun hücreler arasında dağılımında kritik rol oynar. Klor seviyeleri böbrekler tarafından sıkı bir şekilde kontrol edilir.",
+    "yukseklik_anlami": [
+      "Dehidrasyon (vücudun susuz kalması): Yeterli sıvı alımının olmaması veya aşırı sıvı kaybı klor seviyelerini artırabilir.",
+      "Böbrek sorunları: Böbreklerin kloru düzgün bir şekilde atamaması, seviyelerin yükselmesine neden olabilir.",
+      "Metabolik asidoz: Vücudun aşırı asit üretmesi veya böbreklerin asidi atamaması sonucu klor seviyeleri yükselebilir.",
+      "Bazı ilaçların kullanımı: Diüretikler veya kortikosteroidler gibi bazı ilaçlar klor seviyelerinde artışa yol açabilir."
+    ],
+    "dusukluk_anlami": [
+      "Şiddetli kusma veya ishal: Mide sıvılarının ve elektrolitlerin aşırı kaybı klor seviyelerini düşürebilir.",
+      "Metabolik alkaloz: Vücudun pH'ının çok alkali hale gelmesi, klor seviyelerinin düşmesine neden olabilir.",
+      "Kalp yetmezliği veya böbrek hastalıkları: Bu durumlar vücudun sıvı ve elektrolit dengesini bozarak klor seviyelerini düşürebilir.",
+      "Aşırı terleme: Özellikle sıcak havalarda veya yoğun egzersiz sırasında aşırı terleme, klor kaybına yol açabilir."
+    ],
+    "normal_deger_notu": "Normal referans aralığı laboratuvardan laboratuvara değişebilir, ancak genellikle 96-106 mmol/L arasındadır. Test sonuçları her zaman doktorunuz tarafından değerlendirilmelidir.",
+    "id": "klor_cl"
+  },
+  {
+    "test_adi": "Kalsiyum (Ca)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Kalsiyum, vücudumuzdaki en bol mineraldir ve kemik ve diş sağlığı, kas fonksiyonu, sinir iletimi ve kan pıhtılaşması gibi birçok temel vücut fonksiyonu için hayati öneme sahiptir. Kandaki seviyeleri, paratiroid hormon (PTH) ve D vitamini tarafından sıkı bir şekilde düzenlenir.",
+    "yukseklik_anlami": [
+      "Hiperparatiroidizm (paratiroid bezlerinin aşırı aktif çalışması)",
+      "Kanser (özellikle kemik metastazları veya bazı tümörlerin PTH benzeri madde üretimi)",
+      "D vitamini zehirlenmesi veya aşırı takviye kullanımı",
+      "Tiazid diüretik kullanımı",
+      "Uzun süreli yatak istirahati (immobilizasyon)"
+    ],
+    "dusukluk_anlami": [
+      "Hipoparatiroidizm (paratiroid bezlerinin yetersiz çalışması)",
+      "D vitamini eksikliği veya yetersiz emilim",
+      "Böbrek yetmezliği",
+      "Pankreatit (pankreas iltihabı)",
+      "Malabsorpsiyon sendromları (örn. Crohn hastalığı, çölyak hastalığı)",
+      "Bazı ilaçlar (örn. bifosfonatlar, kortikosteroidler)"
+    ],
+    "normal_deger_notu": "Yetişkinlerde serum kalsiyum normal değeri genellikle 8.5 - 10.5 mg/dL (veya 2.1 - 2.6 mmol/L) arasındadır. Ancak laboratuvardan laboratuvara ve kullanılan ölçüm yöntemine göre küçük farklılıklar gösterebilir. Sonuçlarınızı her zaman doktorunuzla değerlendirmelisiniz.",
+    "id": "kalsiyum_ca"
+  },
+  {
+    "test_adi": "Magnezyum (Mg)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Magnezyum, vücutta birçok enzimatik reaksiyonda rol oynayan, kas ve sinir fonksiyonları, kan şekeri kontrolü ve kan basıncının düzenlenmesi için kritik öneme sahip bir mineraldir. Bu test, vücuttaki magnezyum seviyelerini ölçmek amacıyla yapılır.",
+    "yukseklik_anlami": "Yüksek magnezyum seviyeleri (hipermagnezemi) genellikle böbrek yetmezliği, Addison hastalığı veya bazı antiasit ve laksatiflerin aşırı kullanımı gibi durumlarda görülür. Belirtiler arasında bulantı, kusma, kas güçsüzlüğü, uyuşukluk ve ciddi vakalarda kalp ritim bozuklukları veya solunum depresyonu yer alabilir. Yüksek seviyeler doktor tarafından değerlendirilmelidir.",
+    "dusukluk_anlami": "Düşük magnezyum seviyeleri (hipomagnezemi), yetersiz beslenme, alkolizm, kronik ishal, diüretik kullanımı, Crohn hastalığı gibi sindirim sistemi bozuklukları veya kontrolsüz diyabet gibi çeşitli nedenlerle ortaya çıkabilir. Semptomlar kas krampları, yorgunluk, sinirlilik, kalp çarpıntıları ve bazı durumlarda nöbetleri içerebilir. Bu durumun altında yatan nedenin belirlenmesi ve tedavi edilmesi önemlidir.",
+    "normal_deger_notu": "Magnezyumun normal referans aralığı genellikle 1.7 ila 2.2 mg/dL (0.70 ila 0.90 mmol/L) arasında değişir, ancak bu değerler laboratuvardan laboratuvara ve yaş grubuna göre farklılık gösterebilir. Test sonuçlarınızı her zaman testi yapan laboratuvarın sağladığı referans aralığına göre yorumlamalısınız. Sonuçların değerlendirilmesi için doktorunuza danışınız.",
+    "id": "magnezyum_mg"
+  },
+  {
+    "test_adi": "Fosfor (P)",
+    "kategori": "Kan / İdrar / Biyokimya",
+    "genel_aciklama": "Fosfor (P) testi, vücuttaki fosfor seviyelerini ölçer. Fosfor, kemik ve diş oluşumu, enerji üretimi, kas ve sinir fonksiyonları gibi birçok hayati biyolojik süreçte rol oynayan önemli bir mineraldir. Kalsiyum ile birlikte çalışarak vücut dengesini korur.",
+    "yukseklik_anlami": [
+      "Böbrek yetmezliği (fosforun atılamaması)",
+      "Hipoparatiroidizm (paratiroid hormonunun düşük olması)",
+      "Aşırı D vitamini alımı veya zehirlenmesi",
+      "Hücre yıkımı sendromları (örneğin tümör lizis sendromu)"
+    ],
+    "dusukluk_anlami": [
+      "Diyetle yetersiz fosfor alımı veya malnütrisyon",
+      "D vitamini eksikliği veya emilim bozukluğu (malabsorpsiyon)",
+      "Hiperparatiroidizm (paratiroid hormonunun yüksek olması)",
+      "Diyabetik ketoasidoz tedavisi",
+      "Alkolizm"
+    ],
+    "normal_deger_notu": "Normal değerler laboratuvardan laboratuvara ve yaşa göre değişiklik gösterebilir. Yetişkinler için genellikle kan serumunda 2.5 - 4.5 mg/dL (0.81 - 1.45 mmol/L) aralığı referans alınır. Sonuçların yorumlanması için her zaman doktorunuza danışınız.",
+    "id": "fosfor_p"
+  },
+  {
+    "test_adi": "Çinko (Zn)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Tıbbi açıklama",
+    "yukseklik_anlami": "En az 3 madde",
+    "dusukluk_anlami": "En az 3 madde",
+    "normal_deger_notu": "Referans aralığı",
+    "id": "cinko_zn"
+  },
+  {
+    "test_adi": "Total Kolesterol",
+    "kategori": "Kan Tahlili",
+    "genel_aciklama": "Total kolesterol, kanda bulunan yağ benzeri bir maddedir ve vücudun hücre zarı üretimi, hormon sentezi ve D vitamini oluşumu gibi birçok önemli işlevi için gereklidir. Ancak yüksek seviyeleri kalp ve damar hastalıkları riskini artırabilir.",
+    "yukseklik_anlami": "Ateroskleroz (damar sertliği) riskinin artması, kalp krizi ve inme riskinde yükselme, koroner arter hastalığı gelişimi, periferik arter hastalığı riski.",
+    "dusukluk_anlami": "Bazı karaciğer hastalıkları veya malnütrisyon (beslenme yetersizliği) gibi durumlar, hipertiroidizm (aşırı aktif tiroid bezi), kronik enfeksiyonlar veya inflamatuar hastalıklar, nadiren genetik faktörler.",
+    "normal_deger_notu": "Yetişkinler için genellikle 200 mg/dL'nin altı kabul edilir. Ancak ideal aralık yaşa, cinsiyete ve bireysel sağlık durumuna göre değişebilir ve doktor yorumu esastır.",
+    "id": "total_kolesterol"
+  },
+  {
+    "test_adi": "LDL Kolesterol (Kötü)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "LDL (Düşük Yoğunluklu Lipoprotein) kolesterol, halk arasında 'kötü kolesterol' olarak bilinir. Kolesterolü karaciğerden vücudun diğer bölgelerine taşır. Yüksek seviyeleri, atardamarlarda plak birikimine (ateroskleroz) yol açarak kalp ve damar hastalıkları riskini önemli ölçüde artırabilir.",
+    "yukseklik_anlami": [
+      "Ateroskleroz (damar sertleşmesi) riskinde artış.",
+      "Koroner arter hastalığı, kalp krizi ve inme (felç) riskinde artış.",
+      "Periferik arter hastalığı gibi dolaşım sistemi sorunlarının gelişme riski."
+    ],
+    "dusukluk_anlami": [
+      "Genellikle nadir görülür ve çoğu zaman endişe verici değildir.",
+      "Bazı genetik bozukluklar (örn. abetalipoproteinemi) veya ciddi karaciğer hastalıkları ile ilişkili olabilir.",
+      "Malnütrisyon (beslenme yetersizliği), aşırı aktif tiroid (hipertiroidizm) veya kronik iltihabi durumlar da düşük seviyelere yol açabilir."
+    ],
+    "normal_deger_notu": "Referans aralığı, laboratuvara ve kişinin yaşına, cinsiyetine, genel sağlık durumuna ve diğer risk faktörlerine göre değişebilir. Genel olarak, sağlıklı yetişkinler için <100 mg/dL (optimal) hedeflenirken, risk faktörleri olan bireyler için bu hedef daha düşük olabilir.",
+    "id": "ldl_kolesterol_kotu"
+  },
+  {
+    "test_adi": "HDL Kolesterol (İyi)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "HDL (Yüksek Yoğunluklu Lipoprotein) kolesterol, halk arasında 'iyi kolesterol' olarak bilinir. Damarlardaki fazla kolesterolü toplayarak karaciğere geri taşır ve vücuttan atılmasına yardımcı olur. Bu özelliği sayesinde damar sertliğini (ateroskleroz) önlemede önemli bir rol oynar.",
+    "yukseklik_anlami": [
+      "Yüksek HDL kolesterol seviyeleri genellikle kalp hastalığı riskinin azaldığına işaret eder.",
+      "Kalp ve damar sağlığının iyi durumda olduğunu gösterir ve damar tıkanıklığı riskini düşürür.",
+      "Düzenli egzersiz, sağlıklı beslenme ve alkolün dengeli tüketimi gibi sağlıklı yaşam tarzı seçimleriyle ilişkilendirilebilir."
+    ],
+    "dusukluk_anlami": [
+      "Düşük HDL kolesterol seviyeleri, kalp hastalığı ve ateroskleroz riskinin arttığına işaret edebilir.",
+      "Genellikle kötü yaşam tarzı (hareketsizlik, sigara, sağlıksız beslenme), obezite veya genetik faktörlerle ilişkilidir.",
+      "Metabolik sendrom, tip 2 diyabet ve yüksek trigliserit seviyeleri gibi durumlarla sıklıkla birlikte görülür."
+    ],
+    "normal_deger_notu": "HDL kolesterol için referans aralıkları laboratuvarlara, yaşa ve cinsiyete göre değişiklik gösterebilir. Genel kabul gören ideal değerler genellikle erkekler için 40 mg/dL (1.0 mmol/L) üzeri, kadınlar için ise 50 mg/dL (1.3 mmol/L) üzeri olarak kabul edilir. Daha yüksek değerler daha iyidir.",
+    "id": "hdl_kolesterol_i̇yi"
+  },
+  {
+    "test_adi": "Trigliserit",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Trigliseritler, vücudunuzda bulunan bir tür yağdır. Vücut, bunları enerji depolamak ve hücre zarlarını oluşturmak için kullanır. Besinlerle alınan yağlardan veya karaciğer tarafından üretilebilirler. Kan seviyeleri, kalp hastalığı riskini değerlendirmek için önemlidir.",
+    "yukseklik_anlami": [
+      "Ateroskleroz (damar sertleşmesi) ve dolayısıyla kalp krizi, felç riskini artırır.",
+      "Özellikle çok yüksek seviyeler (genellikle 1000 mg/dL üzeri) akut pankreas iltihabı (pankreatit) riskini önemli ölçüde yükseltir.",
+      "Metabolik sendrom, tip 2 diyabet, obezite ve hipotiroidizm (tiroid bezinin az çalışması) gibi durumlarla ilişkili olabilir."
+    ],
+    "dusukluk_anlami": [
+      "Düşük trigliserit seviyeleri genellikle klinik bir sorun olarak görülmez ve çoğunlukla belirti vermez.",
+      "Nadir durumlarda, yetersiz beslenme (malnütrisyon) veya besin emilim bozukluklarının (malabsorpsiyon) bir göstergesi olabilir.",
+      "Hipertiroidizm (tiroid bezinin aşırı çalışması) veya bazı nadir genetik metabolizma hastalıklarıyla ilişkilendirilebilir."
+    ],
+    "normal_deger_notu": "Trigliserit için normal referans aralıkları laboratuvardan laboratuvara farklılık gösterebilir. Genel olarak, açlık durumunda yetişkinler için 150 mg/dL (1.7 mmol/L) altı 'normal' kabul edilirken, 100 mg/dL (1.1 mmol/L) altı 'optimal' olarak değerlendirilir. Sonuçlarınızı her zaman doktorunuzla birlikte değerlendirmelisiniz.",
+    "id": "trigliserit"
+  },
+  {
+    "test_adi": "CK (Kreatin Kinaz)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Kreatin Kinaz (CK), özellikle iskelet kasları, kalp kası ve beyin dokusu gibi enerjiye ihtiyaç duyan hücrelerde bulunan bir enzimdir. Kas hücrelerinde hasar veya yaralanma meydana geldiğinde, CK kana sızar ve bu da kan seviyelerinde yükselmeye neden olur. CK testi genellikle kas hasarını, kas hastalıklarını, kalp krizini veya bazı nörolojik durumları değerlendirmek için kullanılır.",
+    "yukseklik_anlami": [
+      "Kas Hasarı/Yaralanması: Yoğun egzersiz, travma, cerrahi müdahale, enjeksiyonlar veya kasları etkileyen hastalıklar (miyopati, rabdomiyoliz gibi).",
+      "Kalp Krizi (Miyokard Enfarktüsü): Kalp kası hasarının bir göstergesi olarak (özellikle CK-MB izoenzimi).",
+      "Kas İltihabı (Miyozit): Enflamatuar kas hastalıkları.",
+      "Hipotiroidizm (Tiroid bezinin az çalışması): Kas metabolizmasını etkileyerek CK seviyelerini yükseltebilir.",
+      "Bazı İlaçlar: Statinler gibi kaslara yan etkisi olan ilaçlar."
+    ],
+    "dusukluk_anlami": [
+      "Düşük Kas Kütlesi: Yaşlılık, kas atrofisi veya sedanter yaşam tarzı gibi durumlarda genel kas kütlesinin azalması.",
+      "Alkolik Karaciğer Hastalığı: Karaciğer fonksiyon bozukluğu ve genel beslenme yetersizliği ile ilişkili olabilir.",
+      "Bazı Bağ Dokusu Hastalıkları: Romatoid artrit gibi kronik enflamatuar durumlar bazen düşük CK seviyelerine yol açabilir.",
+      "Gebelik: Hamilelik sırasında CK seviyelerinde fizyolojik düşüşler gözlemlenebilir."
+    ],
+    "normal_deger_notu": "Kreatin Kinaz seviyeleri için 'normal' referans aralığı, kullanılan laboratuvar yöntemine, kişinin yaşına, cinsiyetine, kas kütlesine ve etnik kökenine göre önemli ölçüde değişebilir. Genellikle erkekler için kadınlara göre daha yüksek referans aralıkları belirlenir. Test sonuçlarının mutlaka bir doktor tarafından, hastanın genel klinik durumu ve diğer laboratuvar bulguları ışığında değerlendirilmesi gerekmektedir.",
+    "id": "ck_kreatin_kinaz"
+  },
+  {
+    "test_adi": "CK-MB",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "CK-MB, kalp kasında yoğun olarak bulunan bir enzimdir. Kalp kası hücreleri hasar gördüğünde kan dolaşımına salınır. Özellikle kalp krizinin (miyokard enfarktüsü) erken teşhis ve takibinde kullanılan önemli bir biyobelirteçtir.",
+    "yukseklik_anlami": "CK-MB seviyelerinin yüksek olması, genellikle aşağıdaki durumları işaret eder:\n1.  **Akut Miyokard Enfarktüsü (Kalp Krizi):** Kalp kası hasarının en yaygın ve ciddi nedenidir. CK-MB, kalp krizi başlangıcından birkaç saat sonra yükselmeye başlar.\n2.  **Kalp Ameliyatları veya Girişimsel İşlemler:** Kalp bypass ameliyatı, anjiyoplasti gibi operasyonlar sonrası kalp kasında meydana gelen travma nedeniyle yükselebilir.\n3.  **Miyokardit veya Diğer Kalp Hasarları:** Kalp kası iltihabı (miyokardit) veya diğer ciddi kalp rahatsızlıkları da CK-MB seviyelerinde artışa yol açabilir.",
+    "dusukluk_anlami": "Düşük veya normal CK-MB seviyeleri genellikle aşağıdaki anlamlara gelir:\n1.  **Aktif Kalp Kası Hasarı Yokluğu:** Çoğu durumda, normal seviyeler aktif bir kalp krizi veya kalp kası hasarının olmadığını gösterir.\n2.  **Kalp Krizi Riskinde Azalma:** Göğüs ağrısı gibi semptomlarla başvuran bir hastada normal CK-MB değerleri, akut kalp krizi riskini düşündürebilir.\n3.  **Takipte İyileşme:** Kalp krizi geçirmiş hastalarda tedavi sonrası CK-MB seviyelerinin normale dönmesi, kalp hasarının kontrol altına alındığını ve iyileşme sürecini gösterebilir.",
+    "normal_deger_notu": "Normal değerler, laboratuvardan laboratuvara ve kullanılan analitik yönteme göre farklılık gösterebilir. Genellikle referans aralığı 0-5 ng/mL veya benzer bir değer aralığında belirlenir. Sonuçların her zaman testi yapan laboratuvarın kendi referans aralığı ve klinik bulgularla birlikte değerlendirilmesi esastır.",
+    "id": "ck_mb"
+  },
+  {
+    "test_adi": "Troponin",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Kalp kası hasarı veya stresini gösteren bir protein türüdür. Özellikle akut miyokard enfarktüsü (kalp krizi) tanısı ve risk değerlendirmesinde kullanılan önemli bir biyobelirteçtir.",
+    "yukseklik_anlami": [
+      "Akut Miyokard Enfarktüsü (Kalp Krizi)",
+      "Miyokardit (Kalp Kası İltihabı)",
+      "Akciğer Embolisi veya Ciddi Kalp Yetmezliği Gibi Kalbi Zorlayan Durumlar",
+      "Kronik Böbrek Yetmezliği (Troponinin böbrekler yoluyla atılamaması)"
+    ],
+    "dusukluk_anlami": [
+      "Akut kalp kası hasarının olmaması",
+      "Mevcut bir kalp krizinin veya ciddi akut kardiyak olayın dışlanmasına yardımcı olması",
+      "Genel olarak sağlıklı bir kalp durumu veya akut kardiyak olayın yokluğu"
+    ],
+    "normal_deger_notu": "Normal değerler laboratuvara ve kullanılan test yöntemine göre değişiklik gösterir. Sağlıklı bireylerde genellikle saptanamayacak kadar düşüktür veya belirli bir eşik değerin altındadır. Referans aralıkları için her zaman kendi laboratuvarınızın değerlerini esas alınız.",
+    "id": "troponin"
+  },
+  {
+    "test_adi": "TSH (Tiroid Stimülan Hormon)",
+    "kategori": "Kan / Hormon",
+    "genel_aciklama": "TSH, hipofiz bezi tarafından üretilen ve tiroid bezini tiroid hormonları (T3 ve T4) üretmeye teşvik eden bir hormondur. Tiroid bezinin ne kadar iyi çalıştığını anlamak için kullanılır.",
+    "yukseklik_anlami": [
+      "Yüksek TSH seviyeleri genellikle tiroid bezinin yeterli tiroid hormonu üretemediğini (hipotiroidizm) gösterir.",
+      "Vücut, daha fazla tiroid hormonu üretilmesi için tiroid bezini uyarmaya çalışır, bu da TSH seviyesinin yükselmesine neden olur.",
+      "Yorgunluk, kilo alımı, üşüme, kabızlık ve cilt kuruluğu gibi belirtilerle ilişkilidir.",
+      "Hafif veya klinik dışı hipotiroidizmde de görülebilir."
+    ],
+    "dusukluk_anlami": [
+      "Düşük TSH seviyeleri genellikle tiroid bezinin aşırı aktif olduğunu (hipertiroidizm) gösterir.",
+      "Tiroid hormonları çok fazla üretildiği için hipofiz bezi TSH salgısını azaltır.",
+      "Kilo kaybı, çarpıntı, sinirlilik, ishal ve sıcağa tahammülsüzlük gibi belirtilerle ilişkilidir.",
+      "Grave hastalığı veya tiroid bezinin iltihaplanması gibi durumlarda ortaya çıkabilir."
+    ],
+    "normal_deger_notu": "Normal TSH referans aralığı genellikle 0.4 ila 4.0 mIU/L arasında değişmekle birlikte, laboratuvardan laboratuvara ve hastanın yaşına, hamilelik durumuna göre farklılık gösterebilir. Sonuçların bir doktor tarafından değerlendirilmesi önemlidir.",
+    "id": "tsh_tiroid_stimulan_hormon"
+  },
+  {
+    "test_adi": "Serbest T3",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Serbest T3 (triiyodotironin), tiroid bezinden salgılanan aktif tiroid hormonudur. Kan dolaşımında proteinlere bağlı olmayan, biyolojik olarak aktif formudur. Vücudun metabolizma hızı, enerji üretimi ve organ fonksiyonları üzerinde doğrudan etkilidir. Tiroid fonksiyon bozukluklarını (hipertiroidi ve hipotiroidi) değerlendirmede kullanılır.",
+    "yukseklik_anlami": [
+      "Hipertiroidi: Tiroid bezinin aşırı çalışması (örneğin Graves hastalığı, toksik nodüler guatr).",
+      "Tiroidit: Tiroid bezinin iltihaplanması (özellikle akut evrelerinde).",
+      "Aşırı tiroid hormonu alımı: Tiroid hormonu tedavisi gören hastalarda doz aşımı."
+    ],
+    "dusukluk_anlami": [
+      "Hipotiroidi: Tiroid bezinin yetersiz çalışması (örneğin Haşimato tiroiditi, iyot eksikliği).",
+      "Ötiroid hasta sendromu (Sick euthyroid syndrome): Şiddetli akut veya kronik hastalıklar, açlık veya cerrahi sonrası görülebilir.",
+      "Bazı ilaçlar: Beta-blokerler, kortikosteroidler veya bazı antidepresanlar T4'ün T3'e dönüşümünü etkileyebilir."
+    ],
+    "normal_deger_notu": "Serbest T3 için referans aralıkları laboratuvardan laboratuvara ve kullanılan test yöntemine göre değişiklik gösterebilir. Yaş, cinsiyet ve fizyolojik durum gibi faktörler de sonuçları etkileyebilir. Değerlendirme her zaman bir hekim tarafından yapılmalıdır.",
+    "id": "serbest_t3"
+  },
+  {
+    "test_adi": "Serbest T4",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Tiroid bezinin ürettiği ve vücutta aktif olan T4 hormonunun serbest (bağlı olmayan) formunu ölçen bir kan testidir. Tiroid fonksiyon bozukluklarını (hipotiroidi veya hipertiroidi) teşhis etmek ve izlemek için kullanılır.",
+    "yukseklik_anlami": [
+      "Hipertiroidi (aşırı aktif tiroid bezi)",
+      "Graves hastalığı",
+      "Toksik nodüler guatr veya tek nodül",
+      "Akut tiroidit (tiroid iltihabı) erken evreleri",
+      "Tiroid hormonu ilaçlarının aşırı dozda alınması"
+    ],
+    "dusukluk_anlami": [
+      "Hipotiroidi (yetersiz aktif tiroid bezi)",
+      "Haşimoto tiroiditi (kronik otoimmün tiroidit)",
+      "İyot eksikliği",
+      "Hipofiz bezi sorunları (ikincil hipotiroidi)",
+      "Tiroid hormonu ilaçlarının yetersiz dozda alınması"
+    ],
+    "normal_deger_notu": "Normal referans aralığı laboratuvardan laboratuvara değişebilir, ancak genellikle yetişkinler için 0.8 - 1.8 ng/dL (veya 10.3 - 23.2 pmol/L) civarındadır. Sonuçlar her zaman doktor tarafından değerlendirilmelidir.",
+    "id": "serbest_t4"
+  },
+  {
+    "test_adi": "Anti-TPO (Tiroit Peroksidaz Antikoru)",
+    "kategori": "Kan / Hormon",
+    "genel_aciklama": "Anti-TPO testi, vücudun tiroit bezindeki tiroit peroksidaz enzimini hedef alan antikorları ölçer. Bu antikorların varlığı genellikle otoimmün tiroit hastalıklarının bir göstergesidir. Tiroid peroksidaz, tiroit hormonlarının üretiminde kritik bir rol oynayan bir enzimdir.",
+    "yukseklik_anlami": [
+      "Hashimoto tiroiditi: Anti-TPO antikorlarının yüksek olması, tiroit bezinin otoimmün bir saldırı sonucunda iltihaplanıp yavaşça tahrip olmasına neden olan bu hastalığın en yaygın göstergesidir.",
+      "Graves hastalığı: Tiroid bezinin aşırı aktif olmasına neden olan otoimmün bir hastalıktır. Anti-TPO antikorları bazı Graves hastalarında da yüksek çıkabilir, ancak temel antikor TSH reseptör antikorlarıdır.",
+      "Postpartum tiroidit: Doğum sonrası ortaya çıkan tiroit iltihabıdır ve genellikle Anti-TPO antikorlarının varlığı ile ilişkilidir.",
+      "Subklinik hipotiroidizm: Tiroid hormon seviyeleri henüz belirgin şekilde değişmemişken, gelecekte hipotiroidizm gelişme riskini gösterebilir."
+    ],
+    "dusukluk_anlami": [
+      "Normal tiroid fonksiyonu: Anti-TPO antikorlarının normal veya düşük seviyede olması, genellikle otoimmün tiroit hastalığı bulunmadığını gösterir.",
+      "Otoimmün tiroid hastalığı riskinin düşük olması: Tiroid bezine karşı otoimmün bir saldırının aktif olmadığına işaret edebilir.",
+      "Mevcut otoimmün tiroid hastalığının remisyon döneminde olması: Daha önce yüksek olan antikor seviyeleri tedavi veya hastalığın doğal seyri ile düşmüş olabilir."
+    ],
+    "normal_deger_notu": "Normal referans aralıkları laboratuvardan laboratuvara ve kullanılan test yöntemine göre değişiklik gösterebilir. Genellikle 35 IU/mL veya 60 IU/mL altı normal kabul edilir. Test sonuçlarının değerlendirilmesi mutlaka bir hekim tarafından yapılmalıdır.",
+    "id": "anti_tpo"
+  },
+  {
+    "test_adi": "Anti-Tg",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Anti-Tiroglobulin (Anti-Tg) antikor testi, vücudun tiroid bezi tarafından üretilen tiroglobulin proteinine karşı bağışıklık sistemi tarafından oluşturduğu antikorların seviyesini ölçer. Bu test, genellikle otoimmün tiroid hastalıklarının teşhis ve takibinde kullanılır. Tiroglobulin, tiroid hormonlarının yapımında rol oynayan bir proteindir.",
+    "yukseklik_anlami": [
+      "**Hashimoto Tiroiditi:** Tiroid bezinin otoimmün iltihaplanmasıyla seyreden ve hipotiroidizme yol açan en yaygın nedenlerden biridir.",
+      "**Graves Hastalığı:** Hipertiroidiye neden olan otoimmün bir hastalıktır; Anti-Tg antikorları bazı Graves hastalarında da yüksek bulunabilir, genellikle TSH reseptör antikorları (TRAb) ile birlikte değerlendirilir.",
+      "**Tiroid Kanseri:** Özellikle papiller veya foliküler tiroid kanseri tanısı konmuş veya tedavi sonrası takip edilen hastalarda yükselebilir. Bu antikorlar, tiroglobulin takibini zorlaştırabilir.",
+      "**Diğer Otoimmün Durumlar:** Nadiren, lupus veya romatoid artrit gibi diğer otoimmün rahatsızlıkları olan kişilerde de görülebilir."
+    ],
+    "dusukluk_anlami": [
+      "**Normal durum:** Anti-Tg antikorlarının düşük veya tespit edilemeyen seviyeleri genellikle otoimmün tiroid hastalığı olmadığını gösterir.",
+      "**Hastalık aktivitesinde azalma:** Mevcut otoimmün tiroid hastalığı olan kişilerde antikor seviyelerinin düşmesi, hastalığın remisyonda olduğunu veya aktivitesinin azaldığını gösterebilir.",
+      "**Başarılı tedavi yanıtı:** Tiroid kanseri gibi durumların tedavisi (örneğin tiroidektomi) sonrası antikor seviyelerinin azalması, tedaviye iyi yanıt verildiğinin bir göstergesi olabilir."
+    ],
+    "normal_deger_notu": "Normal değerler, kullanılan laboratuvarın referans aralığına göre değişiklik gösterir. Sonuçlar mutlaka bir doktor tarafından değerlendirilmelidir. Genellikle 'negatif' veya belirli bir eşik değerin altında olması normal kabul edilir.",
+    "id": "anti_tg"
+  },
+  {
+    "test_adi": "FSH (Folikül Uyarıcı Hormon)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "FSH, hipofiz bezinden salgılanan önemli bir gonadotropik hormondur. Kadınlarda yumurtalıkları uyararak folikül gelişimini ve östrojen üretimini sağlar, erkeklerde ise testisleri uyararak sperm üretimini teşvik eder. Üreme fonksiyonlarının değerlendirilmesinde kullanılır.",
+    "yukseklik_anlami": [
+      "Kadınlarda menopoz veya perimenopoz dönemi.",
+      "Primer over yetmezliği (yumurtalıkların görevini erken yitirmesi).",
+      "Klinefelter sendromu gibi genetik bozukluklar (erkeklerde).",
+      "Kemoterapi veya radyasyon tedavisi sonrası gonad hasarı."
+    ],
+    "dusukluk_anlami": [
+      "Hipofiz bezi yetmezliği (hipofiz bezinin az hormon üretmesi).",
+      "Hipotalamus bozuklukları (örneğin, Kallmann sendromu).",
+      "Aşırı stres, aşırı egzersiz veya yetersiz beslenme.",
+      "Polikistik Over Sendromu (bazı durumlarda)."
+    ],
+    "normal_deger_notu": "FSH referans aralığı yaşa, cinsiyete ve kadınlarda menstrüel döngünün hangi evresinde olunduğuna göre büyük ölçüde değişir. Her laboratuvarın kendi özel referans değerleri bulunmaktadır ve sonuçlar doktor tarafından yorumlanmalıdır.",
+    "id": "fsh_folikul_uyarici_hormon"
+  },
+  {
+    "test_adi": "LH (Lüteinleştirici Hormon)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Lüteinleştirici Hormon (LH), hipofiz bezinden salgılanan ve üreme sisteminde kritik rol oynayan bir gonadotropindir. Kadınlarda yumurtalıkları, erkeklerde ise testisleri etkiler. Kadınlarda ovülasyonu (yumurtlamayı) tetikler ve menstrüel döngünün luteal fazında progesteron üretimini desteklerken, erkeklerde testosteron üretimini uyarır.",
+    "yukseklik_anlami": [
+      "Kadınlarda Polikistik Over Sendromu (PCOS): Özellikle FSH'ye göre orantısız yüksek LH seviyeleri görülebilir.",
+      "Menopoz veya Erken Yumurtalık Yetmezliği: Yumurtalıkların işlevini yitirmesi sonucu hipofiz bezi daha fazla LH salgılayarak telafi etmeye çalışır.",
+      "Primer Hipogonadizm (Yumurtalık veya Testis Yetmezliği): Gonadların hormon üretememesi durumunda hipofiz bezi LH salgısını artırır.",
+      "Turner Sendromu gibi bazı genetik bozukluklar."
+    ],
+    "dusukluk_anlami": [
+      "Hipotalamus veya Hipofiz Bezi Disfonksiyonu: Hipofiz bezi veya hipotalamustan LH salgılanmasında yetersizlik (örneğin, Kallmann Sendromu).",
+      "İkincil Hipogonadizm: Hipofiz veya hipotalamus kaynaklı yetersiz LH üretimine bağlı olarak gonadal fonksiyonların bozulması.",
+      "Aşırı Stres, Aşırı Egzersiz veya Yeme Bozuklukları: Özellikle kadınlarda hormonal dengenin bozulmasına yol açabilir.",
+      "Yüksek Prolaktin Seviyeleri (Hiperprolaktinemi): LH salgısını baskılayabilir."
+    ],
+    "normal_deger_notu": "LH'nin normal referans aralıkları, kişinin yaşına, cinsiyetine, kadınlarda menstrüel döngünün evresine ve laboratuvarın kullandığı ölçüm yöntemine göre büyük farklılıklar gösterir. Elde edilen sonuçlar mutlaka bir hekim tarafından değerlendirilmelidir.",
+    "id": "lh_luteinlestirici_hormon"
+  },
+  {
+    "test_adi": "Prolaktin",
+    "kategori": "Kan Testi / Hormon Analizi",
+    "genel_aciklama": "Prolaktin, hipofiz bezi tarafından üretilen bir hormondur. Kadınlarda süt üretimini (laktasyon) sağlamakla birlikte, üreme fonksiyonları, cinsel sağlık ve bağışıklık sistemi üzerinde de etkileri vardır. Hem erkeklerde hem de kadınlarda bulunur.",
+    "yukseklik_anlami": [
+      "**Hiperprolaktinemi:** Yüksek prolaktin seviyesinin tıbbi adıdır.",
+      "**Amenore ve Galaktore:** Kadınlarda adet döngüsünün durması (amenore) ve emzirme dönemi olmaksızın süt gelmesi (galaktore).",
+      "**İnfertilite:** Hem erkeklerde hem de kadınlarda doğurganlık sorunlarına yol açabilir.",
+      "**Cinsel İstek Azalması ve Erektil Disfonksiyon:** Erkeklerde cinsel istekte düşüş ve sertleşme sorunları.",
+      "**Hipofiz Adenomu (Prolaktinoma):** Hipofiz bezindeki iyi huylu tümörler prolaktin yüksekliğinin yaygın bir nedenidir.",
+      "**Bazı İlaçların Yan Etkileri:** Antidepresanlar, antipsikotikler ve tansiyon ilaçları gibi bazı ilaçlar prolaktin seviyelerini artırabilir.",
+      "**Hipotiroidi:** Tiroid bezinin az çalışması da prolaktin seviyelerini yükseltebilir."
+    ],
+    "dusukluk_anlami": [
+      "**Hipopituitarizm:** Hipofiz bezinin yetersiz çalışması sonucu prolaktin dahil birçok hormonun üretiminde azalma.",
+      "**Sheehan Sendromu:** Özellikle doğum sonrası aşırı kan kaybına bağlı olarak hipofiz bezinin hasar görmesi.",
+      "**Belirli İlaçlar:** Dopamin agonistleri gibi bazı ilaçlar prolaktin seviyelerini düşürebilir.",
+      "**Emzirme Yetersizliği:** Doğum sonrası düşük prolaktin seviyeleri, annenin yeterince süt üretememesine neden olabilir."
+    ],
+    "normal_deger_notu": "Prolaktin için normal referans aralıkları laboratuvardan laboratuvara, kullanılan ölçüm yöntemine ve kişinin cinsiyetine (kadın/erkek), yaşına ve kadınlarda adet döngüsünün hangi aşamasında olduğuna göre değişiklik gösterir. Test sonuçları, her zaman ilgili laboratuvarın kendi referans aralığı ile birlikte değerlendirilmelidir. Stres, uyku düzeni ve egzersiz gibi faktörler de prolaktin seviyelerini etkileyebilir.",
+    "id": "prolaktin"
+  },
+  {
+    "test_adi": "Estradiol (E2)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Estradiol (E2), kadınlarda başlıca östrojen hormonu olup üreme sistemi, kemik sağlığı, kalp-damar sistemi ve beyin fonksiyonları dahil olmak üzere birçok vücut fonksiyonunda önemli rol oynar. Hem kadınlarda hem de erkeklerde bulunur ancak kadınlarda seviyeleri daha yüksektir.",
+    "yukseklik_anlami": [
+      "Kadınlarda hamilelik.",
+      "Polikistik Over Sendromu (PCOS).",
+      "Over (yumurtalık) tümörleri veya kistleri.",
+      "Östrojen takviyesi veya hormon replasman tedavisi.",
+      "Karaciğer hastalıkları."
+    ],
+    "dusukluk_anlami": [
+      "Menopoz veya perimenopoz dönemi.",
+      "Primer veya sekonder yumurtalık yetmezliği (erken menopoz).",
+      "Hipotalamus veya hipofiz bezi sorunları (hipogonadotropik hipogonadizm).",
+      "Aşırı egzersiz veya ciddi kilo kaybı.",
+      "Anoreksiya nervoza gibi yeme bozuklukları."
+    ],
+    "normal_deger_notu": "Normal değerler yaşa, cinsiyete, menstrüel döngünün evresine ve laboratuvarın kullandığı ölçüm yöntemine göre değişiklik gösterir. Sonuçlar mutlaka doktor tarafından yorumlanmalıdır.",
+    "id": "estradiol_e2"
+  },
+  {
+    "test_adi": "Progesteron",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Progesteron, kadın üreme sağlığı için kritik bir hormondur. Başlıca görevi rahmi hamileliğe hazırlamak ve hamileliği sürdürmeye yardımcı olmaktır. Ayrıca menstrüel döngünün düzenlenmesinde ve ikincil cinsel özelliklerin gelişiminde de rol oynar. Hem kadınlarda hem de erkeklerde böbrek üstü bezleri ve kadınlarda yumurtalıklar tarafından üretilir.",
+    "yukseklik_anlami": [
+      "Hamilelik: Özellikle gebeliğin ilk üç ayında ve sonrasında seviyeler doğal olarak yükselir.",
+      "Luteal kist: Yumurtalıklarda oluşan ve progesteron üreten kistler.",
+      "Bazı over tümörleri: Nadiren de olsa, bazı yumurtalık tümörleri progesteron seviyelerini artırabilir."
+    ],
+    "dusukluk_anlami": [
+      "Yumurta salımında sorunlar (anovülasyon): Yetersiz yumurtlama veya hiç yumurtlama olmaması.",
+      "Düşük veya dış gebelik riski: Hamileliğin sürdürülmesi için yeterli progesteron olmaması.",
+      "Luteal faz yetmezliği: Yumurtlama sonrası progesteron üretiminin yetersiz olması."
+    ],
+    "normal_deger_notu": "Progesteron seviyeleri, adet döngüsünün evresine, hamilelik durumuna ve kullanılan laboratuvarın referans aralıklarına göre büyük ölçüde değişiklik gösterir. Sonuçlar her zaman bir hekim tarafından değerlendirilmelidir.",
+    "id": "progesteron"
+  },
+  {
+    "test_adi": "Testosteron (Total)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Bu test, vücuttaki toplam testosteron seviyesini ölçer. Testosteron, erkeklerde testisler tarafından, kadınlarda ise yumurtalıklar ve böbrek üstü bezleri tarafından üretilen önemli bir hormondur. Vücut geliştirme, cinsel fonksiyon, kemik yoğunluğu ve genel refah gibi birçok süreçte rol oynar.",
+    "yukseklik_anlami": [
+      "Testosteron seviyelerinin yüksek olması çeşitli sağlık durumlarına işaret edebilir. Kadınlarda bu durum, polikistik over sendromu (PKOS), adrenal hiperplazi veya bazı tümörlerle ilişkili olabilir.",
+      "Erkeklerde yüksek testosteron seviyeleri, adrenal tümörler, testis tümörleri veya dışarıdan androjen takviyesi kullanımı gibi nedenlerle ortaya çıkabilir. Anabolik steroid kullanımı da en yaygın nedenlerdendir.",
+      "Semptomlar arasında kadınlarda aşırı kıllanma (hirsutizm), akne, ses kalınlaşması, adet düzensizlikleri; erkeklerde ise uyku apnesi, artan kırmızı kan hücresi sayısı (polisitemi) ve agresif davranışlar bulunabilir."
+    ],
+    "dusukluk_anlami": [
+      "Düşük testosteron seviyeleri (hipogonadizm) erkeklerde daha sık görülür ve yaşlanma, testislerin yeterince hormon üretememesi (primer hipogonadizm) veya beyindeki hipofiz/hipotalamus bezlerinin sorunları (sekonder hipogonadizm) gibi nedenlerden kaynaklanabilir.",
+      "Kadınlarda düşük testosteron, adrenal yetmezlik, yumurtalık fonksiyon bozuklukları veya menopoz sonrası dönemde görülebilir. Düşük seviyeler cinsel isteksizlik ve enerji kaybıyla ilişkilendirilebilir.",
+      "Erkeklerde görülen belirtiler arasında düşük libido, erektil disfonksiyon, yorgunluk, kas kütlesi ve gücünde azalma, kemik yoğunluğu kaybı (osteoporoz), ruh hali değişiklikleri ve depresyon yer alabilir."
+    ],
+    "normal_deger_notu": "Testosteron seviyeleri yaşa, cinsiyete ve kullanılan laboratuvar metoduna göre değişiklik gösterir. Genellikle erkekler için 300-1000 ng/dL, kadınlar için ise 15-70 ng/dL aralığı normal kabul edilir. Ancak bu aralıklar laboratuvardan laboratuvara değişebilir. Kesin referans aralığı için lütfen laboratuvar raporunuzdaki değerlere başvurunuz.",
+    "id": "testosteron_total"
+  },
+  {
+    "test_adi": "Kortisol",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Kortizol, böbreküstü bezleri tarafından üretilen bir steroid hormondur. Vücudun stresle başa çıkmasına, metabolizmayı düzenlemesine, enflamasyonu azaltmasına ve bağışıklık sistemini kontrol etmesine yardımcı olur. Genellikle 'stres hormonu' olarak bilinir ve seviyeleri gün içinde dalgalanma gösterir.",
+    "yukseklik_anlami": [
+      "Cushing sendromu (vücudun aşırı kortizol üretimi)",
+      "Şiddetli fiziksel veya duygusal stres",
+      "Böbreküstü bezlerinde veya hipofiz bezinde tümörler",
+      "Uzun süreli kortikosteroid ilaç kullanımı"
+    ],
+    "dusukluk_anlami": [
+      "Addison hastalığı (böbreküstü bezlerinin yeterince kortizol üretememesi)",
+      "Hipofiz bezinin işlev bozukluğu (sekonder adrenal yetmezlik)",
+      "Uzun süreli kortikosteroid tedavisinin aniden kesilmesi"
+    ],
+    "normal_deger_notu": "Kortizol seviyeleri gün içinde değişiklik gösterir; genellikle sabah en yüksek, akşam ise en düşüktür. Normal değerler laboratuvardan laboratuvara ve kullanılan ölçüm yöntemine göre farklılık gösterebilir. Test sonuçları, her zaman ilgili laboratuvarın referans aralıkları doğrultusunda değerlendirilmelidir.",
+    "id": "kortisol"
+  },
+  {
+    "test_adi": "Beta-HCG (Gebelik)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Beta-HCG (Human Chorionic Gonadotropin), plasenta tarafından gebelik sırasında üretilen bir hormondur. Bu hormonun seviyeleri gebeliğin erken dönemlerinde hızla yükselir. Kan testiyle ölçülerek gebeliğin varlığı, tahmini haftası ve olası bazı gebelik komplikasyonları veya dış gebelik gibi durumların değerlendirilmesinde kullanılır.",
+    "yukseklik_anlami": [
+      "Gebelik (en yaygın ve normal durum).",
+      "Çoğul gebelik (ikiz, üçüz gibi durumlarda Beta-HCG seviyeleri genellikle daha yüksektir).",
+      "Mol gebeliği (anormal bir gebelik türü veya trofoblastik hastalık).",
+      "Bazı nadir trofoblastik tümörler (plasentadan kaynaklanan tümörler)."
+    ],
+    "dusukluk_anlami": [
+      "Gebeliğin olmaması veya testin çok erken yapılması (gebeliğin henüz tespit edilemeyecek kadar erken olması).",
+      "Gebelik haftasının yanlış hesaplanması (gerçek gebelik haftasının beklenenden daha az olması).",
+      "Düşük tehdidi veya düşük (gebeliğin sonlanma riski veya sonlanması).",
+      "Dış gebelik (Beta-HCG seviyeleri artabilir ancak normal gebelikteki gibi hızla yükselmez veya düşüş gösterebilir).",
+      "Anormal veya sağlıklı ilerlemeyen bir gebelik."
+    ],
+    "normal_deger_notu": "Gebelik dışı durumlarda Beta-HCG seviyesi genellikle 5 mIU/mL'nin altındadır. Gebelik sırasında ise değerler gebelik haftasına göre büyük farklılıklar gösterir ve laboratuvarlar arasında referans aralıkları küçük farklılıklar içerebilir. Sonuçlar her zaman klinik durum ve gebelik yaşı ile birlikte değerlendirilmelidir.",
+    "id": "beta_hcg_gebelik"
+  },
+  {
+    "test_adi": "Demir (Serum)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Demir, kanımızdaki hemoglobinin önemli bir bileşenidir ve oksijenin vücut dokularına taşınmasında kritik bir rol oynar. Ayrıca enerji üretimi ve bağışıklık sistemi fonksiyonları için de gereklidir. Serum demir seviyeleri, vücudun demir depolarını ve metabolizmasını yansıtır.",
+    "yukseklik_anlami": [
+      "Hemokromatoz: Vücutta genetik olarak aşırı demir birikimi.",
+      "Tekrarlayan kan transfüzyonları: Sık kan nakilleri demir yüklenmesine neden olabilir.",
+      "Hepatit veya diğer karaciğer hastalıkları: Karaciğer hasarı demir metabolizmasını bozabilir.",
+      "Bazı anemi türleri: Özellikle hemolitik anemilerde demir serbestleşmesi artabilir."
+    ],
+    "dusukluk_anlami": [
+      "Demir eksikliği anemisi: En yaygın neden olup, vücutta yeterli demir olmaması sonucu oluşur.",
+      "Kan kaybı: Kronik kan kaybı (adet kanamaları, mide-bağırsak kanamaları) demir depolarını tüketir.",
+      "Yetersiz demir alımı: Diyetle yetersiz demir alımı (özellikle vejetaryen/vegan beslenme).",
+      "Emilim bozuklukları: Çölyak hastalığı gibi demirin bağırsaklardan emilimini engelleyen durumlar.",
+      "Gebelik: Artan demir ihtiyacı nedeniyle demir seviyeleri düşebilir."
+    ],
+    "normal_deger_notu": "Referans aralıkları laboratuvardan laboratuvara değişebilir. Sonuçlar, yaş, cinsiyet ve diğer tıbbi durumlar göz önünde bulundurularak doktor tarafından yorumlanmalıdır. Genel olarak yetişkinler için normal serum demir aralığı 60-170 µg/dL (mikrogram/desilitre) civarındadır.",
+    "id": "demir_serum"
+  },
+  {
+    "test_adi": "Demir Bağlama Kapasitesi (TDBK)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "TDBK, vücudun demiri taşıma potansiyelini ölçen bir kan testidir. Kandaki serbest demir ile demire bağlanabilen proteinlerin (özellikle transferrin) toplam miktarını gösterir. Genellikle demir eksikliği veya fazlalığı durumlarını değerlendirmek için kullanılır.",
+    "yukseklik_anlami": [
+      "Demir eksikliği anemisi: Vücutta yeterli demir bulunmadığında, daha fazla transferrin demir bağlamaya hazır hale gelir.",
+      "Gebelik: Artan demir ihtiyacı ve hormonal değişiklikler nedeniyle TDBK seviyeleri yükselebilir.",
+      "Akut kan kaybı: Vücudun demir depolarını yenileme çabasıyla TDBK artabilir.",
+      "Oral kontraseptif kullanımı: Bazı hormonal ilaçlar transferrin üretimini artırabilir."
+    ],
+    "dusukluk_anlami": [
+      "Kronik hastalık anemisi: Enflamatuar durumlar transferrin üretimini azaltabilir veya demirin transferrine bağlanmasını engelleyebilir.",
+      "Hemokromatoz: Vücutta aşırı demir birikimi olduğunda, transferrin zaten doymuş hale gelir ve TDBK düşük çıkar.",
+      "Siroz / Karaciğer hastalığı: Karaciğer transferrin ürettiği için, karaciğer hasarı TDBK seviyelerini düşürebilir.",
+      "Böbrek yetmezliği (nefrotik sendrom): Böbreklerden protein kaybı (transferrin dahil) TDBK'nın düşmesine neden olabilir.",
+      "Malnütrisyon: Yetersiz beslenme durumlarında protein sentezi bozulduğu için TDBK düşebilir."
+    ],
+    "normal_deger_notu": "Normal değerler laboratuvardan laboratuvara ve kullanılan yönteme göre değişiklik gösterebilir. Bu nedenle, sonuçlarınızın yorumlanması için her zaman kendi laboratuvarınızın referans aralıklarına başvurmanız önemlidir. Genel olarak yetişkinler için 250-450 µg/dL aralığı yaygın kabul görmüştür.",
+    "id": "demir_baglama_kapasitesi_tdbk"
+  },
+  {
+    "test_adi": "Folat (Folik Asit)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Folat (Folik Asit) testi, vücuttaki folat seviyesini ölçen bir kan testidir. Folat, DNA sentezi, hücre bölünmesi ve sağlıklı kırmızı kan hücrelerinin üretimi için hayati öneme sahip bir B vitaminidir. Genellikle anemi teşhisinde veya nöral tüp defektleri riskini değerlendirmede kullanılır.",
+    "yukseklik_anlami": [
+      "B12 vitamini eksikliği (B12 olmadan folat tuzağı oluşabilir)",
+      "Aşırı folat takviyesi alımı",
+      "Bazı nadir metabolik bozukluklar"
+    ],
+    "dusukluk_anlami": [
+      "Yetersiz beslenme (folat açısından fakir diyet)",
+      "Malabsorpsiyon sendromları (örn: çölyak hastalığı, Crohn hastalığı)",
+      "Artan folat ihtiyacı (örn: gebelik, emzirme, kanser, hemolitik anemi)",
+      "Alkolizm",
+      "Bazı ilaçların kullanımı (örn: metotreksat)"
+    ],
+    "normal_deger_notu": "Referans aralıkları laboratuvardan laboratuvara farklılık gösterebilir. Sonuçlarınızın klinik anlamını doktorunuzla görüşmeniz önemlidir.",
+    "id": "folat_folik_asit"
+  },
+  {
+    "test_adi": "Vitamin D (25-OH)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "D vitamini (25-OH) testi, vücuttaki D vitamini seviyesini ölçmek için kullanılan yaygın bir kan testidir. D vitamini, kemik sağlığı, bağışıklık sistemi fonksiyonları ve kalsiyum emilimi için kritik öneme sahiptir.",
+    "yukseklik_anlami": [
+      "D Vitamini Toksisitesi (Hipervitaminoz D): Genellikle aşırı D vitamini takviyesi alımına bağlı olarak ortaya çıkar.",
+      "Hiperkalsemi: Yüksek D vitamini seviyeleri, kalsiyum emilimini artırarak kan kalsiyum seviyelerinin yükselmesine (hiperkalsemi) neden olabilir. Bu durum böbrek taşı, kalp ritim bozuklukları ve kas zayıflığına yol açabilir.",
+      "Bazı Granülomatöz Hastalıklar: Sarkoidoz gibi bazı hastalıklar, vücudun D vitaminini aktif forma dönüştürme yeteneğini artırarak yüksek seviyelere yol açabilir."
+    ],
+    "dusukluk_anlami": [
+      "Kemik Problemleri: Çocuklarda raşitizm, yetişkinlerde osteomalazi (kemik yumuşaması) ve osteoporoz (kemik erimesi) riskini artırır.",
+      "Bağışıklık Sistemi Zayıflığı: Düşük D vitamini seviyeleri, enfeksiyonlara karşı direncini azaltarak bağışıklık sistemini zayıflatabilir.",
+      "Kas Güçsüzlüğü ve Ağrıları: Kas fonksiyonlarını etkileyerek kas zayıflığına, kramplara ve kronik ağrılara neden olabilir.",
+      "Kronik Hastalık Riski: Diyabet, kalp hastalıkları, bazı kanser türleri ve otoimmün hastalıklar gibi çeşitli kronik hastalıklarla ilişkilendirilmiştir."
+    ],
+    "normal_deger_notu": "Referans aralığı laboratuvara, kullanılan yönteme ve yaşa göre değişiklik gösterebilir. Genel olarak, D vitamini seviyesinin 20-30 ng/mL arası yeterli, 30 ng/mL üzeri optimal kabul edilirken, 20 ng/mL altı eksiklik olarak değerlendirilir.",
+    "id": "vitamin_d_25_oh"
+  },
+  {
+    "test_adi": "CRP (C-Reaktif Protein)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "C-Reaktif Protein (CRP), vücutta iltihaplanma, enfeksiyon veya doku hasarı olduğunda karaciğer tarafından üretilen bir akut faz reaktanıdır. Bu test, vücuttaki inflamasyon seviyesini ölçerek birçok sağlık durumunun teşhis ve takibine yardımcı olur. Aynı zamanda kalp hastalığı riskini değerlendirmede de (yüksek duyarlılıklı CRP - hs-CRP) kullanılabilir.",
+    "yukseklik_anlami": [
+      "Bakteriyel, viral veya fungal enfeksiyonlar gibi akut enfeksiyonlar.",
+      "Romatoid artrit, lupus, inflamatuar bağırsak hastalığı gibi kronik iltihabi hastalıklar.",
+      "Ameliyat, travma, kalp krizi gibi durumlara bağlı doku hasarı ve nekroz.",
+      "Bazı kanser türleri ve otoimmün hastalıklar.",
+      "Obezite ve metabolik sendrom gibi inflamasyonla ilişkili durumlar."
+    ],
+    "dusukluk_anlami": [
+      "Genellikle vücutta aktif bir iltihaplanma veya enfeksiyon olmadığını gösterir.",
+      "Normal veya referans aralığında kabul edilir ve çoğu zaman özel bir klinik anlam taşımaz.",
+      "Yüksek olan CRP düzeylerinin tedaviye yanıt olarak veya iyileşme sürecinde düştüğünü gösterir."
+    ],
+    "normal_deger_notu": "CRP'nin normal referans aralıkları laboratuvardan laboratuvara ve kullanılan ölçüm yöntemine göre değişiklik gösterebilir. Genellikle 1.0 mg/L veya 3.0 mg/L altındaki değerler normal kabul edilir. Yüksek duyarlılıklı CRP (hs-CRP) için ise kardiyovasküler risk değerlendirmesinde farklı eşik değerleri kullanılır ve bu değerler risk kategorilerini belirler.",
+    "id": "crp_c_reaktif_protein"
+  },
+  {
+    "test_adi": "Sedimantasyon (ESR)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Eritrosit sedimantasyon hızı (ESR) testi, kanınızdaki kırmızı kan hücrelerinin bir tüpün dibine ne kadar hızlı çöktüğünü ölçer. Bu hız, vücudunuzdaki iltihaplanma seviyesini gösterir ve çeşitli hastalıkların teşhis veya izlenmesinde yardımcı olabilir. Bir hastalık için spesifik bir test olmamakla birlikte, iltihabi durumların genel bir göstergesidir.",
+    "yukseklik_anlami": [
+      "İltihaplanma veya enfeksiyonlar (romatoid artrit, lupus, tüberküloz, zatürre vb.)",
+      "Otoimmün hastalıklar",
+      "Anemi (kansızlık)",
+      "Bazı kanser türleri (lenfoma, miyelom)",
+      "Doku hasarı veya travma"
+    ],
+    "dusukluk_anlami": [
+      "Orak hücre anemisi (kırmızı kan hücrelerinin şekli çökelmeyi zorlaştırır)",
+      "Polisitemi (kırmızı kan hücresi sayısının aşırı artması, kanın yoğunlaşması)",
+      "Konjestif kalp yetmezliği",
+      "Yüksek beyaz kan hücresi sayısı (lökositoz)",
+      "Aşırı yüksek kan şekeri (hiperglisemi)"
+    ],
+    "normal_deger_notu": "Normal değerler yaşa ve cinsiyete göre değişir. Genel olarak: Erkekler için: 0-15 mm/saat (50 yaş altı), 0-20 mm/saat (50 yaş üstü); Kadınlar için: 0-20 mm/saat (50 yaş altı), 0-30 mm/saat (50 yaş üstü). Referans aralıkları laboratuvardan laboratuvara farklılık gösterebilir.",
+    "id": "sedimantasyon_esr"
+  },
+  {
+    "test_adi": "ASO (Antistreptolizin O)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "ASO testi, A Grubu Beta Hemolitik Streptokok enfeksiyonlarının (örneğin boğaz enfeksiyonu) varlığını veya yakın zamanda geçirilmiş bir enfeksiyonu tespit etmek için kullanılan bir kan testidir. Vücudun bu bakteriye karşı ürettiği antikor seviyesini ölçer ve özellikle romatizmal ateş veya post-streptokoksik glomerulonefrit gibi komplikasyon riskini değerlendirmede yardımcı olur.",
+    "yukseklik_anlami": [
+      "Akut romatizmal ateş (ARF) varlığı veya riskinde artış.",
+      "Akut post-streptokoksik glomerulonefrit (APSGN) varlığı veya riskinde artış.",
+      "Yakın zamanda geçirilmiş streptokoksik farenjit, tonsillit, impetigo veya erizipel gibi streptokok enfeksiyonu.",
+      "Subakut bakteriyel endokardit gibi bazı enfeksiyonlar (daha nadir)."
+    ],
+    "dusukluk_anlami": [
+      "Streptokok enfeksiyonu geçirilmemiş olması.",
+      "Geçirilmiş bir streptokok enfeksiyonunun üzerinden uzun zaman geçmiş olması ve antikor seviyelerinin düşmüş olması.",
+      "Enfeksiyonun erken döneminde test yapılması (antikorların yükselmesi 1-2 hafta sürebilir).",
+      "Antibiyotik tedavisi nedeniyle enfeksiyonun başarıyla tedavi edilmiş olması."
+    ],
+    "normal_deger_notu": "Normal değerler laboratuvardan laboratuvara değişmekle birlikte, yetişkinler için genellikle <200 IU/mL veya Todd Ünitesi/mL, çocuklarda ise <100-150 IU/mL olarak kabul edilir. Yüksek bir ASO değeri tek başına tanı koydurmaz; hastanın klinik durumu ve diğer test sonuçlarıyla birlikte değerlendirilmelidir. Antikor seviyelerindeki yükselme veya düşüş eğilimi daha önemli bir göstergedir.",
+    "id": "aso_antistreptolizin_o"
+  },
+  {
+    "test_adi": "RF (Romatoid Faktör)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Romatoid Faktör (RF), bağışıklık sisteminin vücudun kendi dokularına saldırması sonucu üretilen antikorları ölçen bir kan testidir. Özellikle romatoid artrit gibi otoimmün hastalıkların tanısında ve takibinde kullanılır.",
+    "yukseklik_anlami": [
+      "Romatoid Artrit (RA): RF'nin yüksekliği, genellikle romatoid artrit için önemli bir göstergedir, ancak tek başına tanı koymak için yeterli değildir.",
+      "Sjögren Sendromu: Diğer otoimmün bağ dokusu hastalıkları, özellikle Sjögren sendromu ile de ilişkilendirilebilir.",
+      "Kronik Enfeksiyonlar: Bazı kronik enfeksiyonlar (tüberküloz, hepatit C) veya kanser türleri de RF seviyesini yükseltebilir.",
+      "Sağlıklı Bireylerde Yükseklik: Yaşlı sağlıklı bireylerde veya hafif enfeksiyonlarda da düşük seviyelerde RF pozitifliği görülebilir."
+    ],
+    "dusukluk_anlami": [
+      "Normal Sınırlar İçinde Olmak: RF değerinin referans aralığında olması veya negatif çıkması, çoğu zaman romatoid artrit veya diğer ilişkili otoimmün hastalıkların aktif olmadığını gösterir.",
+      "Otoimmün Hastalık Riskinin Düşüklüğü: Düşük veya negatif RF seviyesi, romatoid artrit veya Sjögren sendromu gibi RF ile ilişkili otoimmün hastalıklara yakalanma riskinin düşük olduğunu düşündürür.",
+      "Tedavi Yanıtı: Mevcut bir romatoid artrit hastasında tedavi sonrası RF seviyesinin düşmesi, tedavinin etkili olduğunu ve hastalığın kontrol altına alındığını gösterebilir."
+    ],
+    "normal_deger_notu": "Referans aralığı laboratuvara göre değişiklik gösterebilir; genellikle <14 IU/mL veya <20 IU/mL gibi değerler normal kabul edilir. Test sonuçları her zaman klinik bulgular ve diğer laboratuvar testleri ile birlikte bir doktor tarafından değerlendirilmelidir.",
+    "id": "rf_romatoid_faktor"
+  },
+  {
+    "test_adi": "PT (Protrombin Zamanı)",
+    "kategori": "Kan Testi",
+    "genel_aciklama": "Protrombin Zamanı (PT) testi, kanın pıhtılaşması için geçen süreyi ölçen bir laboratuvar testidir. Özellikle pıhtılaşmanın dışsal yolunu ve ortak yolunu değerlendirir. Karaciğer fonksiyonunu, K vitamini durumunu ve kan sulandırıcı warfarin (Coumadin) gibi ilaçların etkisini izlemek amacıyla yaygın olarak kullanılır.",
+    "yukseklik_anlami": [
+      "**Warfarin (Coumadin) Kullanımı**: Aşırı dozda warfarin veya ilacın etkisinin çok güçlü olması, pıhtılaşma süresini uzatarak kanama riskini artırır.",
+      "**Karaciğer Hastalıkları**: Karaciğer, pıhtılaşma faktörlerinin çoğunu üretir. Siroz, hepatit gibi karaciğer hasarları, bu faktörlerin üretimini azaltarak PT süresini uzatabilir.",
+      "**K Vitamini Eksikliği**: K vitamini, bazı pıhtılaşma faktörlerinin (Faktör II, VII, IX, X) sentezi için gereklidir. Eksikliği PT süresini uzatır. Bağırsak emilim sorunları veya yetersiz beslenme buna neden olabilir.",
+      "**Pıhtılaşma Faktörü Eksiklikleri**: Özellikle Faktör VII eksikliği, PT süresini belirgin şekilde uzatır."
+    ],
+    "dusukluk_anlami": [
+      "**K Vitamini Takviyesi veya Yüksek Alımı**: Diyetle veya takviye olarak yüksek K vitamini alımı, pıhtılaşma faktörlerinin üretimini artırarak PT süresini kısaltabilir.",
+      "**Bazı İlaçlar**: Barbitüratlar veya rifampin gibi bazı ilaçlar, karaciğer enzimlerini etkileyerek pıhtılaşma faktörlerinin sentezini artırabilir ve PT'yi kısaltabilir.",
+      "**Yaygın Damar İçi Pıhtılaşma (DIC) Erken Evre**: Nadiren, DIC'nin erken evrelerinde aşırı pıhtılaşma aktivitesi nedeniyle pıhtılaşma faktörlerinin tüketilmesi öncesinde kısa bir PT görülebilir.",
+      "**Yüksek Pıhtılaşma Faktörü Seviyeleri**: Akut tromboz durumlarında veya bazı genetik faktörler nedeniyle pıhtılaşma faktörlerinin normalden yüksek olması PT süresini kısaltabilir."
+    ],
+    "normal_deger_notu": "Normal değerler laboratuvara göre değişiklik göstermekle birlikte, genellikle 11.0 - 13.5 saniye aralığındadır. Warfarin kullanan hastalar için Uluslararası Normalleştirilmiş Oran (INR) değeri izlenir ve genellikle 2.0 - 3.0 arasında olması hedeflenir.",
+    "id": "pt_protrombin_zamani"
+  },
+  {
+    "test_adi": "INR",
+    "kategori": "Kan / Pıhtılaşma",
+    "genel_aciklama": "INR (Uluslararası Normalleştirilmiş Oran), kanın pıhtılaşma süresini ölçen bir testtir. Özellikle kan sulandırıcı (antikoagülan) ilaç kullanan hastaların tedavi etkinliğini ve güvenliğini takip etmek amacıyla kullanılır.",
+    "yukseklik_anlami": [
+      "Kanın normalden daha yavaş pıhtılaştığı anlamına gelir.",
+      "Kontrolsüz kanama riskinin (burun kanaması, diş eti kanaması, morarma veya iç kanama) arttığını gösterir.",
+      "Antikoagülan ilaç dozunun çok yüksek olabileceğini düşündürür.",
+      "Karaciğer hastalığı, K vitamini eksikliği veya bazı ilaç etkileşimleri gibi altta yatan başka nedenlere işaret edebilir."
+    ],
+    "dusukluk_anlami": [
+      "Kanın normalden daha hızlı pıhtılaştığı anlamına gelir.",
+      "Tromboz (kan pıhtısı oluşumu) riskinin arttığını gösterir.",
+      "Antikoagülan ilaç dozunun yetersiz olabileceğini düşündürür veya hasta ilacı düzenli almamış olabilir.",
+      "K vitamini takviyesi, bazı yiyecekler veya diğer ilaçların pıhtılaşma üzerindeki etkisi sonucu ortaya çıkabilir."
+    ],
+    "normal_deger_notu": "Sağlıklı, antikoagülan kullanmayan bireyler için referans aralığı genellikle 0.8 - 1.2 arasıdır. Kan sulandırıcı ilaç kullanan hastalar için tedaviye özel hedef INR aralıkları belirlenir (örneğin, 2.0 - 3.0 veya 2.5 - 3.5 gibi). Bu aralıklar hastanın tıbbi durumuna ve kullanılan ilaca göre değişiklik gösterir.",
+    "id": "inr"
+  },
+  {
+    "test_adi": "Ferritin (Demir Deposu)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Ferritin, vücudunuzdaki demirin depolanmış halini gösteren bir proteinidir. Demir, kırmızı kan hücrelerinin oksijen taşıması için elzemdir. Ferritin seviyeleri, vücudun demir depoları hakkında önemli bilgi verir ve demir eksikliği veya fazlalığını saptamak için kullanılır.",
+    "yukseklik_anlami": [
+      "Vücutta aşırı demir birikimi (Hemokromatoz gibi genetik hastalıklar)",
+      "Kronik enflamatuar durumlar ve enfeksiyonlar (Romatoid artrit, SLE, kronik hepatit gibi)",
+      "Karaciğer hastalıkları (Yağlı karaciğer, alkolik karaciğer hastalığı, hepatit)",
+      "Bazı kanser türleri (Özellikle lösemi, lenfoma)"
+    ],
+    "dusukluk_anlami": [
+      "Demir eksikliği anemisi veya demir eksikliği (anemi öncesi dönem)",
+      "Yetersiz demir alımı (Dengesiz beslenme, vejetaryen/vegan diyetler)",
+      "Kan kaybı (Aşırı adet kanamaları, sindirim sistemi kanamaları, ameliyatlar)",
+      "Gebelik (artan demir ihtiyacı nedeniyle)",
+      "Emilim bozuklukları (Çölyak hastalığı, gastrik bypass sonrası durumlar)"
+    ],
+    "normal_deger_notu": "Normal ferritin değerleri laboratuvarlara ve kullanılan test yöntemlerine göre farklılık gösterebilir. Genellikle yetişkin erkekler için 20-250 ng/mL, yetişkin kadınlar için 10-120 ng/mL aralığında kabul edilir. Hamilelik, yaş ve diğer faktörler bu değerleri etkileyebilir. Değerlendirme için mutlaka doktorunuza danışınız.",
+    "id": "ferritin_demir_deposu"
+  },
+  {
+    "test_adi": "Vitamin B12",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Tıbbi açıklama",
+    "yukseklik_anlami": "En az 3 madde",
+    "dusukluk_anlami": "En az 3 madde",
+    "normal_deger_notu": "Referans aralığı",
+    "id": "vitamin_b12"
+  },
+  {
+    "test_adi": "aPTT",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "aPTT (aktive parsiyel tromboplastin zamanı), kanın pıhtılaşma yeteneğini değerlendiren bir kan testidir. Özellikle intrinsik ve ortak pıhtılaşma yollarındaki faktörleri (Faktör VIII, IX, XI, XII) ve kısmen Faktör II, V ve X'u inceler.",
+    "yukseklik_anlami": [
+      "Pıhtılaşma faktörü eksiklikleri (örn. Hemofili A, B veya von Willebrand hastalığı)",
+      "Karaciğer hastalıkları (pıhtılaşma faktörlerinin sentezinin bozulması)",
+      "Varfarin veya heparin gibi antikoagülan ilaç kullanımı",
+      "Dissemine İntravasküler Koagülasyon (DİK) (ileri evrelerinde)"
+    ],
+    "dusukluk_anlami": [
+      "Akut faz reaktanlarının veya inflamasyonun varlığı (hiperkoagülasyon eğilimi)",
+      "Gebelik veya oral kontraseptif kullanımı (pıhtılaşma faktörlerinde artış)",
+      "Yaygın kanser türleri (özellikle adenokarsinomlar) ve tromboemboli riski",
+      "Ciddi yanıklar veya travma sonrası hiperkoagülasyon durumları"
+    ],
+    "normal_deger_notu": "Normal referans aralığı genellikle 25-35 saniye arasındadır; ancak, kullanılan reaktiflere ve laboratuvara göre değişiklik gösterebilir. Laboratuvarınızın spesifik referans aralığını kontrol etmek önemlidir.",
+    "id": "aptt"
+  },
+  {
+    "test_adi": "Fibrinojen",
+    "kategori": "Kan / Pıhtılaşma Faktörü",
+    "genel_aciklama": "Fibrinojen, karaciğerde üretilen ve kan pıhtılaşması sürecinde kritik bir rol oynayan bir proteindir. Yaralanma durumunda, fibrinojenin fibrin'e dönüşmesiyle kanamanın durdurulmasına yardımcı olan bir pıhtı ağı oluşur. Bu test, kanın pıhtılaşma yeteneğini değerlendirmek ve pıhtılaşma bozukluklarını tespit etmek için kullanılır.",
+    "yukseklik_anlami": [
+      "Akut enfeksiyonlar veya inflamasyon (akut faz reaktanlarından biri olduğu için)",
+      "Kalp hastalığı riski (koroner arter hastalığı, felç riski gibi)",
+      "Sigara kullanımı, obezite ve yaşlanma",
+      "Gebelik ve bazı kanser türleri"
+    ],
+    "dusukluk_anlami": [
+      "Karaciğer hastalığı (siroz gibi, fibrinojenin üretimi etkilendiği için)",
+      "Dissemine İntravasküler Koagülasyon (DİK), yaygın pıhtılaşma ve tüketim sendromu",
+      "Kalıtsal fibrinojen eksiklikleri (afibrinojenemi, hipofibrinojenemi, disfibrinojenemi)",
+      "Ciddi kanamalar veya aşırı kan transfüzyonları sonrası dilüsyon etkisi"
+    ],
+    "normal_deger_notu": "Yetişkinlerde normal fibrinojen seviyeleri genellikle 200 ila 400 mg/dL (veya 2.0 ila 4.0 g/L) arasındadır. Ancak laboratuvara, kullanılan yönteme ve hastanın yaşına/durumuna göre referans aralıkları farklılık gösterebilir. Sonuçlar her zaman klinik tablo ve diğer testlerle birlikte değerlendirilmelidir.",
+    "id": "fibrinojen"
+  },
+  {
+    "test_adi": "D-Dimer",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "D-Dimer, vücutta bir kan pıhtısı oluştuğunda ve daha sonra çözüldüğünde ortaya çıkan bir protein parçacığıdır. Genellikle derin ven trombozu (DVT) ve pulmoner emboli (PE) gibi pıhtılaşma bozukluklarını dışlamak veya teşhisine yardımcı olmak için kullanılır.",
+    "yukseklik_anlami": [
+      "Derin ven trombozu (DVT) veya pulmoner emboli (PE) gibi aktif kan pıhtısı varlığı.",
+      "Yaygın damar içi pıhtılaşma (DIC), sepsis veya ciddi enfeksiyonlar.",
+      "Yakın zamanda geçirilmiş cerrahi operasyon, travma veya inme.",
+      "Gebelik, bazı kanser türleri ve karaciğer hastalıkları."
+    ],
+    "dusukluk_anlami": [
+      "Genellikle derin ven trombozu (DVT) veya pulmoner emboli (PE) gibi akut pıhtılaşma olaylarının yokluğunu gösterir.",
+      "Pıhtılaşma bozuklukları açısından düşük risk taşınması.",
+      "Vücutta önemli bir pıhtı oluşumu ve çözünmesinin olmadığı durumu işaret eder."
+    ],
+    "normal_deger_notu": "Referans aralığı laboratuvardan laboratuvara ve kullanılan test yöntemine göre değişiklik gösterir. Çoğu laboratuvarda < 500 ng/mL FEU (Fibrinojen Eşdeğeri Ünite) veya < 0.5 µg/mL olarak kabul edilir. Sonuçlarınızı her zaman doktorunuzla değerlendirmelisiniz.",
+    "id": "d_dimer"
+  },
+  {
+    "test_adi": "İdrar Rengi",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "İdrar rengi, genellikle vücudun hidrasyon durumu, beslenme alışkanlıkları ve bazı sağlık koşulları hakkında bilgi veren önemli bir göstergedir.",
+    "yukseklik_anlami": "Susuzluk belirtisi olabilir. Bazı ilaçların veya besin takviyelerinin kullanımına bağlı olabilir. Karaciğer hastalıkları (örneğin hepatit) veya böbrek rahatsızlıkları gibi ciddi tıbbi durumlara işaret edebilir.",
+    "dusukluk_anlami": "Aşırı sıvı alımına bağlı olabilir. Diüretik ilaçların etkisiyle görülebilir. Diyabet insipidus gibi hormonal dengesizliklerin bir belirtisi olabilir.",
+    "normal_deger_notu": "Normal idrar rengi genellikle açık sarıdan kehribar sarısına kadar değişir. Bu aralık, kişinin günlük sıvı alımına ve genel metabolizmasına göre farklılık gösterebilir.",
+    "id": "i̇drar_rengi"
+  },
+  {
+    "test_adi": "İdrar Görünümü (Berraklık)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Bu test, idrarın rengini, berraklığını ve diğer fiziksel özelliklerini değerlendirir. Böbrek fonksiyonları, hidrasyon durumu ve olası enfeksiyonlar veya diğer tıbbi durumlar hakkında bilgi sağlayabilir.",
+    "yukseklik_anlami": "1. İdrar Yolları Enfeksiyonu (İYE): Bakteri, lökosit (iltihap hücreleri) veya mukus varlığı idrarda bulanıklığa neden olabilir.\n2. Dehidrasyon (Vücudun Susuz Kalması): İdrarın aşırı konsantre olması, renginin koyulaşmasına ve berraklığının azalmasına yol açabilir.\n3. Böbrek Taşları veya Kristalüri: İdrardaki mineral tuzların kristalleşmesi, idrarın bulanık veya granüler görünmesine neden olabilir.",
+    "dusukluk_anlami": "1. Aşırı Sıvı Tüketimi: İdrarın aşırı seyreltilmiş olması ve renginin çok açık veya renksiz görünmesi.\n2. Diyabetes İnsipitus: Vücudun su dengesini düzenleyen hormonların eksikliği veya böbreklerin bu hormona tepkisizliği sonucu aşırı seyreltik ve bol idrar oluşumu.\n3. Diüretik Kullanımı: Diüretik ilaçlar veya bazı içecekler, vücuttan su atımını artırarak idrarın yoğunluğunu düşürebilir ve rengini açabilir.",
+    "normal_deger_notu": "Normalde idrar, açık sarı ila kehribar rengi arasında, berrak ve kokusuz olmalıdır. Sabah ilk idrarında hafif bir bulanıklık normal kabul edilebilir, ancak genel olarak berraklık beklenir.",
+    "id": "i̇drar_gorunumu_berraklik"
+  },
+  {
+    "test_adi": "İdrar pH",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "İdrar pH testi, idrarın asitlik veya bazlık (alkalilik) derecesini ölçen bir laboratuvar testidir. Bu test, böbrek fonksiyonu, metabolizma ve bazı hastalıkların (örn. idrar yolu enfeksiyonları, böbrek taşı oluşumu riski) tanısı veya takibi hakkında bilgi sağlayabilir.",
+    "yukseklik_anlami": [
+      "İdrar yolu enfeksiyonları (özellikle üre ayrıştıran bakterilerin neden olduğu)",
+      "Vejetaryen veya alkali yönünden zengin diyet",
+      "Böbrek tübüler asidozu (bazı tipleri)",
+      "Aşırı kusma veya mide sıvısı kaybı",
+      "Bazı diüretik ilaçların kullanımı"
+    ],
+    "dusukluk_anlami": [
+      "Yüksek proteinli veya et ağırlıklı diyet",
+      "Diyabetik ketoasidoz",
+      "Metabolik asidoz",
+      "Şiddetli ishal veya dehidrasyon",
+      "Açlık veya yetersiz karbonhidrat alımı"
+    ],
+    "normal_deger_notu": "İdrar pH'ının normal referans aralığı genellikle 4.5 ile 8.0 arasında değişmekle birlikte, ortalama değer 6.0 civarındadır. Ancak, bu değerler laboratuvarlara, kullanılan test yöntemine ve kişinin diyetine göre farklılık gösterebilir.",
+    "id": "i̇drar_ph"
+  },
+  {
+    "test_adi": "İdrar Dansite (Yoğunluk)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "İdrar dansitesi, böbreklerin idrarı konsantre etme veya seyreltme yeteneğini gösteren bir ölçümdür. İdrardaki çözünmüş madde miktarını yansıtır ve vücudun sıvı dengesi, böbrek fonksiyonları hakkında önemli bilgiler verir.",
+    "yukseklik_anlami": [
+      "Vücutta sıvı eksikliği (dehidrasyon) durumları (örn: yetersiz su alımı, aşırı terleme, kusma, ishal)",
+      "Kontrol altına alınmamış diyabetes mellitus (şeker hastalığı) nedeniyle idrarda glukoz bulunması",
+      "Proteinüri (idrarda aşırı protein bulunması)",
+      "Kalp yetmezliği veya karaciğer hastalığı gibi ödemle seyreden bazı durumlar"
+    ],
+    "dusukluk_anlami": [
+      "Aşırı sıvı alımı veya intravenöz sıvı tedavisi",
+      "Diyabetes insipidus (böbreklerin suya cevapsızlığı veya ADH eksikliği)",
+      "Kronik böbrek yetmezliği gibi böbreklerin idrarı konsantre etme yeteneğinin bozulduğu durumlar",
+      "Diüretik (idrar söktürücü) ilaç kullanımı"
+    ],
+    "normal_deger_notu": "Normal referans aralığı genellikle 1.003 - 1.030 arasındadır. Ancak laboratuvara ve kullanılan cihaza göre küçük farklılıklar gösterebilir. Sonuçlar mutlaka doktor tarafından, hastanın genel klinik durumu ve diğer test sonuçları ile birlikte değerlendirilmelidir.",
+    "id": "i̇drar_dansite_yogunluk"
+  },
+  {
+    "test_adi": "İdrarda Protein",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "İdrarda protein testi, böbreklerin kanı ne kadar iyi süzdüğünü değerlendirmek için kullanılan bir testtir. Normalde böbrekler, proteinlerin çoğunun idrara geçmesini engeller. İdrarda protein varlığı (proteinüri), böbrek hasarının bir işareti olabilir veya çeşitli sağlık durumlarına bağlı olarak ortaya çıkabilir.",
+    "yukseklik_anlami": "1. Böbrek hastalıkları (glomerülonefrit, nefrotik sendrom gibi). 2. Diyabet ve yüksek tansiyon gibi kronik hastalıklar. 3. Kalp yetmezliği, preeklampsi veya bazı ilaçların kullanımı.",
+    "dusukluk_anlami": "1. İdrarda proteinin düşük veya negatif olması, genellikle sağlıklı böbrek fonksiyonunu gösterir. 2. Bu durum, böbreklerin proteinleri etkili bir şekilde filtrelediği ve kana geri tuttuğu anlamına gelir. 3. İdrarda proteinin düşük çıkması, genellikle tıbbi bir endişe kaynağı değildir ve tedavi gerektirmez.",
+    "normal_deger_notu": "Referans aralığı laboratuvardan laboratuvara değişebilir; genellikle 24 saatlik idrarda 150 mg'dan az protein normal kabul edilir.",
+    "id": "i̇drarda_protein"
+  },
+  {
+    "test_adi": "İdrarda Glikoz",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "İdrardaki glikoz (şeker) seviyesini ölçen bir laboratuvar testidir. Vücudun şeker işleme yeteneğini değerlendirmek ve diyabet taraması ile takibi için kullanılır.",
+    "yukseklik_anlami": "Kanda yüksek glikoz seviyelerinin (hiperglisemi) bir göstergesidir. En yaygın nedeni kontrol altına alınmamış veya yeni başlangıçlı diyabet mellitusudur. Böbreklerin glikozu yeterince geri ememediğini, yani böbrek eşiğinin aşıldığını belirtir. Gebelik diyabeti, böbrek glikozürisi veya bazı ilaçlar da yüksekliğe neden olabilir.",
+    "dusukluk_anlami": "İdrarda glikozun düşük veya hiç olmaması, genellikle sağlıklı bireylerde beklenen normal bir bulgudur. Kandaki glikoz seviyelerinin normal sınırlar içinde olduğunu ve böbreklerin iyi çalıştığını gösterir. Diyabetik hastalarda, kan şekerinin tedavi ile iyi kontrol edildiğinin bir işareti olabilir.",
+    "normal_deger_notu": "Normalde, sağlıklı bir bireyin idrarında glikoz bulunmaz veya çok düşük, tespit edilemeyecek seviyelerdedir (Negatif olarak rapor edilir). Referans aralıkları laboratuvarlara göre değişebilir.",
+    "id": "i̇drarda_glukoz"
+  },
+  {
+    "test_adi": "İdrarda Keton",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Bu test, vücudun yağları enerji olarak kullandığında ortaya çıkan maddeler olan keton seviyelerini idrarda ölçer. Genellikle diyabetin kontrolünü değerlendirmek veya ketoasidoz gibi durumları teşhis etmek için kullanılır.",
+    "yukseklik_anlami": [
+      "Diyabetik ketoasidoz (DKA): Tip 1 veya kontrolsüz Tip 2 diyabetin ciddi bir komplikasyonu.",
+      "Yüksek yağlı, düşük karbonhidratlı (ketojenik) diyetler: Vücut keton üretimini artırır.",
+      "Uzun süreli açlık veya yoğun egzersiz: Vücut enerji için yağ yakmaya başladığında.",
+      "Kusma veya ishal nedeniyle sıvı kaybı (dehidrasyon): Özellikle çocuklarda."
+    ],
+    "dusukluk_anlami": [
+      "Genellikle normal ve sağlıklı bir metabolik durumu ifade eder.",
+      "Yeterli karbonhidrat ve kalori alımını gösterir.",
+      "Vücudun enerji için öncelikli olarak karbonhidratları kullandığını gösterir."
+    ],
+    "normal_deger_notu": "Normal değerler, testin yapıldığı laboratuvara ve kullanılan yönteme göre değişebilir. Genellikle idrarda ketonun negatif veya çok düşük (eser miktarda) olması normal kabul edilir. Referans aralığı için lütfen laboratuvar raporunuzu kontrol edin.",
+    "id": "i̇drarda_keton"
+  },
+  {
+    "test_adi": "İdrarda Bilirubin",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Bilirubin, kırmızı kan hücrelerinin parçalanması sırasında oluşan sarımsı bir pigmenttir. Sağlıklı bireylerde idrarda normalde bulunmaz veya çok düşük seviyelerde bulunur. İdrarda bilirubin varlığı, karaciğer veya safra yollarında bir rahatsızlığa işaret edebilir.",
+    "yukseklik_anlami": [
+      "Karaciğer hastalıkları (örneğin hepatit, siroz, karaciğer tümörleri)",
+      "Safra yolu tıkanıklıkları (safra taşları, pankreas veya safra kanalı tümörleri)",
+      "Hemolitik anemi gibi durumlarda aşırı kırmızı kan hücresi yıkımına bağlı olarak artan bilirubin üretimi, karaciğerin işleme kapasitesini aşarsa idrarda görülebilir."
+    ],
+    "dusukluk_anlami": [
+      "İdrarda bilirubin seviyesinin düşük olması genellikle klinik bir anlam taşımaz, çünkü normalde idrarda bilirubin bulunmaz veya çok az bulunur.",
+      "Testin doğru şekilde yapılmadığı veya numunenin uygunsuz saklandığı durumlarda düşük veya yanlış negatif sonuçlar elde edilebilir.",
+      "Negatif veya saptanamayan bilirubin seviyeleri, genellikle karaciğer ve safra yollarının sağlıklı çalıştığını gösterir."
+    ],
+    "normal_deger_notu": "Normalde idrarda bilirubin bulunmaz (negatif) veya saptanamaz seviyelerdedir. Pozitif sonuçlar, altta yatan bir karaciğer veya safra yolu rahatsızlığının belirlenmesi için ek testler ve tıbbi değerlendirme gerektirir.",
+    "id": "i̇drarda_bilirubin"
+  },
+  {
+    "test_adi": "İdrarda Ürobilinojen",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Ürobilinojen, bağırsaklardaki bakteriler tarafından bilirubinin parçalanmasıyla oluşan bir maddedir ve normalde idrarda eser miktarda bulunur. Bu test, karaciğer fonksiyonlarını ve hemolitik durumları değerlendirmeye yardımcı olur.",
+    "yukseklik_anlami": "Yüksek ürobilinojen seviyeleri genellikle karaciğer hastalığını veya aşırı kırmızı kan hücresi yıkımını (hemoliz) işaret eder. Potansiyel nedenler şunlardır: Hemolitik anemi, hepatit, siroz, ilaç toksisitesi.",
+    "dusukluk_anlami": "Düşük veya tespit edilemeyen ürobilinojen seviyeleri, safra akışının tamamen engellendiğini veya bağırsak florasının azaldığını gösterebilir. Potansiyel nedenler şunlardır: Tam biliyer obstrüksiyon, geniş spektrumlu antibiyotik kullanımı, ciddi kolestaz.",
+    "normal_deger_notu": "Normal değerler genellikle 0.2 - 1.0 Ehrlich Ünitesi/dL (veya 0 - 17 μmol/L) aralığındadır. Ancak referans aralıkları laboratuvardan laboratuvara değişiklik gösterebilir.",
+    "id": "i̇drarda_urobilinojen"
+  },
+  {
+    "test_adi": "İdrarda Nitrit",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "İdrarda nitrit testi, genellikle idrar yolu enfeksiyonu (İYE) belirtilerini araştırmak amacıyla yapılır. Bazı bakteriler, idrarda doğal olarak bulunan nitratı nitrite dönüştürebilen enzimlere sahiptir. Bu test, idrarda bakteri varlığının dolaylı bir göstergesidir ve genellikle diğer idrar analizleriyle birlikte değerlendirilir.",
+    "yukseklik_anlami": [
+      "İdrar yolu enfeksiyonu (İYE) varlığına işaret eder.",
+      "Gram-negatif bakteriler gibi nitratı nitrite dönüştüren bakteri türlerinin idrarda bulunduğunu gösterir.",
+      "Bakteriyel kontaminasyon veya enfeksiyon nedeniyle idrarda artan bakteri yükünü gösterir."
+    ],
+    "dusukluk_anlami": [
+      "İdrar yolu enfeksiyonunun olmadığını düşündürebilir.",
+      "İdrar örneği mesanede yeterince uzun süre kalmamışsa (en az 4 saat), nitrit oluşumu için yeterli zaman olmamış olabilir.",
+      "Nitratı nitrite dönüştürmeyen bakteri türleriyle oluşan bir enfeksiyon olabilir (örneğin, Enterococcus gibi bazı gram-pozitif bakteriler).",
+      "Yetersiz nitrat alımı veya C vitamini kullanımı, yanlış negatif sonuçlara yol açabilir."
+    ],
+    "normal_deger_notu": "Normalde sağlıklı bir kişinin idrarında nitrit bulunmaması gerekir. Test sonucunun 'Negatif' olması normal kabul edilir.",
+    "id": "i̇drarda_nitrit"
+  },
+  {
+    "test_adi": "İdrarda Lökosit Esteraz",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Lökosit esteraz, idrarda bulunan lökositlerin (beyaz kan hücreleri) varlığını gösteren bir enzimdir. Bu test, özellikle idrar yolu enfeksiyonlarının (İYE) taramasında ve tanı sürecinde önemli bir gösterge olarak kullanılır. Pozitif bir sonuç, idrar sisteminde bir enfeksiyon veya iltihaplanma olabileceğine işaret eder.",
+    "yukseklik_anlami": "İdrarda lökosit esteraz seviyesinin yüksek olması, çeşitli tıbbi durumların göstergesi olabilir: 1. **İdrar Yolu Enfeksiyonu (İYE)**: En sık görülen neden olup, mesane (sistit) veya üretrada bakteriyel bir enfeksiyonun varlığını güçlü bir şekilde düşündürür. 2. **Böbrek Enfeksiyonu (Piyelonefrit)**: İYE'nin daha ciddi bir formu olan ve böbrekleri etkileyen bir enfeksiyonun varlığına işaret edebilir. 3. **Diğer İltihabi Durumlar**: Böbrek taşları, idrar yollarındaki tümörler veya cinsel yolla bulaşan enfeksiyonlar gibi lökositlerin idrara karışmasına neden olan diğer iltihabi süreçler de yükselişe yol açabilir.",
+    "dusukluk_anlami": "İdrarda lökosit esteraz seviyesinin normal veya düşük olması genellikle aşağıdaki durumları düşündürür: 1. **Enfeksiyon Yokluğu**: İdrar yolu enfeksiyonu veya idrar sisteminde önemli bir iltihaplanmanın bulunmadığına dair olumlu bir işarettir. 2. **Başarılı Tedavi Süreci**: Eğer daha önce bir enfeksiyon teşhisi konmuş ve tedavi uygulanmışsa, düşen lökosit esteraz seviyeleri tedavinin etkili olduğunu ve enfeksiyonun gerilediğini gösterebilir. 3. **Hafif Semptomlu Durumlar**: Bazı durumlarda, hafif seyreden enfeksiyonlarda veya çok dilüe (sulu) idrar örneklerinde lökosit sayısı az olacağından test negatif çıkabilir; bu, her zaman enfeksiyonun tamamen dışlandığı anlamına gelmez.",
+    "normal_deger_notu": "Lökosit esteraz testi için normal değer genellikle 'Negatif' olarak kabul edilir. Ancak, laboratuvarların kullandığı farklı test yöntemleri ve reaktifler nedeniyle referans aralıkları değişiklik gösterebilir. Bu nedenle, test sonuçlarının her zaman bir hekim tarafından, hastanın klinik durumu ve diğer laboratuvar bulguları ile birlikte değerlendirilmesi esastır.",
+    "id": "i̇drarda_lokosit_esteraz"
+  },
+  {
+    "test_adi": "İdrar Mikroskopisi: Lökosit (WBC)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Bu test, idrarda bulunan lökosit (beyaz kan hücreleri) miktarını mikroskop altında inceler. Lökositler, vücudun bağışıklık sisteminin bir parçasıdır ve iltihaplanma veya enfeksiyon varlığında sayıları artabilir. İdrar yolu enfeksiyonları (İYE), böbrek hastalıkları veya diğer üriner sistem sorunlarının teşhis ve takibinde kullanılan önemli bir göstergedir.",
+    "yukseklik_anlami": "İdrardaki lökosit sayısının yüksek olması (piyüri), genellikle aşağıdaki durumlarla ilişkilidir:\n1.  **İdrar Yolu Enfeksiyonları (İYE):** En yaygın nedendir ve mesane, üretra veya böbrek enfeksiyonlarını gösterebilir.\n2.  **Böbrek Enfeksiyonları (Piyelonefrit):** Böbrek iltihabı ve enfeksiyonlarında lökositler idrara geçer.\n3.  **Böbrek Taşları veya Üriner Sistemde Tıkanıklıklar:** Taşlar veya diğer tıkanıklıklar tahrişe ve iltihaplanmaya yol açarak lökosit artışına neden olabilir.\n4.  **Non-enfeksiyöz İnflamatuar Durumlar:** İnterstisyel nefrit gibi böbreğin iltihabi hastalıkları veya bazı sistemik hastalıklar da lökosit yüksekliğine yol açabilir.\n5.  **Vajinit veya Üretrit:** Kadınlarda vajinal enfeksiyonlar veya her iki cinsiyette de üretral iltihaplanmalar idrarda lökosit artışına neden olabilir.",
+    "dusukluk_anlami": "İdrardaki lökosit sayısının düşük olması veya hiç bulunmaması genellikle normal bir bulgudur ve idrar yollarında önemli bir enfeksiyon veya iltihap olmadığını gösterir. \n1.  **Normal Durum:** Sağlıklı bireylerde beklenen sonuçtur.\n2.  **Tedavi Başarısı:** Geçmişte var olan bir enfeksiyonun başarılı bir şekilde tedavi edildiğini gösterebilir.\n3.  **Klinik Önemi Yok:** Tek başına düşük lökosit sayısı, genellikle klinik olarak endişe verici bir durum olarak değerlendirilmez. Ancak, şikayetleri olan bir hastada lökositler düşük olmasına rağmen enfeksiyon şüphesi devam ediyorsa ek testler gerekebilir.",
+    "normal_deger_notu": "Sağlıklı bireylerde idrar mikroskopisinde lökosit sayısı genellikle 0-5 hücre/yüksek büyütme alanı (YBA) olarak kabul edilir. Ancak laboratuvarlar arasında kullanılan yöntem ve ekipmana bağlı olarak referans aralıkları küçük farklılıklar gösterebilir. Elde edilen sonuçlar, hastanın klinik durumu ve diğer test bulguları ile birlikte bir doktor tarafından değerlendirilmelidir.",
+    "id": "i̇drar_mikroskopisi:_lokosit_wbc"
+  },
+  {
+    "test_adi": "İdrar Mikroskopisi: Eritrosit (RBC)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "İdrar tahlilinin mikroskopik incelemesinde, idrarda bulunan kırmızı kan hücrelerinin (eritrositlerin) varlığını, miktarını ve morfolojisini değerlendirir. Genellikle bir enfeksiyon, böbrek hastalığı veya idrar yolu travması gibi durumların teşhisinde önemli bir göstergedir.",
+    "yukseklik_anlami": "Yüksek seviyeler (hematüri), böbrek taşları, idrar yolu enfeksiyonları (İYE), glomerülonefrit veya diğer böbrek hastalıkları, idrar yolu tümörleri, travma, prostat büyümesi veya bazı kan sulandırıcı ilaçların kullanımı gibi birçok farklı durumu işaret edebilir. Nedenin belirlenmesi için ileri tetkikler gerekebilir.",
+    "dusukluk_anlami": "Çok düşük seviyelerde eritrosit bulunması veya hiç bulunmaması (negatif sonuç) genellikle normal kabul edilir. Bu durum, idrar yollarında aktif bir kanama, enfeksiyon veya enflamatuar bir sürecin olmadığını gösterir ve genellikle endişe verici değildir.",
+    "normal_deger_notu": "İdrar mikroskopisinde normalde eritrosit (kırmızı kan hücresi) görülmez veya çok az sayıda (genellikle yüksek büyütme alanında 0-2 adet / HPF) bulunur. Bu değerlerin üzerindeki her bulgu genellikle klinik olarak anlamlı kabul edilir ve doktor tarafından değerlendirilmelidir.",
+    "id": "i̇drar_mikroskopisi:_eritrosit_rbc"
+  },
+  {
+    "test_adi": "İdrar Mikroskopisi: Bakteri",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Tıbbi açıklama",
+    "yukseklik_anlami": "En az 3 madde",
+    "dusukluk_anlami": "En az 3 madde",
+    "normal_deger_notu": "Referans aralığı",
+    "id": "i̇drar_mikroskopisi:_bakteri"
+  },
+  {
+    "test_adi": "PSA (Prostat Spesifik Antijen - Total)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "PSA (Prostat Spesifik Antijen), erkeklerde prostat bezi tarafından üretilen bir proteindir. Kan dolaşımında seviyesi ölçülerek prostat sağlığı hakkında bilgi edinilir. Prostat kanseri taraması, teşhisi ve tedavisinin takibinde kullanılan önemli bir biyobelirteçtir. Ayrıca prostat büyümesi (benign prostat hiperplazisi) ve prostat iltihabı (prostatit) gibi durumların değerlendirilmesine de yardımcı olur.",
+    "yukseklik_anlami": [
+      "Benign Prostat Hiperplazisi (BPH): Prostat bezinin yaşla birlikte iyi huylu büyümesi, en sık görülen nedenlerden biridir.",
+      "Prostatit: Prostat bezinin enfeksiyon veya diğer nedenlerle oluşan iltihaplanması, geçici olarak PSA seviyelerini yükseltebilir.",
+      "Prostat Kanseri: PSA'nın en önemli yükselme nedenlerinden biridir. Yüksek PSA seviyeleri, kanser riskinin artığını gösterebilir ve ileri inceleme gerektirebilir.",
+      "Diğer Nedenler: Son zamanlarda yapılan prostat muayenesi, biyopsi, sistoskopi veya üriner enfeksiyonlar gibi durumlar da geçici PSA yükselmelerine yol açabilir."
+    ],
+    "dusukluk_anlami": [
+      "Normal ve Sağlıklı Prostat: Genellikle düşük PSA seviyeleri, prostat bezinin sağlıklı çalıştığını ve prostat kanseri riskinin düşük olduğunu gösterir.",
+      "Tedavi Başarısı: Prostat kanseri tedavisi (ameliyat, radyoterapi, hormon terapisi gibi) sonrası PSA seviyelerinde gözlenen düşüş, tedavinin başarılı olduğunu işaret edebilir.",
+      "İlaç Kullanımı: Finasterid veya dutasterid gibi bazı ilaçlar (5-alfa redüktaz inhibitörleri) PSA seviyelerini önemli ölçüde düşürebilir.",
+      "Düşük Risk: Sürekli olarak düşük PSA değerleri, genellikle prostatla ilişkili önemli bir sağlık sorununun bulunmadığını düşündürür."
+    ],
+    "normal_deger_notu": "PSA normal değerleri yaşa, laboratuvarın kullandığı ölçüm yöntemine ve referans aralığına göre değişiklik gösterebilir. Genellikle 4.0 ng/mL'nin altı normal kabul edilirken, yaşa bağlı referans aralıkları (örneğin 50 yaş altı için <2.5 ng/mL) daha spesifik değerlendirmeler için kullanılır. Değerlendirme, hastanın klinik durumu ve diğer test sonuçlarıyla birlikte mutlaka bir üroloji uzmanı tarafından yapılmalıdır.",
+    "id": "psa_prostat_spesifik_antijen_total"
+  }
+]
