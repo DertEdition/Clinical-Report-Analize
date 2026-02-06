@@ -1,7 +1,7 @@
 import os
 import json
 import time
-import google.generativeai as genai
+from google import genai 
 from dotenv import load_dotenv 
 
 load_dotenv()
@@ -10,8 +10,9 @@ API_KEY = os.getenv("GEMINI_API_KEY")
 if not API_KEY:
     raise RuntimeError("GEMINI_API_KEY bulunamadı")
 
-genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel("models/models/gemini-2.5-pro")
+client = genai.Client(api_key=API_KEY)
+
+MODEL_ID = "gemini-2.5-flash" 
 
 FILE_NAME = "buyuk_medikal_dataset.json"
 MAX_PER_RUN = 20
@@ -137,6 +138,7 @@ analysis_list = [
     "AFP (Alfa Fetoprotein)"
 ]
 
+
 def make_id(text: str) -> str:
     tr_map = str.maketrans("ğüşıöç", "gusioc")
     text = text.lower().translate(tr_map)
@@ -171,7 +173,7 @@ for parametre in missing_tests:
         break
 
     current_id = make_id(parametre)
-    print(f"[{processed_today + 1}/{MAX_PER_RUN}] İşleniyor: {parametre}", end="\r")
+    print(f"[{processed_today + 1}/{MAX_PER_RUN}] İşleniyor: {parametre}")
 
     prompt = f"""
 Return ONLY valid JSON in Turkish language. Use proper Turkish characters (ç, ğ, ı, ö, ş, ü).
@@ -185,7 +187,11 @@ Return ONLY valid JSON in Turkish language. Use proper Turkish characters (ç, �
 }}
 """
     try:
-        response = model.generate_content(prompt)
+        response = client.models.generate_content(
+            model=MODEL_ID,
+            contents=prompt
+        )
+        
         data = safe_json_parse(response.text)
         data["id"] = current_id
         dataset.append(data)
@@ -195,7 +201,8 @@ Return ONLY valid JSON in Turkish language. Use proper Turkish characters (ç, �
             json.dump(dataset, f, ensure_ascii=False, indent=2)
             
         time.sleep(4)
-    except Exception:
+    except Exception as e:
+        print(f"\nHata oluştu ({parametre}): {e}")
         time.sleep(6)
 
 print(f"\nBitti. {processed_today} yeni kayıt eklendi.")

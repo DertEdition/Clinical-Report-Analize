@@ -1620,5 +1620,95 @@
     ],
     "normal_deger_notu": "PSA normal değerleri yaşa, laboratuvarın kullandığı ölçüm yöntemine ve referans aralığına göre değişiklik gösterebilir. Genellikle 4.0 ng/mL'nin altı normal kabul edilirken, yaşa bağlı referans aralıkları (örneğin 50 yaş altı için <2.5 ng/mL) daha spesifik değerlendirmeler için kullanılır. Değerlendirme, hastanın klinik durumu ve diğer test sonuçlarıyla birlikte mutlaka bir üroloji uzmanı tarafından yapılmalıdır.",
     "id": "psa_prostat_spesifik_antijen_total"
+  },
+  {
+    "test_adi": "CEA (Karsinoembriyonik Antijen)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "Karsinoembriyonik Antijen (CEA), vücut tarafından üretilen bir protein türüdür. Özellikle kolorektal kanser başta olmak üzere bazı kanser türlerinin teşhisi, tedaviye yanıtın izlenmesi ve hastalığın nüksetmesini değerlendirmek için bir tümör belirteci olarak kan testiyle ölçülür. Kanser dışı bazı durumlarda da yükselebilir.",
+    "yukseklik_anlami": [
+      "Kolorektal (kalın bağırsak) kanseri (en sık neden).",
+      "Akciğer, meme, mide, pankreas, yumurtalık gibi diğer organ kanserleri.",
+      "Kanser dışı durumlar: Sigara içimi, ülseratif kolit, Crohn hastalığı, pankreatit, karaciğer sirozu ve bazı enfeksiyonlar gibi inflamatuar veya benign durumlar."
+    ],
+    "dusukluk_anlami": [
+      "Kanserin bulunmadığı veya başarıyla tedavi edildiği durumlar.",
+      "Kanser tedavisinin (ameliyat, kemoterapi, radyoterapi) etkili olduğunu ve tümörün küçüldüğünü veya kaybolduğunu.",
+      "Tedavi sonrası hastalığın nüksetme riskinin azaldığını (düşüş eğilimi takip edilmelidir)."
+    ],
+    "normal_deger_notu": "Normal değer aralıkları laboratuvarlara ve kullanılan test yöntemlerine göre değişiklik gösterebilir. Genel olarak, sigara içmeyen yetişkinlerde 0-2.5 ng/mL, sigara içenlerde ise 0-5 ng/mL arası değerler normal kabul edilebilir. Ancak her zaman testi yapan laboratuvarın referans aralıklarına bakmak önemlidir.",
+    "id": "cea_karsinoembriyonik_antijen"
+  },
+  {
+    "test_adi": "CA 19-9",
+    "kategori": "Kan / Tümör Belirteci",
+    "genel_aciklama": "CA 19-9, başta pankreas kanseri olmak üzere, safra yolları, mide ve kolorektal kanserler gibi bazı sindirim sistemi kanserlerinin teşhis ve takibinde kullanılan bir tümör belirtecidir. Kanser hücrelerinin yüzeyinde bulunan bir glikoproteindir ve kan testi ile ölçülür. Tarama testi olarak kullanılmaz, genellikle belirtileri olan veya kanser tanısı konmuş kişilerde değerlendirilir.",
+    "yukseklik_anlami": [
+      "Pankreas kanseri (en sık ilişkilendirilen durum)",
+      "Safra yolları ve safra kesesi kanserleri",
+      "Kolorektal (kalın bağırsak) kanserler",
+      "Mide kanseri",
+      "Pankreatit (pankreas iltihabı) veya safra yolları tıkanıklığı gibi iyi huylu iltihabi durumlar"
+    ],
+    "dusukluk_anlami": [
+      "Normal veya beklenen aralıkta olması, genellikle ciddi bir hastalığın bulunmadığına işaret eder.",
+      "Kanser tedavisi gören hastalarda, tedavinin etkin olduğunu ve tümör yükünün azaldığını gösterir.",
+      "Hastalığın remisyonda (gerileme) olduğunu veya tamamen ortadan kalktığını düşündürebilir.",
+      "Lewis antijeni eksikliği olan kişilerde genetik olarak düşük seviyelerde CA 19-9 üretilebileceğinden, bu kişilerde testin tanısal değeri sınırlıdır."
+    ],
+    "normal_deger_notu": "CA 19-9 normal değerleri laboratuvardan laboratuvara değişiklik göstermekle birlikte, genellikle 37 U/mL altında olması beklenir. Bu değerler referans aralığıdır ve her zaman bir doktor tarafından diğer klinik bulgular ve testlerle birlikte değerlendirilmelidir.",
+    "id": "ca_19_9"
+  },
+  {
+    "test_adi": "CA 125",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "CA 125 (Kanser Antijeni 125), özellikle yumurtalık kanserinin tanısında, tedavinin etkinliğinin takibinde ve hastalığın nüksünün izlenmesinde kullanılan bir tümör belirtecidir. Ancak, birçok iyi huylu durum ve diğer kanser türlerinde de yükselebilir, bu nedenle tek başına kesin bir tanı koymak için kullanılmaz.",
+    "yukseklik_anlami": [
+      "Yumurtalık kanseri (özellikle epitelyal tip ve ileri evrelerde en sık görülen nedenlerden biridir).",
+      "Endometriozis, rahim miyomları, pelvik inflamatuvar hastalık (PİH) ve gebelik gibi iyi huylu jinekolojik durumlar.",
+      "Pankreas, akciğer, meme, mide veya kalın bağırsak gibi diğer organ kanserleri; ayrıca karaciğer hastalıkları (siroz, hepatit) veya peritonit gibi kanser dışı durumlar."
+    ],
+    "dusukluk_anlami": [
+      "Normal veya düşük CA 125 seviyeleri genellikle yumurtalık kanseri veya CA 125'i yükselten diğer önemli patolojilerin bulunmadığına işaret edebilir.",
+      "Tedavi gören hastalarda seviyelerin düşmesi veya normal aralığa inmesi, tedavinin başarılı olduğunu ve hastalığın remisyonda (gerileme) olduğunu gösterebilir.",
+      "Ancak, düşük veya normal seviyeler bile erken evre yumurtalık kanserini veya bazı nadir yumurtalık kanseri türlerini dışlamaz; bu nedenle sadece bu testle tanı konulmamalıdır."
+    ],
+    "normal_deger_notu": "Normal değer aralığı laboratuvardan laboratuvara değişebilir, ancak genellikle 0-35 U/mL (ünite/mililitre) arası kabul edilir. Bu değer yaş, adet döngüsü, hamilelik gibi faktörlerden etkilenebilir ve klinik bulgular, diğer testler ve görüntüleme yöntemleri ile birlikte değerlendirilmelidir.",
+    "id": "ca_125"
+  },
+  {
+    "test_adi": "CA 15-3",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "CA 15-3, başta meme kanseri olmak üzere, bazı kanser türlerinin izlenmesinde kullanılan bir tümör belirtecidir. Kanser hücreleri tarafından üretilebilen veya vücudun kansere verdiği yanıt sonucu ortaya çıkabilen bir glikoproteindir. Tanı koymaktan ziyade, tedaviye yanıtı değerlendirmek, hastalığın seyrini takip etmek ve nüks olasılığını belirlemek amacıyla kullanılır.",
+    "yukseklik_anlami": [
+      "Meme kanseri nüksü veya hastalığın ilerlemesi",
+      "Akciğer, yumurtalık, kolon, pankreas veya karaciğer gibi diğer organ kanserleri",
+      "İyi huylu karaciğer hastalıkları (hepatit, siroz gibi)",
+      "Bazı inflamatuar veya otoimmün rahatsızlıklar (genellikle daha hafif yükselmeler)"
+    ],
+    "dusukluk_anlami": [
+      "Genellikle klinik olarak spesifik bir düşüklük anlamı yoktur; normal veya düşük değerler, hastalığın bulunmadığına veya tedaviye olumlu yanıt verildiğine işaret eder.",
+      "Meme kanseri tedavisinin başarılı olması veya hastalığın remisyon döneminde olması",
+      "Sağlıklı bireylerde beklenen değer aralığında olması"
+    ],
+    "normal_deger_notu": "Normal referans aralığı, kullanılan laboratuvarın yöntemine ve ekipmanına göre değişiklik gösterebilir. Genellikle 30 U/mL veya 31.3 U/mL altındaki değerler normal kabul edilir. CA 15-3 seviyeleri, tek başına bir tanı koymak için yeterli değildir; diğer klinik bulgular, görüntüleme ve biyopsi sonuçlarıyla birlikte değerlendirilmelidir.",
+    "id": "ca_15_3"
+  },
+  {
+    "test_adi": "AFP (Alfa Fetoprotein)",
+    "kategori": "Kan / İdrar / Hormon",
+    "genel_aciklama": "AFP, karaciğer tarafından üretilen bir proteindir. Normalde anne karnındaki fetüsün karaciğeri tarafından üretilir ve doğumdan sonra seviyeleri düşer. Yetişkinlerde yüksek seviyeleri genellikle karaciğer kanseri veya germ hücreli tümörlerin bir göstergesi olabilir. Ayrıca gebelik sırasında fetal anormalliklerin taranmasında da kullanılır.",
+    "yukseklik_anlami": [
+      "Hepatoselüler karsinom (karaciğer kanseri)",
+      "Testis ve yumurtalık germ hücreli tümörleri (örneğin, seminom dışı germ hücreli tümörler)",
+      "Gebelik sırasında nöral tüp defektleri (spina bifida, anensefali) veya karın duvarı defektleri",
+      "Siroz veya kronik aktif hepatit gibi kanser dışı karaciğer hastalıkları"
+    ],
+    "dusukluk_anlami": [
+      "Gebelikte Down sendromu (Trizomi 21) veya Trizomi 18 gibi kromozomal anormallikler (diğer belirteçlerle birlikte değerlendirilir)",
+      "Gebelik yaşının yanlış hesaplanması (gerçekte gebeliğin beklenen haftasından daha erken olması)",
+      "Fetal ölüm (çok düşük AFP seviyeleri görülebilir)"
+    ],
+    "normal_deger_notu": "Yetişkinlerde referans aralığı genellikle laboratuvardan laboratuvara değişmekle birlikte, 0-9 ng/mL (veya 0-9 IU/mL) civarındadır. Gebelik sırasında haftalara göre değişen özel referans aralıkları kullanılır.",
+    "id": "afp_alfa_fetoprotein"
   }
 ]

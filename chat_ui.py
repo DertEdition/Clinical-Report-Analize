@@ -4,7 +4,7 @@ import json
 import re
 import pandas as pd
 import pdfplumber
-import google.generativeai as genai
+from google import genai 
 import chromadb
 import ollama
 from chromadb.utils import embedding_functions
