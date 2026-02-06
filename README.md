@@ -16,13 +16,19 @@ git clone [https://github.com/kullanici_adiniz/repo_adiniz.git](https://github.c
 cd repo_adiniz
 
 ### 3. VENV Kurulumu
+
+```bash
 python3.10 -m venv clinical_report_venv
 source clinical_report_venv/bin/activate
 
 ### 4. Kütüphanelerin Yüklenmesi
+
+```bash
 pip install -r requirements.txt
 
 ### 5. Database Kurulumu
+
+```bash
 Terminalde şu komutu çalıştırarak Llama 3.2 modelini indirin:
     ollama run llama3.2
     (Model indikten sonra >>> işareti çıkınca pencereyi kapatabilirsiniz.)
@@ -31,7 +37,11 @@ Proje içinde gelen hazır tıbbi veri setini (buyuk_medikal_dataset.json) vekt�
     python import_dataset.py
 
 ### 6. Uygulamayı Çalıştırma 
+
+```bash
 streamlit run chat_ui.py
 
 ### (Opsiyonel) Veri Seti Üretimi
+
+```bash
 python dataset_generator.py komutu ile generative ai kullanılarak günlük prompt hakkı kadar veri üretilebilir.
