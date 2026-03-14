@@ -15,6 +15,10 @@ load_dotenv(override=True)
 
 LOCAL_MODEL = "llama3.2"
 
+class DatabaseConnectionException(Exception):
+    pass
+
+#TC-LAB-09
 @st.cache_resource
 def veritabani_baglan():
     try:
@@ -23,19 +27,13 @@ def veritabani_baglan():
             model_name="paraphrase-multilingual-MiniLM-L12-v2"
         )
         return client.get_collection("tahlil_bilgileri", embedding_function=embedding_func)
-    except:
-        return None
+    except Exception as e:
+        raise DatabaseConnectionException(f"ChromaDB bağlantısı kurulamadı: {str(e)}")
     
 def tahlil_analiz_motoru(uploaded_file):
-    """
-    GÜNCELLENMİŞ VERSİYON:
-    - Duplicate (Çift) kayıtları engeller.
-    - Birim sütunlarını (Örn: 10^3/uL) sonuç sanma hatasını düzeltir.
-    - Referans sütunundan sola doğru tarayarak en yakın 'saf' sayıyı alır.
-    """
     anormallikler = []
     tum_veriler = []
-    
+    warnings = []
     eklenen_testler = set()
 
     YASAKLI_BIRIMLER = [
@@ -44,12 +42,29 @@ def tahlil_analiz_motoru(uploaded_file):
         "Sonuç", "Referans", "Birim", "Değer"
     ]
 
-    with pdfplumber.open(uploaded_file) as pdf:
+    #TC-LAB-04
+    filename = getattr(uploaded_file, "name", "")
+    if not filename.lower().endswith(".pdf"):
+        raise ValueError(f"Desteklenmeyen dosya formatı: '{filename}'. Yalnızca PDF dosyaları kabul edilir.")
+
+    #TC-LAB-05
+    try:
+        pdf_obj = pdfplumber.open(uploaded_file)
+    except Exception as e:
+        err = str(e).lower()
+        if "encrypt" in err or "password" in err:
+            raise ValueError("Şifreli veya parola korumalı PDF işlenemiyor. Kilitsiz bir PDF yükleyin.")
+        raise ValueError(f"PDF açılamadı: {str(e)}")
+
+    with pdf_obj as pdf:
+        table_found = False
+
         for page in pdf.pages:
             tables = page.extract_tables()
 
             for table in tables:
                 if table:
+                    table_found = True
                     tum_veriler.append(pd.DataFrame(table))
                 
                 for row in table:
@@ -67,7 +82,10 @@ def tahlil_analiz_motoru(uploaded_file):
                                 ref_max = float(match.group(2).replace(',', '.'))
                                 ref_index = i
                                 break
-                            except: continue
+                            except:
+                                #TC-LAB-07
+                                warnings.append(f"Referans aralığı okunamadı, satır atlandı: '{cell}'") 
+                                continue
 
                     if ref_min is None: continue
                     
@@ -98,8 +116,7 @@ def tahlil_analiz_motoru(uploaded_file):
                         
                         if re.match(r'^[\d.,]+$', cell_text): continue
                         
-                        if cell_text in YASAKLI_BIRIMLER:
-                            continue 
+                        if cell_text in YASAKLI_BIRIMLER: continue 
                         is_unit = False
                         for unit in YASAKLI_BIRIMLER:
                             if unit in cell_text and len(cell_text) < len(unit) + 3:
@@ -111,10 +128,11 @@ def tahlil_analiz_motoru(uploaded_file):
                         break
 
                     if sonuc is not None and test_adi:
-                        
-                      
                         clean_name = test_adi.lower().strip()
+
+                        #TC-LAB-12
                         if clean_name in eklenen_testler:
+                            warnings.append(f"Tekrarlanan test adı atlandı: '{test_adi}'")
                             continue 
                         
                         durum = None
@@ -128,20 +146,21 @@ def tahlil_analiz_motoru(uploaded_file):
                                 "referans": f"{ref_min} - {ref_max}",
                                 "durum": durum
                             })
-                            eklenen_testler.add(clean_name)
+                        eklenen_testler.add(clean_name)
+        #TC-LAB-06
+        if not table_found:
+            warnings.append("PDF içinde analiz edilebilir laboratuvar tablosu bulunamadı.")                            
                             
-    return tum_veriler, anormallikler
+    return tum_veriler, anormallikler, warnings 
 
 
 
 def rapor_yaz(anormallikler, collection):
-    if not collection: return "Veritabanı bağlantısı yok."
+    if not collection: 
+        raise DatabaseConnectionException("Vektör veritabanına erişilemiyor.")
     
     def metni_akilli_filtrele(ham_metin, hasta_durumu):
-        """
-        Veritabanından gelen uzun metni satır satır okur.
-        Hasta 'Yüksek' ise 'Düşüklük Anlamı' kısmını tamamen siler.
-        """
+        #TC-LAB-08
         satirlar = ham_metin.split('\n')
         filtrelenmis_metin = ""
         
@@ -153,6 +172,7 @@ def rapor_yaz(anormallikler, collection):
             bitis_kelimesi = "NORMAL DEĞER"
         else:
             return ham_metin 
+        
         kayit_basladi = False
         for satir in satirlar:
             if baslangic_kelimesi in satir:
@@ -226,7 +246,8 @@ def rapor_yaz(anormallikler, collection):
     
     {context_data}
     """
-    
+
+    #TC-LAB-10  
     try:
         response = ollama.chat(
             model=LOCAL_MODEL, 
@@ -236,26 +257,49 @@ def rapor_yaz(anormallikler, collection):
             ],
             options={'temperature': 0.1} 
         )
-        return response['message']['content']
+        return response['message']['content'], None
     except Exception as e:
-        return f"Local Model Hatası: {str(e)}"
+        fallback = "\n".join([
+            f"- **{b['test_adi']}**: {b['durum']} (Sonuç: {b['sonuc']} | Referans: {b['referans']})"
+            for b in anormallikler
+        ])
+        return None, fallback
 
 
 
 #-----user interface-----
-st.title("🩺 Akıllı Tahlil Analiz")
+st.title("🩺 Akıllı Tahlil Analiz Asistanı")
 st.write("PDF'i yükleyin, sistem referans dışı değerleri bulup yorumlasın.")
 
 uploaded = st.file_uploader("PDF Yükle", type="pdf")
 
 if uploaded:
-    collection = veritabani_baglan()
-    if not collection:
-        st.error("Veritabanı (medikal_db) bulunamadı! 'import_dataset.py' çalıştırın.")
+
+    #TC-LAB-09
+    try:
+        collection = veritabani_baglan()
+    except DatabaseConnectionException as e:
+        st.error(f"🔴 Veritabanı Hatası (503): {e}\n\n'import_dataset.py' çalıştırarak veritabanını oluşturun.")
         st.stop()
 
+    #TC-LAB-04/05/06/07/12
     with st.spinner("Analiz yapılıyor..."):
-        tablolar, sorunlar = tahlil_analiz_motoru(uploaded)
+        try:
+            tablolar, sorunlar, warnings = tahlil_analiz_motoru(uploaded)
+        except ValueError as e:
+            st.error(f"🔴 Dosya Hatası (400): {e}")
+            st.stop()
+
+    #TC-LAB-07/12
+    if warnings:
+        with st.expander(f"⚠️ Uyarılar ({len(warnings)} adet)", expanded=False):
+            for w in warnings:
+                st.warning(w)
+
+    #TC-LAB-06
+    if not tablolar:
+        st.info("ℹ️ PDF içinde analiz edilebilir laboratuvar tablosu bulunamadı.")
+        st.stop()
 
     with st.expander(f"📄 Okunan Tablolar ({len(tablolar)} adet)"):
         for df in tablolar:
@@ -266,8 +310,14 @@ if uploaded:
     else:
         st.error(f"⚠️ {len(sorunlar)} adet referans dışı değer bulundu.")
         st.table(sorunlar)
-        
+
         with st.spinner("Yapay zeka yorumluyor..."):
-            rapor = rapor_yaz(sorunlar, collection)
+            rapor, fallback = rapor_yaz(sorunlar, collection)
+
+        #TC-LAB-10
+        if rapor:
             st.markdown("### 📋 Yapay Zeka Raporu")
             st.markdown(rapor)
+        else:
+            st.warning("⚠️ Yapay zeka modeli yanıt vermedi (504). Tespit edilen anormallikler:")
+            st.markdown(fallback)
