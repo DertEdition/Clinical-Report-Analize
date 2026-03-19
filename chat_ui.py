@@ -154,122 +154,241 @@ def tahlil_analiz_motoru(uploaded_file):
     return tum_veriler, anormallikler, warnings 
 
 
-
 def rapor_yaz(anormallikler, collection):
     if not collection: 
         raise DatabaseConnectionException("Vektör veritabanına erişilemiyor.")
-    
+
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
     def metni_akilli_filtrele(ham_metin, hasta_durumu):
         #TC-LAB-08
-        satirlar = ham_metin.split('\n')
-        filtrelenmis_metin = ""
-        
         if "Yüksek" in hasta_durumu:
-            baslangic_kelimesi = "YÜKSEKLİK ANLAMI"
-            bitis_kelimesi = "DÜŞÜKLÜK ANLAMI"
+            aranan_anahtar = "yukseklik_anlami"
         elif "Düşük" in hasta_durumu:
-            baslangic_kelimesi = "DÜŞÜKLÜK ANLAMI"
-            bitis_kelimesi = "NORMAL DEĞER"
+            aranan_anahtar = "dusukluk_anlami"
         else:
-            return ham_metin 
-        
-        kayit_basladi = False
+            return ham_metin
+
+        try:
+            veri = json.loads(ham_metin)
+            icerik = veri.get(aranan_anahtar, "")
+
+            if isinstance(icerik, list):
+                return "\n".join(f"- {madde}" for madde in icerik if str(madde).strip())
+            return str(icerik).strip() if icerik else ham_metin
+
+        except (json.JSONDecodeError, TypeError):
+            pass
+
+        satirlar = ham_metin.split('\n')
+        filtrelenmis = ""
+
+        if "Yüksek" in hasta_durumu:
+            baslangic = "YÜKSEKLİK ANLAMI"
+            bitis    = "DÜŞÜKLÜK ANLAMI"
+        else:
+            baslangic = "DÜŞÜKLÜK ANLAMI"
+            bitis    = "NORMAL DEĞER"
+
+        kayit = False
         for satir in satirlar:
-            if baslangic_kelimesi in satir:
-                kayit_basladi = True
-                filtrelenmis_metin += "**OLASI SEBEPLER:**\n" 
+            if baslangic in satir.upper():
+                kayit = True
                 continue
-            
-            if bitis_kelimesi in satir:
-                kayit_basladi = False
+            if bitis in satir.upper():
+                kayit = False
                 break
-            
-            if kayit_basladi:
-                filtrelenmis_metin += satir + "\n"
-                
-        return filtrelenmis_metin if len(filtrelenmis_metin) > 10 else ham_metin
+            if kayit:
+                filtrelenmis += satir + "\n"
+
+        return filtrelenmis.strip() if len(filtrelenmis.strip()) > 10 else ham_metin
+
     # ---------------------------------------------------------
 
-    context_data = ""
-    for bulgu in anormallikler:
-        results = collection.query(
-            query_texts=[bulgu['test_adi']],
-            n_results=1,
-            where={"test_adi": bulgu['test_adi']} 
-        )
-        
-        if not results['documents'] or not results['documents'][0]:
-            results = collection.query(query_texts=[bulgu['test_adi']], n_results=1)
+    SYSTEM_PROMPT = """
+    Sen uzman bir Türk tıbbi asistanısın. Sana TEK bir laboratuvar testi veriliyor.
+    Sadece o test için aşağıdaki formatı uygula, başka hiçbir şey yazma:
 
-        if results['documents'] and results['documents'][0]:
-            raw_db_info = results['documents'][0][0]
-            
-            ozel_bilgi = metni_akilli_filtrele(raw_db_info, bulgu['durum'])
-            
-            context_data += f"""
-            ### TEST: {bulgu['test_adi']}
-            DURUM: {bulgu['durum']} (Sonuç: {bulgu['sonuc']} | Referans: {bulgu['referans']})
-            
-            {ozel_bilgi}
-            --------------------------------------------------
-            \n
-            """
-        else:
-            context_data += f"Bilgi bulunamadı: {bulgu['test_adi']}\n"
+    **[Test Adı]**
+    **Sonuç:** [Değer] | **Referans:** [Aralık] | **Durum:** Değeriniz referans aralığının [üzerindedir / altındadır].
 
-    with st.expander("🕵️ Debug: Modele Giden (Filtrelenmiş) Veri", expanded=True):
-        st.code(context_data, language="text")
-    # -----------------------------------------
+    **Olası Sebepler:**
+    - [Sebep 1]
+    - [Sebep 2]
+    - [Sebep 3]
 
-    # 3. SYSTEM PROMPT
-    system_prompt = """
-    Sen uzman bir Türk tıbbi asistanısın. Görevin hasta sonuçlarını analiz edip raporlamaktır.
-    
-    KURALLAR:
-    1. Sana verilen metindeki sebepleri madde madde yaz.
-    2. Asla İngilizce kelime kullanma.
-    3. Çıktı formatın şöyle olsun:
-       
-       **[Test Adı] (Sonuç: [Değer] | Referans: [Aralık])**
-       **Durum:** Değeriniz referans aralığının [üzerindedir/altındadır].
-       
-       **Olası Sebepler:**
-       - [Madde 1]
-       - [Madde 2]
-       
-       **Öneri:** Lütfen doktorunuzla görüşünüz.
-    """
-    
-    # 4. USER PROMPT
-    user_prompt = f"""
-    Aşağıdaki temizlenmiş hasta verilerini kullanarak raporu yaz:
-    
-    {context_data}
+    **En Yaygın Neden:** [Bu durumun günlük hayatta en sık görülen nedeni, 1-2 cümle.]
+
+    **Günlük Hayat Önerileri:**
+    - [Beslenme ile ilgili somut öneri]
+    - [Aktivite / yaşam tarzı önerisi]
+    - [Varsa kaçınılması gereken şey]
+
+    **Doktora Başvurma Zamanı:** [Bu değerin hangi belirtilerle birlikte görülmesi durumunda doktora gidilmesi gerektiğini 1-2 cümleyle açıkla.]
+
+    !!! ZORUNLU KURALLAR — İHLAL ETMEDİĞİNİ KONTROL ET !!!
+    1. Yanıtın TAMAMEN Türkçe olmalı. Tek bir İngilizce kelime bile yasak.
+    2. Şu İngilizce kelimeleri ASLA kullanma, Türkçe karşılıklarını yaz:
+    - "balanced"           → "dengeli"
+    - "regular/regularly"  → "düzenli/düzenli olarak"
+    - "detailed"           → "ayrıntılı"
+    - "products"           → "ürünler"
+    - "diet"               → "beslenme düzeni"
+    - "analysis"           → "analiz"
+    - "levels"             → "seviyeleri"
+    - "symptoms"           → "belirtiler"
+    - "treatment"          → "tedavi"
+    - "check"              → "kontrol"
+    - "chronic"            → "kronik"
+    - "deficiency"         → "eksikliği"
+    - "infection"          → "enfeksiyon"
+    - "inflammation"       → "iltihaplanma"
+    - "associate"          → "ilgi"
+   
+    3. "SERUM", "PLAZMA" kelimelerini başlık veya etiket olarak yazma.
+    4. Yanıtı yazmadan önce İngilizce kelime kullanıp kullanmadığını zihninden kontrol et.
     """
 
-    #TC-LAB-10  
-    try:
-        response = ollama.chat(
-            model=LOCAL_MODEL, 
-            messages=[
-                {'role': 'system', 'content': system_prompt},
-                {'role': 'user', 'content': user_prompt},
-            ],
-            options={'temperature': 0.1} 
-        )
-        return response['message']['content'], None
-    except Exception as e:
-        fallback = "\n".join([
-            f"- **{b['test_adi']}**: {b['durum']} (Sonuç: {b['sonuc']} | Referans: {b['referans']})"
-            for b in anormallikler
-        ])
-        return None, fallback
+    INGILIZCE_SOZLUK = {
+        r'\bbalanced\b':       'dengeli',
+        r'\bregularly\b':      'düzenli olarak',
+        r'\bregular\b':        'düzenli',
+        r'\bdetailed\b':       'ayrıntılı',
+        r'\bproducts?\b':      'ürünler',
+        r'\bdiet\b':           'beslenme düzeni',
+        r'\banalysis\b':       'analiz',
+        r'\blevels?\b':        'seviyeleri',
+        r'\bsymptoms?\b':      'belirtiler',
+        r'\btreatment\b':      'tedavi',
+        r'\bdoctor\b':         'doktor',
+        r'\bcheck\b':          'kontrol',
+        r'\bhealth\b':         'sağlık',
+        r'\bblood\b':          'kan',
+        r'\btest\b':           'test',
+        r'\brisk\b':           'risk',
+        r'\bchronic\b':        'kronik',
+        r'\bdeficiency\b':     'eksikliği',
+        r'\binfection\b':      'enfeksiyon',
+        r'\binflammation\b':   'iltihaplanma',
+        r'\ associate\b':       'ilgi'
+    }
 
+    def ingilizce_temizle(metin):
+        for pattern, turkce in INGILIZCE_SOZLUK.items():
+            metin = re.sub(pattern, turkce, metin, flags=re.IGNORECASE)
+        return metin
+
+
+    def tek_test_isle(bulgu):
+        try:
+            results = collection.query(
+                query_texts=[bulgu['test_adi']],
+                n_results=1,
+                where={"test_adi": bulgu['test_adi']}
+            )
+            if not results['documents'] or not results['documents'][0]:
+                results = collection.query(query_texts=[bulgu['test_adi']], n_results=1)
+
+            if results['documents'] and results['documents'][0]:
+                raw_db_info = results['documents'][0][0]
+                ozel_bilgi = metni_akilli_filtrele(raw_db_info, bulgu['durum'])
+            else:
+                ozel_bilgi = "Veritabanında bu test için bilgi bulunamadı."
+        except Exception:
+            ozel_bilgi = "Veritabanı sorgusu başarısız."
+
+        user_prompt = f"""
+        TEST: {bulgu['test_adi']}
+        DURUM: {bulgu['durum']} (Sonuç: {bulgu['sonuc']} | Referans: {bulgu['referans']})
+
+        SEBEPLER (veritabanından):
+        {ozel_bilgi}
+        """
+
+        try:
+            response = ollama.chat(
+                model=LOCAL_MODEL,
+                messages=[
+                    {'role': 'system', 'content': SYSTEM_PROMPT},
+                    {'role': 'user',   'content': user_prompt},
+                ],
+                options={
+                    'temperature': 0.1,
+                    'num_ctx': 1024,
+                    'num_predict': 512,
+                    'keep_alive': '10m',
+                }
+            )
+            temiz_rapor = ingilizce_temizle(response['message']['content'])
+            return bulgu['test_adi'], temiz_rapor, None
+        except Exception as e:
+            fallback = (
+                f"- **{bulgu['test_adi']}**: {bulgu['durum']} "
+                f"(Sonuç: {bulgu['sonuc']} | Referans: {bulgu['referans']})"
+            )
+            return bulgu['test_adi'], None, fallback
+
+    MAX_WORKERS = min(4, len(anormallikler))
+
+    sonuclar = {}
+    fallback_listesi = []
+    debug_context = ""
+
+    progress = st.progress(0, text="Testler analiz ediliyor...")
+
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        future_map = {executor.submit(tek_test_isle, b): b['test_adi'] for b in anormallikler}
+        tamamlanan = 0
+
+        for future in as_completed(future_map):
+            test_adi_tamamlandi = future_map[future]
+            tamamlanan += 1
+            progress.progress(
+                tamamlanan / len(anormallikler),
+                text=f"✅ {test_adi_tamamlandi} tamamlandı ({tamamlanan}/{len(anormallikler)})"
+            )
+            try:
+                test_adi, rapor_metni, fb = future.result()
+                sonuclar[test_adi] = rapor_metni
+                if fb:
+                    fallback_listesi.append(fb)
+                debug_context += f"[{test_adi}]\n{rapor_metni or fb}\n\n"
+            except Exception as exc:
+                fallback_listesi.append(f"- **{test_adi_tamamlandi}**: işlem hatası ({exc})")
+
+    progress.empty()
+
+    #with st.expander("🕵️ Debug: Model Çıktıları", expanded=False):
+    #    st.code(debug_context, language="text")
+
+    basarili_raporlar = [
+        sonuclar[b['test_adi']]
+        for b in anormallikler
+        if sonuclar.get(b['test_adi'])
+    ]
+
+    if basarili_raporlar:
+        return "\n\n---\n\n".join(basarili_raporlar), None
+    else:
+        return None, "\n".join(fallback_listesi)
 
 
 #-----user interface-----
 st.title("🩺 Akıllı Tahlil Analiz Asistanı")
 st.write("PDF'i yükleyin, sistem referans dışı değerleri bulup yorumlasın.")
+
+@st.cache_resource
+def model_on_yukle():
+    try:
+        ollama.chat(
+            model=LOCAL_MODEL,
+            messages=[{'role': 'user', 'content': 'merhaba'}],
+            options={'num_predict': 1, 'keep_alive': '10m'}
+        )
+    except Exception:
+        pass
+
+model_on_yukle()
 
 uploaded = st.file_uploader("PDF Yükle", type="pdf")
 
