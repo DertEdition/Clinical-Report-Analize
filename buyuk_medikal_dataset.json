@@ -1710,5 +1710,77 @@
     ],
     "normal_deger_notu": "Yetişkinlerde referans aralığı genellikle laboratuvardan laboratuvara değişmekle birlikte, 0-9 ng/mL (veya 0-9 IU/mL) civarındadır. Gebelik sırasında haftalara göre değişen özel referans aralıkları kullanılır.",
     "id": "afp_alfa_fetoprotein"
+  },
+  {
+    "test_adi": "Total IgE",
+    "kategori": "İmmünoloji / Alerji",
+    "genel_aciklama": "Total IgE, vücuttaki tüm immünoglobulin E antikorlarının toplam miktarını ölçer. IgE antikorları, alerjik reaksiyonların ve parazitlere karşı bağışıklık yanıtının temel taşıdır. Yüksek Total IgE değeri genellikle atopik hastalıklar veya paraziter enfeksiyonlarla ilişkilidir.",
+    "yukseklik_anlami": "Alerjik hastalıklar (alerjik rinit, astım, atopik dermatit, gıda alerjisi), paraziter enfeksiyonlar, hiperimmünoglobulin E sendromu veya bazı immün yetmezlik durumlarında yükselir. 1000 IU/mL üzeri değerler ağır atopik hastalık veya paraziter enfeksiyonu güçlü biçimde düşündürür. 2000 IU/mL üzeri değerler çok belirgin bir alerjik yükü veya ciddi paraziter enfeksiyonu işaret eder. Spesifik IgE testleriyle (kedi, köpek, ev tozu akarı, polen vb.) alerjen kaynağı kesin olarak belirlenmelidir.",
+    "dusukluk_anlami": "Nadir görülür. Primer immün yetmezlik hastalıklarında (özellikle agammaglobulinemide) düşük seyredebilir.",
+    "normal_deger_notu": "Yetişkinlerde referans aralığı genellikle 0-87 IU/mL olarak kabul edilir. Çocuklarda yaşa göre farklılık gösterir. Sonuçlar mutlaka klinik bulgularla birlikte değerlendirilmelidir.",
+    "id": "total_ige"
+  },
+  {
+    "test_adi": "Kedi Tüyü-Epiteli IgE",
+    "kategori": "İmmünoloji / Alerji",
+    "genel_aciklama": "Kedi tüyü ve epiteline karşı spesifik IgE antikorlarını ölçer. Sonuç CLASS 0'dan CLASS VI'ya kadar sınıflandırılır. CLASS VI en şiddetli duyarlılığı ifade eder.",
+    "yukseklik_anlami": "Kedi tüyü ve epiteline karşı alerjik duyarlılığın varlığını gösterir. CLASS IV ve üzeri değerler (özellikle CLASS VI), kedi ile temas halinde ciddi alerjik belirtilere (alerjik rinit, astım, ürtiker, göz yaşarması) yol açabilecek şiddetli duyarlılığı ifade eder. Total IgE yüksekliğiyle birlikte görüldüğünde kedi kaynaklı ağır atopik tablo çok güçlü biçimde desteklenir. Bu durumda kedi ile temasın kesinlikle kısıtlanması ve bir alerji uzmanına başvurulması önerilir.",
+    "dusukluk_anlami": "CLASS 0 değeri kedi alerjisinin olmadığını gösterir.",
+    "normal_deger_notu": "Referans değeri 0-0.35 kU/L (CLASS 0) olarak kabul edilir. CLASS I: 0.35-0.7, CLASS II: 0.7-3.5, CLASS III: 3.5-17.5, CLASS IV: 17.5-50, CLASS V: 50-100, CLASS VI: >100 kU/L.",
+    "id": "kedi_tuyu_epiteli_ige"
+  },
+  {
+    "test_adi": "IgG (Türbidimetrik)",
+    "kategori": "İmmünoloji",
+    "genel_aciklama": "IgG, kanda en bol bulunan immünoglobulin sınıfıdır. Bakteri ve virüslere karşı uzun süreli bağışıklıkta temel rol oynar. Geçirilmiş enfeksiyonların ve aşılamanın belleğini taşır.",
+    "yukseklik_anlami": "Kronik enfeksiyonlar, otoimmün hastalıklar (romatoid artrit, lupus), karaciğer sirozu veya multipl miyelom gibi durumlarda yükselir.",
+    "dusukluk_anlami": "Primer immün yetmezlikler, immünsüpresif tedavi veya protein kaybettiren hastalıklarda düşer. Tekrarlayan enfeksiyonlara yatkınlık yaratabilir.",
+    "normal_deger_notu": "Yetişkinlerde referans aralığı genellikle 7-16 g/L arasındadır.",
+    "id": "igg_turbidimetrik"
+  },
+  {
+    "test_adi": "IgA (Türbidimetrik)",
+    "kategori": "İmmünoloji",
+    "genel_aciklama": "IgA, özellikle mukozal yüzeylerde (solunum yolu, sindirim sistemi) görev yapan immünoglobulindir. Dış ortamla temas eden yüzeylerde ilk savunma hattını oluşturur.",
+    "yukseklik_anlami": "Kronik karaciğer hastalıkları, otoimmün hastalıklar, kronik mukozal enfeksiyonlar veya IgA nefropatisinde yükselir.",
+    "dusukluk_anlami": "Selektif IgA eksikliği en sık görülen primer immün yetmezliktir. Tekrarlayan sinüzit, otit ve solunum yolu enfeksiyonlarına yol açabilir. Çölyak hastalığıyla ilişkilendirilebilir.",
+    "normal_deger_notu": "Yetişkinlerde referans aralığı genellikle 0.7-4 g/L arasındadır.",
+    "id": "iga_turbidimetrik"
+  },
+  {
+    "test_adi": "IgM (Türbidimetrik)",
+    "kategori": "İmmünoloji",
+    "genel_aciklama": "IgM, bir enfeksiyona karşı vücudun ürettiği ilk antikordur. Akut enfeksiyonların erken döneminde yükselir ve enfeksiyonun yeni geçirildiğine işaret eder.",
+    "yukseklik_anlami": "Akut enfeksiyonların erken evresi, Waldenström makroglobulinemisi veya otoimmün hastalıklarda yükselir.",
+    "dusukluk_anlami": "Primer immün yetmezlikler veya immünsüpresif tedavide düşer.",
+    "normal_deger_notu": "Yetişkinlerde referans aralığı genellikle 0.4-2.3 g/L arasındadır.",
+    "id": "igm_turbidimetrik"
+  },
+  {
+    "test_adi": "Osmolarite",
+    "kategori": "İdrar Tetkiki",
+    "genel_aciklama": "İdrar osmolaritesi, idrarın ne kadar konsantre olduğunu gösterir. Böbreklerin idrarı yoğunlaştırma kapasitesini yansıtır. Vücudun sıvı dengesi hakkında önemli bilgi verir.",
+    "yukseklik_anlami": "Dehidrasyon, yetersiz sıvı alımı veya antidiüretik hormon fazlalığında idrar konsantrasyonu artar ve osmolarite yükselir.",
+    "dusukluk_anlami": "Düşük idrar osmolaritesi (özellikle 600 mS/cM altı), böbreklerin idrarı yeterince konsantre edemediğini gösterir. Aşırı sıvı alımı, diyabet insipidus veya böbrek tübülüs fonksiyon bozukluğu akla gelmelidir. Yetersiz sıvı alımına rağmen osmolaritenin düşük olması böbrek konsantrasyon defektini düşündürür.",
+    "normal_deger_notu": "Referans aralığı genellikle 600-1000 mS/cM olarak kabul edilir. Sabah idrarında daha yüksek, gün içinde daha değişken seyreder.",
+    "id": "osmolarite"
+  },
+  {
+    "test_adi": "Kompleman 3 (C3)",
+    "kategori": "İmmünoloji",
+    "genel_aciklama": "C3, kompleman sisteminin en önemli bileşenidir. Enfeksiyonlara ve yabancı maddelere karşı bağışıklık yanıtında kritik rol oynar.",
+    "yukseklik_anlami": "Akut faz reaktanı olarak enfeksiyon, iltihap veya doku hasarında hafifçe yükselebilir.",
+    "dusukluk_anlami": "Sistemik lupus eritematozus (SLE), membranoproliferatif glomerülonefrit veya kompleman eksikliklerinde düşer. Aktif otoimmün hastalığın göstergesi olabilir.",
+    "normal_deger_notu": "Referans aralığı genellikle 90-180 mg/dL arasındadır.",
+    "id": "kompleman_3_c3"
+  },
+  {
+    "test_adi": "Kompleman 4 (C4)",
+    "kategori": "İmmünoloji",
+    "genel_aciklama": "C4, kompleman sisteminin klasik yolağında görev yapan bir proteindir. C3 ile birlikte değerlendirilir.",
+    "yukseklik_anlami": "Akut faz reaktanı olarak iltihaplı durumlarda hafifçe yükselebilir.",
+    "dusukluk_anlami": "SLE, herediter anjiyoödem veya kompleman eksikliklerinde düşer.",
+    "normal_deger_notu": "Referans aralığı genellikle 10-40 mg/dL arasındadır.",
+    "id": "kompleman_4_c4"
   }
 ]
